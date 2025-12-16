@@ -1,10 +1,9 @@
 <script setup lang="ts">
-  import { onMounted, reactive, ref } from 'vue';
+  import { onMounted, reactive } from 'vue';
   import {
     TheChessboard,
     type BoardConfig,
     type BoardApi,
-    type MoveableColor,
     type MoveEvent,
   } from 'vue3-chessboard';
   import 'vue3-chessboard/style.css';
@@ -62,20 +61,20 @@
       enabled: true,
     },
     events: {
-      change: () => {
-        // called after the situation changes on the board
-        //console.log('Something changed!');
-      },
-      move: (from, to, capture) => {
-        // the move function fires after each move on the board, you can access the values from, to, and capture
-        // use @move event to access values from the board api. The move function is executed before the state is updated in the board.
-        //console.log(from, to, capture);
-      },
-      select(key) {
-        // called when a square is selected
-        // the param key is the square being selected: e.g. d2 or e2...
-        //console.log(key);
-      },
+      // change: () => {
+      //   // called after the situation changes on the board
+      //   //console.log('Something changed!');
+      // },
+      // move: (from, to, capture) => {
+      //   // the move function fires after each move on the board, you can access the values from, to, and capture
+      //   // use @move event to access values from the board api. The move function is executed before the state is updated in the board.
+      //   //console.log(from, to, capture);
+      // },
+      // select(key) {
+      //   // called when a square is selected
+      //   // the param key is the square being selected: e.g. d2 or e2...
+      //   //console.log(key);
+      // },
     },
     drawable: {
       enabled: true,
@@ -117,7 +116,6 @@
   }
 
   function handleMove(move: MoveEvent) {
-    console.log(moves.movesCounter, moves.activeOpening.moves.length)
     if(moves.movesCounter >= (moves.activeOpening.moves.length - 1)) {
       return
     }
