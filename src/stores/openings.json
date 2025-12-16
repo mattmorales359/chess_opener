@@ -1,0 +1,4377 @@
+[
+  {
+    "key": "qg_main_1",
+    "value": {
+      "label": "QGD – Mainline 1: Orthodox 4.Bg5 Be7",
+      "stage": "Mainline",
+      "userColor": "w",
+      "moves": [
+        {
+          "uci": "d2d4",
+          "by": "user",
+          "text": "1.d4 – You grab central space and free your dark-squared bishop, aiming for a solid space advantage."
+        },
+        {
+          "uci": "d7d5",
+          "by": "bot",
+          "text": "...d5 – Black mirrors your pawn to contest the center directly and avoid giving you a free space edge."
+        },
+        {
+          "uci": "c2c4",
+          "by": "user",
+          "text": "2.c4 – You challenge the d5 pawn and hint at a queenside majority in many endings."
+        },
+        {
+          "uci": "e7e6",
+          "by": "bot",
+          "text": "...e6 – Black reinforces d5 and keeps a compact pawn chain, preparing to develop the dark-squared bishop."
+        },
+        {
+          "uci": "b1c3",
+          "by": "user",
+          "text": "3.Nc3 – You add pressure to d5 and control e4, keeping options like Bg5 and Nf3."
+        },
+        {
+          "uci": "g8f6",
+          "by": "bot",
+          "text": "...Nf6 – Black develops while attacking your d4 pawn and supporting key central dark squares."
+        },
+        {
+          "uci": "c1g5",
+          "by": "user",
+          "text": "4.Bg5 – You pin the f6 knight to the queen, indirectly adding pressure to d5 and e4. Later this bishop can look like it’s just sitting out there, but it’s backed by your queen and knight – it’s creating tension, not blundering itself."
+        },
+        {
+          "uci": "f8e7",
+          "by": "bot",
+          "text": "...Be7 – Black breaks the pin and prepares to castle, choosing a solid Orthodox setup."
+        },
+        {
+          "uci": "e2e3",
+          "by": "user",
+          "text": "5.e3 – You solidify d4, open your c1 bishop, and keep a flexible pawn structure."
+        },
+        {
+          "uci": "e8g8",
+          "by": "bot",
+          "text": "...O-O – Black castles to safety and connects the rooks in a standard QGD position."
+        },
+        {
+          "uci": "g1f3",
+          "by": "user",
+          "text": "6.Nf3 – You reinforce d4 and e5, and get ready to castle short into a stable kingside."
+        },
+        {
+          "uci": "h7h6",
+          "by": "bot",
+          "text": "...h6 – Black questions your bishop and prevents Bg5 ideas in the future, while giving the king some luft."
+        },
+        {
+          "uci": "g5h4",
+          "by": "user",
+          "text": "7.Bh4 – You keep the pin and maintain control over d8 and f6. Even though the bishop sits on the edge of the board, it’s not hanging: your pieces defend it, and the pin on the f6 knight cramps Black’s position and supports future kingside attacks."
+        },
+        {
+          "uci": "b7b6",
+          "by": "bot",
+          "text": "...b6 – Black prepares ...Bb7, putting the bishop on a long diagonal against your center."
+        },
+        {
+          "uci": "f1d3",
+          "by": "user",
+          "text": "8.Bd3 – You centralize the bishop, eyeing h7 and the d5 break while supporting a kingside attack."
+        },
+        {
+          "uci": "c8b7",
+          "by": "bot",
+          "text": "...Bb7 – Black finishes queenside development and lines up on the e4 and d5 squares."
+        },
+        {
+          "uci": "e1g1",
+          "by": "user",
+          "text": "9.O-O – You castle and connect the rooks, entering a playable middlegame with a healthy center and active pieces."
+        }
+      ]
+    }
+  },
+  {
+    "key": "qg_main_2",
+    "value": {
+      "label": "QGD – Mainline 2: Orthodox with ...Nbd7 & typical ...c5",
+      "stage": "Mainline",
+      "userColor": "w",
+      "moves": [
+        {
+          "uci": "d2d4",
+          "by": "user",
+          "text": "1.d4 – Again you start with a strong central pawn and piece scope."
+        },
+        {
+          "uci": "d7d5",
+          "by": "bot",
+          "text": "...d5 – Black contests your grip on the center immediately."
+        },
+        {
+          "uci": "c2c4",
+          "by": "user",
+          "text": "2.c4 – You put direct pressure on d5 and gain queenside space."
+        },
+        {
+          "uci": "e7e6",
+          "by": "bot",
+          "text": "...e6 – Black supports d5 and keeps the pawn chain solid against your c4 pawn."
+        },
+        {
+          "uci": "b1c3",
+          "by": "user",
+          "text": "3.Nc3 – You increase the tension on d5 and keep the option of e4 in some lines."
+        },
+        {
+          "uci": "g8f6",
+          "by": "bot",
+          "text": "...Nf6 – Black develops and adds another defender to d5 while pressuring e4."
+        },
+        {
+          "uci": "c1g5",
+          "by": "user",
+          "text": "4.Bg5 – You pin the knight and threaten to increase pressure on d5 if Black isn’t careful. In many QGD positions this bishop looks loose, but with your queen and knight supporting it, the pin is a strategic weapon, not a blunder."
+        },
+        {
+          "uci": "b8d7",
+          "by": "bot",
+          "text": "...Nbd7 – Black overprotects f6 and prepares thematic breaks like ...c5 or ...e5."
+        },
+        {
+          "uci": "e2e3",
+          "by": "user",
+          "text": "5.e3 – You support d4 and open a path for your light-squared bishop to join the game."
+        },
+        {
+          "uci": "f8e7",
+          "by": "bot",
+          "text": "...Be7 – Black unpins the knight and prepares to castle safely."
+        },
+        {
+          "uci": "g1f3",
+          "by": "user",
+          "text": "6.Nf3 – You reinforce the center and get ready to castle short into a solid position."
+        },
+        {
+          "uci": "e8g8",
+          "by": "bot",
+          "text": "...O-O – Black castles and aims for long-term pressure on your center."
+        },
+        {
+          "uci": "a1c1",
+          "by": "user",
+          "text": "7.Rc1 – You put your rook on the semi-open c-file, anticipating ...c5 and play against the d5 pawn."
+        },
+        {
+          "uci": "c7c5",
+          "by": "bot",
+          "text": "...c5 – Black strikes the center, trying to trade off the d5 pawn and free the position."
+        },
+        {
+          "uci": "c4d5",
+          "by": "user",
+          "text": "8.cxd5 – You open the position on your terms and increase pressure on d5 and e6."
+        },
+        {
+          "uci": "e6d5",
+          "by": "bot",
+          "text": "...exd5 – Black recaptures and accepts an isolated or hanging pawn structure to gain activity."
+        },
+        {
+          "uci": "d1c2",
+          "by": "user",
+          "text": "9.Qc2 – You target the c-file, eye h7 in some lines, and prepare Rd1 to further press the d5 pawn."
+        }
+      ]
+    }
+  },
+  {
+    "key": "qg_mistake_1",
+    "value": {
+      "label": "QGD – Common Mistake: Greedy ...dxc4 & ...b5",
+      "stage": "Common mistake",
+      "userColor": "w",
+      "moves": [
+        {
+          "uci": "d2d4",
+          "by": "user",
+          "text": "1.d4 – You claim central space and keep options open for a flexible setup."
+        },
+        {
+          "uci": "d7d5",
+          "by": "bot",
+          "text": "...d5 – Black contests the center in classical style."
+        },
+        {
+          "uci": "c2c4",
+          "by": "user",
+          "text": "2.c4 – You hit the d5 pawn and invite Black to make a decision."
+        },
+        {
+          "uci": "d5c4",
+          "by": "bot",
+          "text": "...dxc4 – Black grabs the pawn, giving up central tension and risking development lag."
+        },
+        {
+          "uci": "e2e3",
+          "by": "user",
+          "text": "3.e3 – You calmly prepare to recapture on c4 with the bishop while keeping a strong center."
+        },
+        {
+          "uci": "b7b5",
+          "by": "bot",
+          "text": "...b5 – Black overextends, trying too hard to hang on to the extra pawn and weakening the queenside squares."
+        },
+        {
+          "uci": "a2a4",
+          "by": "user",
+          "text": "4.a4 – You immediately attack the pawn chain, forcing weaknesses on b5 and opening lines for your rook and bishop."
+        },
+        {
+          "uci": "c7c6",
+          "by": "bot",
+          "text": "...c6 – Black adds more support to the queenside but falls further behind in development and central control."
+        },
+        {
+          "uci": "b1c3",
+          "by": "user",
+          "text": "5.Nc3 – You develop with tempo, increasing pressure on b5 and d5 and preparing to punish the greedy pawn grab."
+        },
+        {
+          "uci": "b5b4",
+          "by": "bot",
+          "text": "...b4 – Black chases your knight but stretches even further, loosening control over the center."
+        },
+        {
+          "uci": "c3e4",
+          "by": "user",
+          "text": "6.Ne4 – You hit the c5 and d6 squares, and you’re ready to recapture on c4 with strong piece play."
+        },
+        {
+          "uci": "c8b7",
+          "by": "bot",
+          "text": "...Bb7 – Black tries to develop but your growing lead in activity and weak squares on the queenside give you a long-term edge."
+        }
+      ]
+    }
+  },
+  {
+    "key": "qg_practice_1",
+    "value": {
+      "label": "QGD – Practice: Fianchetto vs QGD",
+      "stage": "Practice",
+      "userColor": "w",
+      "moves": [
+        {
+          "uci": "d2d4",
+          "by": "user",
+          "text": "1.d4 – You occupy the center and prepare a queenside-space setup."
+        },
+        {
+          "uci": "d7d5",
+          "by": "bot",
+          "text": "...d5 – Black claims equal central space and keeps things symmetrical."
+        },
+        {
+          "uci": "c2c4",
+          "by": "user",
+          "text": "2.c4 – You pressure d5, expecting Black to maintain a solid QGD structure."
+        },
+        {
+          "uci": "e7e6",
+          "by": "bot",
+          "text": "...e6 – Black supports d5 and maintains a solid pawn chain, staying in classical QGD territory."
+        },
+        {
+          "uci": "g1f3",
+          "by": "user",
+          "text": "3.Nf3 – You reinforce d4 and prepare kingside development without committing your c1 bishop yet."
+        },
+        {
+          "uci": "g8f6",
+          "by": "bot",
+          "text": "...Nf6 – Black develops a knight, attacking your d4 pawn and eyeing e4."
+        },
+        {
+          "uci": "g2g3",
+          "by": "user",
+          "text": "4.g3 – You head for a kingside fianchetto, aiming to put long-term pressure on the central dark squares."
+        },
+        {
+          "uci": "f8e7",
+          "by": "bot",
+          "text": "...Be7 – Black prepares to castle while keeping the light-squared bishop flexible."
+        },
+        {
+          "uci": "f1g2",
+          "by": "user",
+          "text": "5.Bg2 – Your bishop will control the long diagonal and support breaks like e4 later."
+        },
+        {
+          "uci": "e8g8",
+          "by": "bot",
+          "text": "...O-O – Black castles, keeping a compact structure."
+        },
+        {
+          "uci": "e1g1",
+          "by": "user",
+          "text": "6.O-O – You castle and connect rooks, ready to play for e4 or cxd5 at the right moment."
+        },
+        {
+          "uci": "c7c6",
+          "by": "bot",
+          "text": "...c6 – Black strengthens d5 and prepares possible ...dxc4 or ...b5 expansion."
+        },
+        {
+          "uci": "b1d2",
+          "by": "user",
+          "text": "7.Nbd2 – You complete basic development, supporting e4 and reinforcing your central control. This is your starting middlegame position to practice."
+        }
+      ]
+    }
+  },
+  {
+    "key": "sic_main_1",
+    "value": {
+      "label": "Sicilian – Mainline 1: Najdorf-style development",
+      "stage": "Mainline",
+      "userColor": "b",
+      "moves": [
+        {
+          "uci": "e2e4",
+          "by": "bot",
+          "text": "1.e4 – White grabs central space and frees the queen and bishop, aiming for fast development."
+        },
+        {
+          "uci": "c7c5",
+          "by": "user",
+          "text": "1...c5 – You choose the Sicilian, contesting d4 from the side and creating an asymmetrical position."
+        },
+        {
+          "uci": "g1f3",
+          "by": "bot",
+          "text": "2.Nf3 – White develops a piece, eyes d4, and prepares to castle kingside."
+        },
+        {
+          "uci": "d7d6",
+          "by": "user",
+          "text": "2...d6 – You support c5, control e5, and prepare ...Nf6 and ...e5 possibilities."
+        },
+        {
+          "uci": "d2d4",
+          "by": "bot",
+          "text": "3.d4 – White opens the center and looks to build a strong pawn duo with e4 and d4."
+        },
+        {
+          "uci": "c5d4",
+          "by": "user",
+          "text": "3...cxd4 – You trade a flank pawn for White’s central pawn, aiming for piece activity."
+        },
+        {
+          "uci": "f3d4",
+          "by": "bot",
+          "text": "4.Nxd4 – White recaptures with a piece, centralizing the knight and keeping tempo."
+        },
+        {
+          "uci": "g8f6",
+          "by": "user",
+          "text": "4...Nf6 – You attack the e4 pawn and continue rapid development towards the kingside."
+        },
+        {
+          "uci": "b1c3",
+          "by": "bot",
+          "text": "5.Nc3 – White reinforces the d5 square and supports the e4 pawn, controlling key central squares."
+        },
+        {
+          "uci": "a7a6",
+          "by": "user",
+          "text": "5...a6 – A Najdorf-style move, preventing Nb5 and preparing ...b5 to expand on the queenside."
+        },
+        {
+          "uci": "f1e2",
+          "by": "bot",
+          "text": "6.Be2 – White develops quietly, preparing to castle and avoiding overly sharp lines."
+        },
+        {
+          "uci": "e7e5",
+          "by": "user",
+          "text": "6...e5 – You hit the d4 knight and grab more central space, taking over the dark squares."
+        },
+        {
+          "uci": "d4b3",
+          "by": "bot",
+          "text": "7.Nb3 – White retreats the knight to a safe square, keeping an eye on c5 and d4."
+        },
+        {
+          "uci": "f8e7",
+          "by": "user",
+          "text": "7...Be7 – You prepare to castle and keep your setup flexible."
+        },
+        {
+          "uci": "e1g1",
+          "by": "bot",
+          "text": "8.O-O – White brings the king to safety and connects the rooks."
+        },
+        {
+          "uci": "e8g8",
+          "by": "user",
+          "text": "8...O-O – You castle as well, entering a complex Najdorf-type middlegame where queenside play for you and central breaks for White are both on the table."
+        }
+      ]
+    }
+  },
+  {
+    "key": "sic_mistake_1",
+    "value": {
+      "label": "Sicilian – Common Mistake: Premature ...e5?! and the Nb5 jump",
+      "stage": "Common mistake",
+      "userColor": "b",
+      "moves": [
+        {
+          "uci": "e2e4",
+          "by": "bot",
+          "text": "1.e4 – White claims the center and frees pieces."
+        },
+        {
+          "uci": "c7c5",
+          "by": "user",
+          "text": "1...c5 – You answer with the Sicilian, going for dynamic, unbalanced play."
+        },
+        {
+          "uci": "g1f3",
+          "by": "bot",
+          "text": "2.Nf3 – White develops and protects e4."
+        },
+        {
+          "uci": "d7d6",
+          "by": "user",
+          "text": "2...d6 – You support c5 and prepare to challenge the center later."
+        },
+        {
+          "uci": "d2d4",
+          "by": "bot",
+          "text": "3.d4 – White opens the position, trying to use the development lead."
+        },
+        {
+          "uci": "c5d4",
+          "by": "user",
+          "text": "3...cxd4 – You capture and undermine White's center, which is standard."
+        },
+        {
+          "uci": "f3d4",
+          "by": "bot",
+          "text": "4.Nxd4 – White recaptures and centralizes the knight."
+        },
+        {
+          "uci": "e7e5",
+          "by": "user",
+          "text": "4...e5?! – You kick the knight but create a backward d6 pawn and a weak d5 square long-term."
+        },
+        {
+          "uci": "d4b5",
+          "by": "bot",
+          "text": "5.Nb5 – White jumps into the hole you created, eyeing d6 and c7 with tactical ideas, and highlighting the weaknesses caused by ...e5."
+        },
+        {
+          "uci": "a7a6",
+          "by": "user",
+          "text": "5...a6 – You chase the knight away, but your queenside light squares and d6 remain sensitive."
+        },
+        {
+          "uci": "b5c3",
+          "by": "bot",
+          "text": "6.Nc3 – White keeps the knight active while your structure is compromised; d5 is now a dream square for White."
+        }
+      ]
+    }
+  },
+  {
+    "key": "sic_practice_1",
+    "value": {
+      "label": "Sicilian – Practice: Simple Scheveningen wall",
+      "stage": "Practice",
+      "userColor": "b",
+      "moves": [
+        {
+          "uci": "e2e4",
+          "by": "bot",
+          "text": "1.e4 – White takes central space and prepares quick kingside development."
+        },
+        {
+          "uci": "c7c5",
+          "by": "user",
+          "text": "1...c5 – You choose the Sicilian again, aiming for counterplay rather than symmetry."
+        },
+        {
+          "uci": "g1f3",
+          "by": "bot",
+          "text": "2.Nf3 – White develops and eyes d4."
+        },
+        {
+          "uci": "d7d6",
+          "by": "user",
+          "text": "2...d6 – You support c5 and prepare a Scheveningen-style pawn structure."
+        },
+        {
+          "uci": "d2d4",
+          "by": "bot",
+          "text": "3.d4 – White opens the position to use piece activity."
+        },
+        {
+          "uci": "c5d4",
+          "by": "user",
+          "text": "3...cxd4 – You challenge the center with the typical Sicilian exchange."
+        },
+        {
+          "uci": "f3d4",
+          "by": "bot",
+          "text": "4.Nxd4 – White centralizes the knight and keeps tempo."
+        },
+        {
+          "uci": "g8f6",
+          "by": "user",
+          "text": "4...Nf6 – You hit e4 and develop towards castling short."
+        },
+        {
+          "uci": "b1c3",
+          "by": "bot",
+          "text": "5.Nc3 – White protects e4 and strengthens control of d5."
+        },
+        {
+          "uci": "e7e6",
+          "by": "user",
+          "text": "5...e6 – You build the Scheveningen wall, controlling d5 and preparing ...Be7 and ...O-O."
+        },
+        {
+          "uci": "f1e2",
+          "by": "bot",
+          "text": "6.Be2 – White calmly develops, planning to castle and play for f4 or f3–g4 in some lines."
+        },
+        {
+          "uci": "f8e7",
+          "by": "user",
+          "text": "6...Be7 – You finish minor-piece development and get ready to castle."
+        },
+        {
+          "uci": "e1g1",
+          "by": "bot",
+          "text": "7.O-O – White brings the king to safety."
+        },
+        {
+          "uci": "e8g8",
+          "by": "user",
+          "text": "7...O-O – You also castle; you've reached a very standard Scheveningen middlegame where you can practice plans like ...a6, ...Qc7, ...b5 or ...d5 breaks."
+        }
+      ]
+    }
+  },
+  {
+    "key": "kid_main_1",
+    "value": {
+      "label": "King's Indian – Mainline 1: Classical setup",
+      "stage": "Mainline",
+      "userColor": "b",
+      "moves": [
+        {
+          "uci": "d2d4",
+          "by": "bot",
+          "text": "1.d4 – White claims space and prepares a queenside or central expansion."
+        },
+        {
+          "uci": "g8f6",
+          "by": "user",
+          "text": "1...Nf6 – You attack e4 and prepare a flexible king’s pawn structure."
+        },
+        {
+          "uci": "c2c4",
+          "by": "bot",
+          "text": "2.c4 – White supports d5 and grabs queenside space."
+        },
+        {
+          "uci": "g7g6",
+          "by": "user",
+          "text": "2...g6 – You plan to fianchetto your bishop, hitting the long diagonal."
+        },
+        {
+          "uci": "g1f3",
+          "by": "bot",
+          "text": "3.Nf3 – White develops and supports d4 while eyeing e5."
+        },
+        {
+          "uci": "f8g7",
+          "by": "user",
+          "text": "3...Bg7 – Your bishop pressures the center and kingside from a distance."
+        },
+        {
+          "uci": "b1c3",
+          "by": "bot",
+          "text": "4.Nc3 – White reinforces d5 and gains more central control."
+        },
+        {
+          "uci": "d7d6",
+          "by": "user",
+          "text": "4...d6 – You stabilize e5 and prepare ...e5 or ...c5 to strike back at the center."
+        },
+        {
+          "uci": "e2e4",
+          "by": "bot",
+          "text": "5.e4 – White builds a big pawn center and threatens e5 in some lines."
+        },
+        {
+          "uci": "e8g8",
+          "by": "user",
+          "text": "5...O-O – You castle into safety and prepare for a kingside pawn storm later on."
+        },
+        {
+          "uci": "f1e2",
+          "by": "bot",
+          "text": "6.Be2 – White develops quietly and prepares to castle, reinforcing the center."
+        },
+        {
+          "uci": "e7e5",
+          "by": "user",
+          "text": "6...e5 – You challenge White's center directly, offering a classic KID pawn break."
+        },
+        {
+          "uci": "e4e5",
+          "by": "bot",
+          "text": "7.dxe5 – White clarifies the center, hoping to use the open lines for the better placed pieces."
+        },
+        {
+          "uci": "d6e5",
+          "by": "user",
+          "text": "7...dxe5 – You recapture and maintain a strong pawn on e5, opening lines for your pieces."
+        },
+        {
+          "uci": "e1g1",
+          "by": "bot",
+          "text": "8.O-O – White castles and gets ready for queenside expansion, while your typical plan is kingside attacking play."
+        },
+        {
+          "uci": "b8c6",
+          "by": "user",
+          "text": "8...Nc6 – You develop another piece and increase pressure on d4 and e5, reaching a thematic KID middlegame."
+        }
+      ]
+    }
+  },
+  {
+    "key": "london_main_1",
+    "value": {
+      "label": "London – Mainline: d4, Nf3, Bf4 setup",
+      "stage": "Mainline",
+      "userColor": "w",
+      "moves": [
+        {
+          "uci": "d2d4",
+          "by": "user",
+          "text": "1.d4 – You take central space and aim for a solid, flexible setup."
+        },
+        {
+          "uci": "d7d5",
+          "by": "bot",
+          "text": "...d5 – Black mirrors your pawn and contests the center."
+        },
+        {
+          "uci": "g1f3",
+          "by": "user",
+          "text": "2.Nf3 – You develop naturally and support d4 and e5."
+        },
+        {
+          "uci": "g8f6",
+          "by": "bot",
+          "text": "...Nf6 – Black develops and also fights for e4 and d5 control."
+        },
+        {
+          "uci": "c1f4",
+          "by": "user",
+          "text": "3.Bf4 – You develop the London bishop, eyeing c7 and controlling e5."
+        },
+        {
+          "uci": "c7c5",
+          "by": "bot",
+          "text": "...c5 – Black challenges your d4 pawn and tries to break the center."
+        },
+        {
+          "uci": "e2e3",
+          "by": "user",
+          "text": "4.e3 – You support d4, open the diagonal for your dark-squared bishop, and keep a compact structure."
+        },
+        {
+          "uci": "b8c6",
+          "by": "bot",
+          "text": "...Nc6 – Black develops another piece to pressure d4 and influence e5."
+        },
+        {
+          "uci": "c2c3",
+          "by": "user",
+          "text": "5.c3 – You reinforce d4 and prepare a solid pawn triangle, limiting Black's central counterplay."
+        },
+        {
+          "uci": "e7e6",
+          "by": "bot",
+          "text": "...e6 – Black shores up d5 and opens lines for the light-squared bishop."
+        },
+        {
+          "uci": "f1d3",
+          "by": "user",
+          "text": "6.Bd3 – You point your bishop at Black's kingside and get ready to castle short and push for e4 or Ne5 ideas later."
+        },
+        {
+          "uci": "f8e7",
+          "by": "bot",
+          "text": "...Be7 – Black prepares to castle and finishes basic kingside development."
+        },
+        {
+          "uci": "e1g1",
+          "by": "user",
+          "text": "7.O-O – You castle and enter a typical London middlegame where your plan is a kingside squeeze while Black fights in the center and queenside."
+        }
+      ]
+    }
+  },
+  {
+    "key": "ruy_main_1",
+    "value": {
+      "label": "Ruy Lopez – Mainline: 3.Bb5 a6 4.Ba4 Nf6 5.O-O",
+      "stage": "Mainline",
+      "userColor": "w",
+      "moves": [
+        {
+          "uci": "e2e4",
+          "by": "user",
+          "text": "1.e4 – You grab central space and open lines for your queen and bishop."
+        },
+        {
+          "uci": "e7e5",
+          "by": "bot",
+          "text": "...e5 – Black mirrors your pawn and takes equal central control."
+        },
+        {
+          "uci": "g1f3",
+          "by": "user",
+          "text": "2.Nf3 – You attack the e5 pawn and prepare to castle kingside."
+        },
+        {
+          "uci": "b8c6",
+          "by": "bot",
+          "text": "...Nc6 – Black defends e5 and adds another piece to the center."
+        },
+        {
+          "uci": "f1b5",
+          "by": "user",
+          "text": "3.Bb5 – You pin the c6 knight, indirectly putting pressure on the e5 pawn."
+        },
+        {
+          "uci": "a7a6",
+          "by": "bot",
+          "text": "...a6 – Black immediately questions your bishop, preparing ...b5 and freeing the c6 knight."
+        },
+        {
+          "uci": "b5a4",
+          "by": "user",
+          "text": "4.Ba4 – You maintain the pin and keep pressure on the c6 knight from a safer square."
+        },
+        {
+          "uci": "g8f6",
+          "by": "bot",
+          "text": "...Nf6 – Black develops and attacks your e4 pawn, aiming for rapid piece activity."
+        },
+        {
+          "uci": "e1g1",
+          "by": "user",
+          "text": "5.O-O – You castle quickly, bringing the king to safety and preparing for central play with Re1 and c3–d4 ideas."
+        },
+        {
+          "uci": "f8e7",
+          "by": "bot",
+          "text": "...Be7 – Black unpins the knight and prepares to castle into a typical Ruy Lopez middlegame."
+        },
+        {
+          "uci": "d2d3",
+          "by": "user",
+          "text": "6.d3 – You reinforce e4, keep a flexible center, and prepare to slowly maneuver your pieces."
+        },
+        {
+          "uci": "e8g8",
+          "by": "bot",
+          "text": "...O-O – Black castles and both sides have completed basic development in a classic Ruy Lopez structure."
+        }
+      ]
+    }
+  },
+  {
+    "key": "gambit_stafford_mateish",
+    "value": {
+      "label": "Stafford Gambit – Aggressive attack line",
+      "stage": "Gambit / Trap",
+      "userColor": "b",
+      "moves": [
+        {
+          "uci": "e2e4",
+          "by": "bot",
+          "text": "1.e4 – White grabs the center and opens lines for the king’s bishop and queen."
+        },
+        {
+          "uci": "e7e5",
+          "by": "user",
+          "text": "1...e5 – You mirror the central pawn and contest d4 and f4."
+        },
+        {
+          "uci": "g1f3",
+          "by": "bot",
+          "text": "2.Nf3 – White attacks the e5 pawn and prepares to castle kingside."
+        },
+        {
+          "uci": "g8f6",
+          "by": "user",
+          "text": "2...Nf6 – You develop and attack the e4 square, inviting White into Stafford territory."
+        },
+        {
+          "uci": "f3e5",
+          "by": "bot",
+          "text": "3.Nxe5 – White gets greedy and grabs the pawn, stepping into the gambit."
+        },
+        {
+          "uci": "b8c6",
+          "by": "user",
+          "text": "3...Nc6 – You offer the second pawn to turbo-charge development and open attacking lines."
+        },
+        {
+          "uci": "e5c6",
+          "by": "bot",
+          "text": "4.Nxc6 – White accepts again, hoping the extra pawn and knight activity will be enough."
+        },
+        {
+          "uci": "d7c6",
+          "by": "user",
+          "text": "4...dxc6 – You recapture with the pawn, opening the d-file and centralizing your pawn mass."
+        },
+        {
+          "uci": "d2d3",
+          "by": "bot",
+          "text": "5.d3 – White tries to consolidate and finish development while being a bit ahead in material."
+        },
+        {
+          "uci": "f8c5",
+          "by": "user",
+          "text": "5...Bc5 – You develop with tempo, eyeing the weak f2 square and preparing a kingside attack."
+        },
+        {
+          "uci": "f1e2",
+          "by": "bot",
+          "text": "6.Be2 – White tries to castle and neutralize your attack by finishing development."
+        },
+        {
+          "uci": "h7h5",
+          "by": "user",
+          "text": "6...h5 – You throw the h-pawn forward, hinting at h4 and a direct assault on White’s king once it castles short."
+        }
+      ]
+    }
+  },
+  {
+    "key": "gambit_stafford_solid",
+    "value": {
+      "label": "Stafford Gambit – If White plays solidly",
+      "stage": "Gambit / Solid response",
+      "userColor": "b",
+      "moves": [
+        {
+          "uci": "e2e4",
+          "by": "bot",
+          "text": "1.e4 – White takes space and opens lines."
+        },
+        {
+          "uci": "e7e5",
+          "by": "user",
+          "text": "1...e5 – You meet the center head-on."
+        },
+        {
+          "uci": "g1f3",
+          "by": "bot",
+          "text": "2.Nf3 – White attacks the e5 pawn and prepares to castle."
+        },
+        {
+          "uci": "g8f6",
+          "by": "user",
+          "text": "2...Nf6 – You develop and attack e4, inviting White into the Stafford if they take on e5."
+        },
+        {
+          "uci": "d2d4",
+          "by": "bot",
+          "text": "3.d4 – Instead of grabbing the pawn, White breaks in the center in a more principled way."
+        },
+        {
+          "uci": "f6e4",
+          "by": "user",
+          "text": "3...Nxe4 – You still sacrifice the pawn, keeping the spirit of the Stafford and opening lines for your pieces."
+        },
+        {
+          "uci": "d4e5",
+          "by": "bot",
+          "text": "4.dxe5 – White accepts the sacrificed pawn, hoping to use the space and central majority later."
+        },
+        {
+          "uci": "d7d5",
+          "by": "user",
+          "text": "4...d5 – You strike back in the center, opening diagonals for your light-squared bishop and queen."
+        },
+        {
+          "uci": "f1d3",
+          "by": "bot",
+          "text": "5.Bd3 – White develops and protects e4 and f5 squares, trying to consolidate the extra pawn."
+        },
+        {
+          "uci": "f8e7",
+          "by": "user",
+          "text": "5...Be7 – You develop smoothly and get ready to castle, keeping long-term pressure in compensation for the pawn."
+        }
+      ]
+    }
+  },
+  {
+    "key": "gambit_bahr",
+    "value": {
+      "label": "Bähr Gambit – Aggressive center play",
+      "stage": "Gambit / Trap",
+      "userColor": "w",
+      "moves": [
+        {
+          "uci": "e2e4",
+          "by": "user",
+          "text": "1.e4 – You take the center and open lines."
+        },
+        {
+          "uci": "e7e5",
+          "by": "bot",
+          "text": "...e5 – Black mirrors your plan."
+        },
+        {
+          "uci": "d2d4",
+          "by": "user",
+          "text": "2.d4 – You immediately strike at the e5 pawn and invite Black to clarify the center."
+        },
+        {
+          "uci": "e5d4",
+          "by": "bot",
+          "text": "...exd4 – Black accepts the pawn, hoping to hang on and weather the attack."
+        },
+        {
+          "uci": "c2c3",
+          "by": "user",
+          "text": "3.c3 – You challenge the d4 pawn, planning to recapture and build a big center with tempo."
+        },
+        {
+          "uci": "d4c3",
+          "by": "bot",
+          "text": "3...dxc3 – Black grabs another pawn, but falls behind in development and opens the position for your pieces."
+        },
+        {
+          "uci": "b1c3",
+          "by": "user",
+          "text": "4.Nxc3 – You recapture with a knight, gaining time and aiming all your pieces at the center and kingside."
+        },
+        {
+          "uci": "b8c6",
+          "by": "bot",
+          "text": "4...Nc6 – Black develops, but your lead in activity and central control gives you plenty of attacking chances."
+        }
+      ]
+    }
+  },
+  {
+    "key": "french_main_1",
+    "value": {
+      "label": "French Defense – Advance mainline",
+      "stage": "Mainline 1",
+      "userColor": "b",
+      "moves": [
+        {
+          "uci": "e2e4",
+          "by": "bot",
+          "text": "1.e4 – White grabs central space and opens lines for the queen and bishop."
+        },
+        {
+          "uci": "e7e6",
+          "by": "user",
+          "text": "1...e6 – You start the French Defense, controlling d5 and preparing ...d5 to challenge the center."
+        },
+        {
+          "uci": "d2d4",
+          "by": "bot",
+          "text": "2.d4 – White fully occupies the center with pawns on e4 and d4."
+        },
+        {
+          "uci": "d7d5",
+          "by": "user",
+          "text": "2...d5 – The classical French strike: you attack White’s center head-on and ask the pawn structure to clarify."
+        },
+        {
+          "uci": "e4e5",
+          "by": "bot",
+          "text": "3.e5 – White advances, gaining space but fixing the pawn structure; the d4-pawn becomes a long-term target."
+        },
+        {
+          "uci": "c7c5",
+          "by": "user",
+          "text": "3...c5 – You attack d4 immediately, using typical French pressure on the d-pawn and the queenside."
+        },
+        {
+          "uci": "c2c3",
+          "by": "bot",
+          "text": "4.c3 – White reinforces d4 and prepares a solid pawn chain with potential queenside expansion."
+        },
+        {
+          "uci": "b8c6",
+          "by": "user",
+          "text": "4...Nc6 – You develop a knight, hit d4 again, and prepare to bring more pieces into the attack on White’s center."
+        },
+        {
+          "uci": "g1f3",
+          "by": "bot",
+          "text": "5.Nf3 – White develops and adds more support to d4 and e5."
+        },
+        {
+          "uci": "d8b6",
+          "by": "user",
+          "text": "5...Qb6 – You pile even more pressure on d4 and potentially b2, a very French-style queenside squeeze."
+        },
+        {
+          "uci": "f1e2",
+          "by": "bot",
+          "text": "6.Be2 – White calmly develops and gets ready to castle kingside."
+        },
+        {
+          "uci": "c5d4",
+          "by": "user",
+          "text": "6...cxd4 – You trade in the center and try to leave White with an isolated or weak pawn."
+        },
+        {
+          "uci": "c3d4",
+          "by": "bot",
+          "text": "7.cxd4 – White keeps a healthy pawn center for now, but the d4 pawn can still become a long-term target."
+        },
+        {
+          "uci": "g8e7",
+          "by": "user",
+          "text": "7...Ne7 – You develop flexibly, ready to reroute the knight to f5 or g6 and continue pressuring White’s center."
+        }
+      ]
+    }
+  },
+  {
+    "key": "french_main_2",
+    "value": {
+      "label": "French Defense – Tarrasch-style structure",
+      "stage": "Mainline 2",
+      "userColor": "b",
+      "moves": [
+        {
+          "uci": "e2e4",
+          "by": "bot",
+          "text": "1.e4 – Again, White takes the big central square and opens diagonals."
+        },
+        {
+          "uci": "e7e6",
+          "by": "user",
+          "text": "1...e6 – You head into the French, aiming for solid but counterattacking play."
+        },
+        {
+          "uci": "d2d4",
+          "by": "bot",
+          "text": "2.d4 – White builds the classic big pawn center."
+        },
+        {
+          "uci": "d7d5",
+          "by": "user",
+          "text": "2...d5 – You challenge the center at once, typical French."
+        },
+        {
+          "uci": "b1d2",
+          "by": "bot",
+          "text": "3.Nd2 – The Tarrasch idea: White keeps the knight flexible and avoids pin lines after Nc3."
+        },
+        {
+          "uci": "c7c5",
+          "by": "user",
+          "text": "3...c5 – You immediately pressure d4 and start playing on the queenside."
+        },
+        {
+          "uci": "e4d5",
+          "by": "bot",
+          "text": "4.exd5 – White clarifies the center, hoping your isolated pawn becomes a target."
+        },
+        {
+          "uci": "e6d5",
+          "by": "user",
+          "text": "4...exd5 – You recapture and accept an isolated or hanging pawn structure in exchange for activity."
+        },
+        {
+          "uci": "g1f3",
+          "by": "bot",
+          "text": "5.Nf3 – White develops and increases pressure on d4 and e5 squares."
+        },
+        {
+          "uci": "b8c6",
+          "by": "user",
+          "text": "5...Nc6 – You develop with tempo, hitting d4 and preparing pieces toward the center."
+        },
+        {
+          "uci": "f1b5",
+          "by": "bot",
+          "text": "6.Bb5 – White pins the knight and tries to increase the pressure on your d5 pawn."
+        },
+        {
+          "uci": "f8d6",
+          "by": "user",
+          "text": "6...Bd6 – You develop, support the center, and aim pieces toward White’s kingside."
+        },
+        {
+          "uci": "d4c5",
+          "by": "bot",
+          "text": "7.dxc5 – White grabs the pawn, but risks falling behind in development."
+        },
+        {
+          "uci": "d6c5",
+          "by": "user",
+          "text": "7...Bxc5 – You regain the pawn with a developed piece, reaching a very playable French middlegame."
+        }
+      ]
+    }
+  },
+  {
+    "key": "french_mistake_1",
+    "value": {
+      "label": "French Exchange – too symmetrical",
+      "stage": "Common mistake 1 (White)",
+      "userColor": "b",
+      "moves": [
+        {
+          "uci": "e2e4",
+          "by": "bot",
+          "text": "1.e4 – Normal central move."
+        },
+        {
+          "uci": "e7e6",
+          "by": "user",
+          "text": "1...e6 – French Defense again."
+        },
+        {
+          "uci": "d2d4",
+          "by": "bot",
+          "text": "2.d4 – White supports the e4 pawn and takes more space."
+        },
+        {
+          "uci": "d7d5",
+          "by": "user",
+          "text": "2...d5 – The central French break."
+        },
+        {
+          "uci": "e4d5",
+          "by": "bot",
+          "text": "3.exd5 – White trades in the center, heading toward the Exchange French."
+        },
+        {
+          "uci": "e6d5",
+          "by": "user",
+          "text": "3...exd5 – You recapture, leading to a symmetrical structure and equal space for both sides."
+        },
+        {
+          "uci": "g1f3",
+          "by": "bot",
+          "text": "4.Nf3 – White develops a knight but hasn't kept any central tension."
+        },
+        {
+          "uci": "g8f6",
+          "by": "user",
+          "text": "4...Nf6 – You mirror the development and keep things solid."
+        },
+        {
+          "uci": "f1d3",
+          "by": "bot",
+          "text": "5.Bd3 – White develops naturally, but the position is very equal and contains few winning chances."
+        },
+        {
+          "uci": "f8d6",
+          "by": "user",
+          "text": "5...Bd6 – You copy White’s setup: solid, symmetrical, and a bit too drawish if White wanted more."
+        },
+        {
+          "uci": "e1g1",
+          "by": "bot",
+          "text": "6.O-O – White castles, but the game is now close to equal. This 'mistake' isn’t losing, but it gives up the dynamic tension we usually want from the opening."
+        }
+      ]
+    }
+  },
+  {
+    "key": "caro_main_1",
+    "value": {
+      "label": "Caro-Kann – Classical mainline",
+      "stage": "Mainline 1",
+      "userColor": "b",
+      "moves": [
+        {
+          "uci": "e2e4",
+          "by": "bot",
+          "text": "1.e4 – White grabs the center and opens lines for development."
+        },
+        {
+          "uci": "c7c6",
+          "by": "user",
+          "text": "1...c6 – You announce the Caro-Kann, preparing ...d5 with a solid pawn chain."
+        },
+        {
+          "uci": "d2d4",
+          "by": "bot",
+          "text": "2.d4 – White builds a big pawn center with e4 and d4."
+        },
+        {
+          "uci": "d7d5",
+          "by": "user",
+          "text": "2...d5 – You immediately challenge the center; this is the core Caro structure."
+        },
+        {
+          "uci": "b1c3",
+          "by": "bot",
+          "text": "3.Nc3 – White defends e4 and adds pressure on d5."
+        },
+        {
+          "uci": "d5e4",
+          "by": "user",
+          "text": "3...dxe4 – You trade in the center to create a clear structure and free your pieces."
+        },
+        {
+          "uci": "c3e4",
+          "by": "bot",
+          "text": "4.Nxe4 – White recaptures and keeps an active knight in the center."
+        },
+        {
+          "uci": "c8f5",
+          "by": "user",
+          "text": "4...Bf5 – A key Caro-Kann idea: you bring the light-squared bishop outside the pawn chain before playing ...e6."
+        },
+        {
+          "uci": "e4g3",
+          "by": "bot",
+          "text": "5.Ng3 – White harasses your bishop and prepares kingside development."
+        },
+        {
+          "uci": "f5g6",
+          "by": "user",
+          "text": "5...Bg6 – You keep the bishop, pointing it at the kingside and maintaining a solid structure."
+        },
+        {
+          "uci": "g1f3",
+          "by": "bot",
+          "text": "6.Nf3 – White develops and prepares to castle."
+        },
+        {
+          "uci": "b8d7",
+          "by": "user",
+          "text": "6...Nd7 – You support e5 and f6, and prepare to complete development with ...Ngf6 and ...Be7."
+        }
+      ]
+    }
+  },
+  {
+    "key": "caro_main_2",
+    "value": {
+      "label": "Caro-Kann – Advance variation",
+      "stage": "Mainline 2",
+      "userColor": "b",
+      "moves": [
+        {
+          "uci": "e2e4",
+          "by": "bot",
+          "text": "1.e4 – Central control again from White."
+        },
+        {
+          "uci": "c7c6",
+          "by": "user",
+          "text": "1...c6 – You stay faithful to the Caro-Kann."
+        },
+        {
+          "uci": "d2d4",
+          "by": "bot",
+          "text": "2.d4 – White supports the e4 pawn and dominates space."
+        },
+        {
+          "uci": "d7d5",
+          "by": "user",
+          "text": "2...d5 – You attack the e4 pawn as usual."
+        },
+        {
+          "uci": "e4e5",
+          "by": "bot",
+          "text": "3.e5 – White takes space and pushes you back, but also fixes the pawn structure."
+        },
+        {
+          "uci": "c8f5",
+          "by": "user",
+          "text": "3...Bf5 – You develop the bishop actively before closing the center with ...e6."
+        },
+        {
+          "uci": "g1f3",
+          "by": "bot",
+          "text": "4.Nf3 – White develops and eyes the g5 square and future kingside play."
+        },
+        {
+          "uci": "e7e6",
+          "by": "user",
+          "text": "4...e6 – You build a rock-solid pawn chain and start completing development behind it."
+        },
+        {
+          "uci": "f1e2",
+          "by": "bot",
+          "text": "5.Be2 – White prepares to castle and keep a flexible setup."
+        },
+        {
+          "uci": "c6c5",
+          "by": "user",
+          "text": "5...c5 – You strike at d4, challenging White’s center and aiming for a typical Caro-Kann middlegame."
+        }
+      ]
+    }
+  },
+  {
+    "key": "caro_mistake_1",
+    "value": {
+      "label": "Caro-Kann – h-pawn overextension",
+      "stage": "Common mistake 1 (White push)",
+      "userColor": "b",
+      "moves": [
+        {
+          "uci": "e2e4",
+          "by": "bot",
+          "text": "1.e4 – Normal central play."
+        },
+        {
+          "uci": "c7c6",
+          "by": "user",
+          "text": "1...c6 – You intend a Caro-Kann structure."
+        },
+        {
+          "uci": "d2d4",
+          "by": "bot",
+          "text": "2.d4 – White takes more central space."
+        },
+        {
+          "uci": "d7d5",
+          "by": "user",
+          "text": "2...d5 – You challenge the center at once."
+        },
+        {
+          "uci": "b1c3",
+          "by": "bot",
+          "text": "3.Nc3 – White supports e4 and pressures d5."
+        },
+        {
+          "uci": "d5e4",
+          "by": "user",
+          "text": "3...dxe4 – You trade in the center as in the mainline."
+        },
+        {
+          "uci": "c3e4",
+          "by": "bot",
+          "text": "4.Nxe4 – White recaptures, keeping a knight in the middle."
+        },
+        {
+          "uci": "c8f5",
+          "by": "user",
+          "text": "4...Bf5 – You develop the light-squared bishop aggressively."
+        },
+        {
+          "uci": "e4g3",
+          "by": "bot",
+          "text": "5.Ng3 – White chases your bishop, but pushes the knight away from the center."
+        },
+        {
+          "uci": "f5g6",
+          "by": "user",
+          "text": "5...Bg6 – You keep the good bishop and stay solid."
+        },
+        {
+          "uci": "h2h4",
+          "by": "bot",
+          "text": "6.h4 – A common lower-level idea: White tries to trap your bishop without finishing development."
+        },
+        {
+          "uci": "h7h6",
+          "by": "user",
+          "text": "6...h6 – You stop h5 and calmly keep your bishop safe."
+        },
+        {
+          "uci": "h4h5",
+          "by": "bot",
+          "text": "7.h5 – White doubles down, but this opens the kingside and neglects piece development."
+        },
+        {
+          "uci": "g6h7",
+          "by": "user",
+          "text": "7...Bh7 – You keep the bishop alive; now White’s kingside is weakened for the upcoming middlegame."
+        }
+      ]
+    }
+  },
+  {
+    "key": "qga_main_1",
+    "value": {
+      "label": "QGA – Mainline with e3 & Bxc4",
+      "stage": "Mainline 1",
+      "userColor": "b",
+      "moves": [
+        {
+          "uci": "d2d4",
+          "by": "bot",
+          "text": "1.d4 – White grabs central space with a queen’s pawn."
+        },
+        {
+          "uci": "d7d5",
+          "by": "user",
+          "text": "1...d5 – You mirror in the center, contesting e4 and c4."
+        },
+        {
+          "uci": "c2c4",
+          "by": "bot",
+          "text": "2.c4 – The Queen’s Gambit, asking if you’ll accept the c-pawn."
+        },
+        {
+          "uci": "d5c4",
+          "by": "user",
+          "text": "2...dxc4 – You accept the gambit, temporarily winning a pawn but giving White development targets."
+        },
+        {
+          "uci": "g1f3",
+          "by": "bot",
+          "text": "3.Nf3 – White develops and prepares to regain the pawn on c4."
+        },
+        {
+          "uci": "g8f6",
+          "by": "user",
+          "text": "3...Nf6 – You develop and keep an eye on e4 and d5 squares."
+        },
+        {
+          "uci": "e2e3",
+          "by": "bot",
+          "text": "4.e3 – White prepares to recapture on c4 with the bishop and complete development quickly."
+        },
+        {
+          "uci": "e7e6",
+          "by": "user",
+          "text": "4...e6 – You reinforce d5 and prepare to develop your dark-squared bishop."
+        },
+        {
+          "uci": "f1c4",
+          "by": "bot",
+          "text": "5.Bxc4 – White regains the pawn with a developing move, putting pressure on your queenside."
+        },
+        {
+          "uci": "c7c5",
+          "by": "user",
+          "text": "5...c5 – You strike the center again, aiming for an isolated queen’s pawn or dynamic play on the d-file."
+        },
+        {
+          "uci": "e1g1",
+          "by": "bot",
+          "text": "6.O-O – White castles into safety, ready for a central middlegame fight."
+        },
+        {
+          "uci": "a7a6",
+          "by": "user",
+          "text": "6...a6 – You prepare ...b5 to harass the bishop or support queenside expansion."
+        },
+        {
+          "uci": "d1e2",
+          "by": "bot",
+          "text": "7.Qe2 – White supports the center and prepares moves like dxc5 and Rd1."
+        },
+        {
+          "uci": "b8c6",
+          "by": "user",
+          "text": "7...Nc6 – You bring another piece into the center, ready for complex QGA middlegames."
+        }
+      ]
+    }
+  },
+  {
+    "key": "qga_main_2",
+    "value": {
+      "label": "QGA – Central pawn roller (e4 idea)",
+      "stage": "Mainline 2",
+      "userColor": "b",
+      "moves": [
+        {
+          "uci": "d2d4",
+          "by": "bot",
+          "text": "1.d4 – White opens with the queen’s pawn again."
+        },
+        {
+          "uci": "d7d5",
+          "by": "user",
+          "text": "1...d5 – You fight for the center directly."
+        },
+        {
+          "uci": "c2c4",
+          "by": "bot",
+          "text": "2.c4 – White offers the queen’s gambit pawn."
+        },
+        {
+          "uci": "d5c4",
+          "by": "user",
+          "text": "2...dxc4 – You accept and invite White to prove compensation."
+        },
+        {
+          "uci": "e2e4",
+          "by": "bot",
+          "text": "3.e4 – White hits the center hard, hoping to overwhelm you quickly."
+        },
+        {
+          "uci": "e7e5",
+          "by": "user",
+          "text": "3...e5 – You strike back in the center, not allowing White to dominate with pawns."
+        },
+        {
+          "uci": "g1f3",
+          "by": "bot",
+          "text": "4.Nf3 – White develops and adds pressure to e5 and d4."
+        },
+        {
+          "uci": "e5d4",
+          "by": "user",
+          "text": "4...exd4 – You capture and open lines, but give White potential for rapid piece play."
+        },
+        {
+          "uci": "f1c4",
+          "by": "bot",
+          "text": "5.Bxc4 – White regains the pawn and completes harmonious development."
+        },
+        {
+          "uci": "b8c6",
+          "by": "user",
+          "text": "5...Nc6 – You develop and target d4 and b4, heading for a sharp QGA middlegame."
+        }
+      ]
+    }
+  },
+  {
+    "key": "qga_mistake_1",
+    "value": {
+      "label": "QGA – White overextends the center",
+      "stage": "Common mistake 1 (White center)",
+      "userColor": "b",
+      "moves": [
+        {
+          "uci": "d2d4",
+          "by": "bot",
+          "text": "1.d4 – Standard queen’s pawn opening."
+        },
+        {
+          "uci": "d7d5",
+          "by": "user",
+          "text": "1...d5 – You contest central space."
+        },
+        {
+          "uci": "c2c4",
+          "by": "bot",
+          "text": "2.c4 – The gambit pawn offers you a choice."
+        },
+        {
+          "uci": "d5c4",
+          "by": "user",
+          "text": "2...dxc4 – You accept and pocket the pawn for now."
+        },
+        {
+          "uci": "e2e3",
+          "by": "bot",
+          "text": "3.e3 – White prepares to recapture on c4 with the bishop."
+        },
+        {
+          "uci": "e7e5",
+          "by": "user",
+          "text": "3...e5 – You hit the center again, asking White how they will defend d4 and the light squares."
+        },
+        {
+          "uci": "f1c4",
+          "by": "bot",
+          "text": "4.Bxc4 – White recaptures, but has left dark squares slightly weakened."
+        },
+        {
+          "uci": "e5d4",
+          "by": "user",
+          "text": "4...exd4 – You open lines and challenge White’s coordination."
+        },
+        {
+          "uci": "e3d4",
+          "by": "bot",
+          "text": "5.exd4 – White keeps a big pawn center, but it’s also a big target."
+        },
+        {
+          "uci": "b8c6",
+          "by": "user",
+          "text": "5...Nc6 – You attack d4 and prepare to develop quickly against White’s overextended pawns."
+        },
+        {
+          "uci": "g1f3",
+          "by": "bot",
+          "text": "6.Nf3 – White finally develops, but you’re already pressuring the center from multiple directions."
+        },
+        {
+          "uci": "c8g4",
+          "by": "user",
+          "text": "6...Bg4 – You pin the knight and increase pressure on d4, exploiting the slightly loose central structure."
+        }
+      ]
+    }
+  },
+  {
+    "key": "italian_main_1",
+    "value": {
+      "label": "Italian Game – Giuoco Piano structure",
+      "stage": "Mainline 1",
+      "userColor": "w",
+      "moves": [
+        {
+          "uci": "e2e4",
+          "by": "user",
+          "text": "1.e4 – You take central space and open lines for your pieces."
+        },
+        {
+          "uci": "e7e5",
+          "by": "bot",
+          "text": "1...e5 – Black mirrors your central control and opens lines for their own pieces."
+        },
+        {
+          "uci": "g1f3",
+          "by": "user",
+          "text": "2.Nf3 – You attack the e5 pawn and prepare to castle kingside."
+        },
+        {
+          "uci": "b8c6",
+          "by": "bot",
+          "text": "2...Nc6 – Black defends e5 and develops toward the center."
+        },
+        {
+          "uci": "f1c4",
+          "by": "user",
+          "text": "3.Bc4 – The Italian bishop eyes f7, one of Black’s weakest points early in the game."
+        },
+        {
+          "uci": "f8c5",
+          "by": "bot",
+          "text": "3...Bc5 – Black enters the Giuoco Piano, pointing their own bishop at your f2 pawn."
+        },
+        {
+          "uci": "c2c3",
+          "by": "user",
+          "text": "4.c3 – You prepare d4 to challenge Black’s center and gain space."
+        },
+        {
+          "uci": "g8f6",
+          "by": "bot",
+          "text": "4...Nf6 – Black develops another piece and targets your e4 pawn."
+        },
+        {
+          "uci": "d2d4",
+          "by": "user",
+          "text": "5.d4 – You strike in the center, trying to open lines for your bishops and queen."
+        },
+        {
+          "uci": "e5d4",
+          "by": "bot",
+          "text": "5...exd4 – Black accepts the challenge and opens the e-file."
+        },
+        {
+          "uci": "c3d4",
+          "by": "user",
+          "text": "6.cxd4 – You recapture and keep strong central presence with pawns and pieces."
+        },
+        {
+          "uci": "c5b4",
+          "by": "bot",
+          "text": "6...Bb4+ – Black checks you and pins the knight on c3 in many lines, a common Italian theme."
+        },
+        {
+          "uci": "b1c3",
+          "by": "user",
+          "text": "7.Nc3 – You block the check and add more force to your central control."
+        },
+        {
+          "uci": "d7d5",
+          "by": "bot",
+          "text": "7...d5 – Black counterstrikes in the center, leading to a rich, classical Italian middlegame."
+        }
+      ]
+    }
+  },
+  {
+    "key": "italian_fried_main_1",
+    "value": {
+      "label": "Fried Liver Attack – main tactical route",
+      "stage": "Mainline 2 (tactical)",
+      "userColor": "w",
+      "moves": [
+        {
+          "uci": "e2e4",
+          "by": "user",
+          "text": "1.e4 – You take central space and open the diagonal for your bishop."
+        },
+        {
+          "uci": "e7e5",
+          "by": "bot",
+          "text": "1...e5 – Black mirrors your central pawn and plays classically."
+        },
+        {
+          "uci": "g1f3",
+          "by": "user",
+          "text": "2.Nf3 – You hit the e5 pawn and prepare fast development."
+        },
+        {
+          "uci": "b8c6",
+          "by": "bot",
+          "text": "2...Nc6 – Black defends e5 and develops a piece toward the center."
+        },
+        {
+          "uci": "f1c4",
+          "by": "user",
+          "text": "3.Bc4 – You point the bishop at f7, aiming at the weakest point in Black’s camp."
+        },
+        {
+          "uci": "g8f6",
+          "by": "bot",
+          "text": "3...Nf6 – Black develops naturally, but now f7 becomes tactically vulnerable."
+        },
+        {
+          "uci": "f3g5",
+          "by": "user",
+          "text": "4.Ng5 – The Two Knights Attack: you immediately threaten tactics on f7."
+        },
+        {
+          "uci": "d7d5",
+          "by": "bot",
+          "text": "4...d5 – Best practical reply; Black hits your c4 bishop and fights back in the center."
+        },
+        {
+          "uci": "e4d5",
+          "by": "user",
+          "text": "5.exd5 – You accept the pawn, keeping pressure on f7 and opening lines."
+        },
+        {
+          "uci": "f6d5",
+          "by": "bot",
+          "text": "5...Nxd5 – A key mistake for Black: this walks straight into the Fried Liver tactics."
+        },
+        {
+          "uci": "g5f7",
+          "by": "user",
+          "text": "6.Nxf7 – The Fried Liver shot: you sacrifice a knight on f7, dragging the king into the open."
+        },
+        {
+          "uci": "e8f7",
+          "by": "bot",
+          "text": "6...Kxf7 – Black is forced to accept, exposing the king badly."
+        },
+        {
+          "uci": "d1f3",
+          "by": "user",
+          "text": "7.Qf3+ – You check the king again, coordinate queen and bishop on the f7–e6–g8 squares, and keep Black’s king stuck in the center."
+        },
+        {
+          "uci": "f7e6",
+          "by": "bot",
+          "text": "7...Ke6 – Black has to walk farther into the center, losing castling rights and safety."
+        },
+        {
+          "uci": "b1c3",
+          "by": "user",
+          "text": "8.Nc3 – You bring another piece into the attack, aiming at d5 and e4, and your development is racing ahead."
+        },
+        {
+          "uci": "c6e7",
+          "by": "bot",
+          "text": "8...Ne7 – Black tries to bring more defenders, but the king is still exposed and you have a massive lead in activity. From here, practice converting the attack vs the bot."
+        }
+      ]
+    }
+  },
+  {
+    "key": "sic_main_2",
+    "value": {
+      "label": "Sicilian – Richter-Rauzer style",
+      "stage": "Mainline 2",
+      "userColor": "b",
+      "moves": [
+        {
+          "uci": "e2e4",
+          "by": "bot",
+          "text": "1.e4 – White aims for an open, tactical game."
+        },
+        {
+          "uci": "c7c5",
+          "by": "user",
+          "text": "1...c5 – You enter the Sicilian Defense, fighting for d4 from the flank."
+        },
+        {
+          "uci": "g1f3",
+          "by": "bot",
+          "text": "2.Nf3 – White develops and prepares d4."
+        },
+        {
+          "uci": "d7d6",
+          "by": "user",
+          "text": "2...d6 – You support c5 and prepare to meet d4 with ...cxd4."
+        },
+        {
+          "uci": "d2d4",
+          "by": "bot",
+          "text": "3.d4 – White opens the center and challenges your c-pawn."
+        },
+        {
+          "uci": "c5d4",
+          "by": "user",
+          "text": "3...cxd4 – You capture and open the c-file and d-file for later use."
+        },
+        {
+          "uci": "f3d4",
+          "by": "bot",
+          "text": "4.Nxd4 – White recaptures with a piece and occupies the center."
+        },
+        {
+          "uci": "g8f6",
+          "by": "user",
+          "text": "4...Nf6 – You develop and hit the e4 pawn, forcing White to defend it."
+        },
+        {
+          "uci": "b1c3",
+          "by": "bot",
+          "text": "5.Nc3 – White supports e4 and reinforces the d5 square."
+        },
+        {
+          "uci": "b8c6",
+          "by": "user",
+          "text": "5...Nc6 – You increase central pressure and fight for d4 and e5."
+        },
+        {
+          "uci": "c1g5",
+          "by": "bot",
+          "text": "6.Bg5 – White pins your knight and aims to increase pressure on d5 and f6."
+        },
+        {
+          "uci": "e7e6",
+          "by": "user",
+          "text": "6...e6 – You solidify the center, free your dark-squared bishop, and prepare queenside castling in some lines."
+        },
+        {
+          "uci": "d1d2",
+          "by": "bot",
+          "text": "7.Qd2 – White connects rooks and prepares queenside castling to launch a kingside pawn storm."
+        },
+        {
+          "uci": "f8e7",
+          "by": "user",
+          "text": "7...Be7 – You unpin the knight and prepare to castle, entering a rich Richter-Rauzer style middlegame."
+        }
+      ]
+    }
+  },
+  {
+    "key": "sic_main_3",
+    "value": {
+      "label": "Sicilian – Najdorf-style structure",
+      "stage": "Mainline 3",
+      "userColor": "b",
+      "moves": [
+        {
+          "uci": "e2e4",
+          "by": "bot",
+          "text": "1.e4 – White again aims for an open Sicilian."
+        },
+        {
+          "uci": "c7c5",
+          "by": "user",
+          "text": "1...c5 – You keep the Sicilian structure."
+        },
+        {
+          "uci": "g1f3",
+          "by": "bot",
+          "text": "2.Nf3 – White develops and eyes d4."
+        },
+        {
+          "uci": "d7d6",
+          "by": "user",
+          "text": "2...d6 – You bolster c5 and prepare to capture on d4."
+        },
+        {
+          "uci": "d2d4",
+          "by": "bot",
+          "text": "3.d4 – White opens the center as in many main Sicilian lines."
+        },
+        {
+          "uci": "c5d4",
+          "by": "user",
+          "text": "3...cxd4 – You trade in the center and open lines for queenside play."
+        },
+        {
+          "uci": "f3d4",
+          "by": "bot",
+          "text": "4.Nxd4 – White recaptures and keeps an active knight in the middle."
+        },
+        {
+          "uci": "g8f6",
+          "by": "user",
+          "text": "4...Nf6 – You hit e4 and continue developing."
+        },
+        {
+          "uci": "b1c3",
+          "by": "bot",
+          "text": "5.Nc3 – White supports the center and prepares to expand on the kingside or queenside."
+        },
+        {
+          "uci": "a7a6",
+          "by": "user",
+          "text": "5...a6 – A Najdorf-style move, controlling b5 and preparing queenside expansion."
+        },
+        {
+          "uci": "f1e2",
+          "by": "bot",
+          "text": "6.Be2 – White develops quietly, aiming for flexible piece placement."
+        },
+        {
+          "uci": "e7e5",
+          "by": "user",
+          "text": "6...e5 – You grab more central space, hitting the knight on d4 and fixing a strong pawn center."
+        },
+        {
+          "uci": "d4b3",
+          "by": "bot",
+          "text": "7.Nb3 – White retreats but keeps an eye on c5 and d4 squares."
+        },
+        {
+          "uci": "f8e7",
+          "by": "user",
+          "text": "7...Be7 – You prepare to castle and head into a typical Najdorf middlegame structure."
+        }
+      ]
+    }
+  },
+  {
+    "key": "sic_mistake_2",
+    "value": {
+      "label": "Sicilian – Unstable central pawn thrust",
+      "stage": "Common mistake 1 (Black)",
+      "userColor": "b",
+      "moves": [
+        {
+          "uci": "e2e4",
+          "by": "bot",
+          "text": "1.e4 – White goes for an open game."
+        },
+        {
+          "uci": "c7c5",
+          "by": "user",
+          "text": "1...c5 – You choose the Sicilian again."
+        },
+        {
+          "uci": "g1f3",
+          "by": "bot",
+          "text": "2.Nf3 – White develops and eyes d4."
+        },
+        {
+          "uci": "b8c6",
+          "by": "user",
+          "text": "2...Nc6 – You develop and keep options open for ...d6 or ...e6."
+        },
+        {
+          "uci": "d2d4",
+          "by": "bot",
+          "text": "3.d4 – White opens the center, challenging your c-pawn."
+        },
+        {
+          "uci": "c5d4",
+          "by": "user",
+          "text": "3...cxd4 – You capture and open lines toward the center."
+        },
+        {
+          "uci": "f3d4",
+          "by": "bot",
+          "text": "4.Nxd4 – White recaptures with a knight and holds the central square."
+        },
+        {
+          "uci": "g8f6",
+          "by": "user",
+          "text": "4...Nf6 – You develop and attack e4, but you must be careful with central pawn pushes."
+        },
+        {
+          "uci": "b1c3",
+          "by": "bot",
+          "text": "5.Nc3 – White supports e4 and reinforces control over d5."
+        },
+        {
+          "uci": "e7e5",
+          "by": "user",
+          "text": "5...e5 – A common but risky idea: you grab space, but leave d5 and f5 weak and push your pawns too far."
+        },
+        {
+          "uci": "d4b5",
+          "by": "bot",
+          "text": "6.Nb5 – White jumps into b5, pressuring c7 and d6, exploiting the weakened dark squares."
+        },
+        {
+          "uci": "d7d6",
+          "by": "user",
+          "text": "6...d6 – You try to cover c7 and solidify, but your queenside is now under pressure."
+        },
+        {
+          "uci": "c1g5",
+          "by": "bot",
+          "text": "7.Bg5 – White pins your knight and piles up pressure on d5 and f6."
+        },
+        {
+          "uci": "a7a6",
+          "by": "user",
+          "text": "7...a6 – You chase the knight, but your queenside pawns are advancing and creating new weaknesses."
+        }
+      ]
+    }
+  },
+  {
+    "key": "scotch_main_1",
+    "value": {
+      "label": "Scotch Game – Mainline: 4...Nf6",
+      "stage": "Mainline 1",
+      "userColor": "w",
+      "moves": [
+        {
+          "uci": "e2e4",
+          "by": "user",
+          "text": "1.e4 – You take central space and open lines for your queen and bishop."
+        },
+        {
+          "uci": "e7e5",
+          "by": "bot",
+          "text": "1...e5 – Black mirrors your central pawn and claims equal space."
+        },
+        {
+          "uci": "g1f3",
+          "by": "user",
+          "text": "2.Nf3 – You attack the e5 pawn and prepare to castle kingside."
+        },
+        {
+          "uci": "b8c6",
+          "by": "bot",
+          "text": "2...Nc6 – Black defends e5 and develops a piece toward the center."
+        },
+        {
+          "uci": "d2d4",
+          "by": "user",
+          "text": "3.d4 – The Scotch. You immediately strike in the center and open the position for your pieces."
+        },
+        {
+          "uci": "e5d4",
+          "by": "bot",
+          "text": "3...exd4 – Black accepts, opening the e-file and giving you targets on the d-file."
+        },
+        {
+          "uci": "f3d4",
+          "by": "user",
+          "text": "4.Nxd4 – You recapture with a piece, centralize the knight, and keep development rolling."
+        },
+        {
+          "uci": "g8f6",
+          "by": "bot",
+          "text": "4...Nf6 – A main reply; Black develops and hits your e4 square and central dark squares."
+        },
+        {
+          "uci": "b1c3",
+          "by": "user",
+          "text": "5.Nc3 – You support your d5 and e4 squares, reinforce the d4-knight, and prepare to castle."
+        },
+        {
+          "uci": "f8b4",
+          "by": "bot",
+          "text": "5...Bb4 – Black pins your c3 knight and increases pressure on your center."
+        },
+        {
+          "uci": "f1e2",
+          "by": "user",
+          "text": "6.Be2 – You unpin, prepare to castle, and keep a flexible structure without committing your queenside yet."
+        },
+        {
+          "uci": "e8g8",
+          "by": "bot",
+          "text": "6...O-O – Black castles and brings the king to safety, eyeing pressure on the e-file later."
+        },
+        {
+          "uci": "e1g1",
+          "by": "user",
+          "text": "7.O-O – You castle too and connect your rooks; all your minor pieces are out and you’re ready for a true middlegame."
+        },
+        {
+          "uci": "d7d6",
+          "by": "bot",
+          "text": "7...d6 – Black stabilizes the center and prepares Re8 or Bxc3, heading into a rich Scotch middlegame."
+        }
+      ]
+    }
+  },
+  {
+    "key": "scotch_main_2",
+    "value": {
+      "label": "Scotch Game – Mainline: 4...Bc5 system",
+      "stage": "Mainline 2",
+      "userColor": "w",
+      "moves": [
+        {
+          "uci": "e2e4",
+          "by": "user",
+          "text": "1.e4 – Central control and open lines for your pieces."
+        },
+        {
+          "uci": "e7e5",
+          "by": "bot",
+          "text": "1...e5 – Black meets you in the center symmetrically."
+        },
+        {
+          "uci": "g1f3",
+          "by": "user",
+          "text": "2.Nf3 – You attack e5 and prepare to castle short."
+        },
+        {
+          "uci": "b8c6",
+          "by": "bot",
+          "text": "2...Nc6 – Black defends e5 and develops naturally."
+        },
+        {
+          "uci": "d2d4",
+          "by": "user",
+          "text": "3.d4 – The Scotch again, opening the center quickly."
+        },
+        {
+          "uci": "e5d4",
+          "by": "bot",
+          "text": "3...exd4 – Black accepts and opens lines."
+        },
+        {
+          "uci": "f3d4",
+          "by": "user",
+          "text": "4.Nxd4 – You centralize your knight and keep initiative."
+        },
+        {
+          "uci": "f8c5",
+          "by": "bot",
+          "text": "4...Bc5 – Black develops actively, eyeing your d4 knight and pressuring f2."
+        },
+        {
+          "uci": "c2c3",
+          "by": "user",
+          "text": "5.c3 – You hit the d4 knight’s support and prepare to build a powerful center with Be3 and Nd2-f3 ideas."
+        },
+        {
+          "uci": "g8f6",
+          "by": "bot",
+          "text": "5...Nf6 – Black develops another knight, targeting e4 and d5."
+        },
+        {
+          "uci": "f1d3",
+          "by": "user",
+          "text": "6.Bd3 – You aim at h7 and cover e4, setting up an eventual kingside initiative."
+        },
+        {
+          "uci": "d7d6",
+          "by": "bot",
+          "text": "6...d6 – Black consolidates the center and opens a diagonal for the light-squared bishop."
+        },
+        {
+          "uci": "e1g1",
+          "by": "user",
+          "text": "7.O-O – You complete development and bring your king to safety, ready for a classic open-game middlegame."
+        },
+        {
+          "uci": "e8g8",
+          "by": "bot",
+          "text": "7...O-O – Black castles; both sides now have active pieces and an open center to fight over."
+        }
+      ]
+    }
+  },
+  {
+    "key": "scotch_mistake_1",
+    "value": {
+      "label": "Scotch – Common mistake: early queen chase",
+      "stage": "Common mistake (Black)",
+      "userColor": "w",
+      "moves": [
+        {
+          "uci": "e2e4",
+          "by": "user",
+          "text": "1.e4 – You start with a classical central pawn."
+        },
+        {
+          "uci": "e7e5",
+          "by": "bot",
+          "text": "1...e5 – Black mirrors and takes equal central space."
+        },
+        {
+          "uci": "g1f3",
+          "by": "user",
+          "text": "2.Nf3 – You pressure e5 and get ready to castle."
+        },
+        {
+          "uci": "b8c6",
+          "by": "bot",
+          "text": "2...Nc6 – Black defends e5 naturally."
+        },
+        {
+          "uci": "d2d4",
+          "by": "user",
+          "text": "3.d4 – The Scotch again, opening the position."
+        },
+        {
+          "uci": "e5d4",
+          "by": "bot",
+          "text": "3...exd4 – Black accepts the pawn and opens lines."
+        },
+        {
+          "uci": "f3d4",
+          "by": "user",
+          "text": "4.Nxd4 – You recapture with a piece, centralizing the knight and keeping initiative."
+        },
+        {
+          "uci": "d8h4",
+          "by": "bot",
+          "text": "4...Qh4+? – A very common lower-level idea: Black checks your king and attacks your e4 pawn, but brings the queen out too early."
+        },
+        {
+          "uci": "b1c3",
+          "by": "user",
+          "text": "5.Nc3 – You calmly block the check, develop a piece, and gain a tempo on the queen; now you’re far ahead in development."
+        },
+        {
+          "uci": "h4d8",
+          "by": "bot",
+          "text": "5...Qd8 – Black has to retreat the queen, essentially wasting moves and falling behind in the race to develop."
+        },
+        {
+          "uci": "c1f4",
+          "by": "user",
+          "text": "6.Bf4 – You develop again with tempo potential, eyeing c7 and d6, and your pieces are all flowing toward active squares while Black is still half undeveloped."
+        }
+      ]
+    }
+  },
+  {
+    "key": "fourknights_main_1",
+    "value": {
+      "label": "Four Knights – Mainline: Spanish Four Knights",
+      "stage": "Mainline",
+      "userColor": "w",
+      "moves": [
+        {
+          "uci": "e2e4",
+          "by": "user",
+          "text": "1.e4 – You grab central space and open lines for your queen and king’s bishop."
+        },
+        {
+          "uci": "e7e5",
+          "by": "bot",
+          "text": "...e5 – Black mirrors your pawn and takes equal central space."
+        },
+        {
+          "uci": "g1f3",
+          "by": "user",
+          "text": "2.Nf3 – You attack the e5 pawn and prepare to castle kingside."
+        },
+        {
+          "uci": "b8c6",
+          "by": "bot",
+          "text": "...Nc6 – Black defends e5 and develops toward the center."
+        },
+        {
+          "uci": "b1c3",
+          "by": "user",
+          "text": "3.Nc3 – The Four Knights: you add another attacker to d5 and increase central control."
+        },
+        {
+          "uci": "g8f6",
+          "by": "bot",
+          "text": "...Nf6 – Black joins the Four Knights structure, hitting your e4 pawn and key dark squares."
+        },
+        {
+          "uci": "f1b5",
+          "by": "user",
+          "text": "4.Bb5 – You pin the knight on c6 and create a Spanish-style pressure on the e5 pawn."
+        },
+        {
+          "uci": "f8b4",
+          "by": "bot",
+          "text": "...Bb4 – Black mirrors you, pinning your knight on c3 and increasing tension on the center."
+        },
+        {
+          "uci": "e1g1",
+          "by": "user",
+          "text": "5.O-O – You castle, bring your king to safety, and connect your rook to the center."
+        },
+        {
+          "uci": "e8g8",
+          "by": "bot",
+          "text": "...O-O – Black castles as well, stepping into a fully developed Four Knights middlegame."
+        },
+        {
+          "uci": "d2d3",
+          "by": "user",
+          "text": "6.d3 – You solidify your e4 pawn, open the c1–h6 diagonal, and keep a flexible central structure."
+        },
+        {
+          "uci": "d7d6",
+          "by": "bot",
+          "text": "...d6 – Black copies your idea, building a solid but slightly cramped pawn chain."
+        },
+        {
+          "uci": "c1g5",
+          "by": "user",
+          "text": "7.Bg5 – You pin the f6 knight and create more kingside pressure, eyeing ideas like Nd5 and f4 in future games."
+        },
+        {
+          "uci": "c8g4",
+          "by": "bot",
+          "text": "...Bg4 – Black hits your knight on f3 and fights back against your kingside pressure."
+        },
+        {
+          "uci": "h2h3",
+          "by": "user",
+          "text": "8.h3 – You question the g4 bishop and gain a little space on the kingside."
+        },
+        {
+          "uci": "g4f3",
+          "by": "bot",
+          "text": "...Bxf3 – Black trades bishop for knight, doubling your pawns in many lines but giving you the bishop pair and open files to aim at later."
+        }
+      ]
+    }
+  },
+  {
+    "key": "fourknights_main_2",
+    "value": {
+      "label": "Four Knights – Mainline: Scotch Four Knights",
+      "stage": "Mainline",
+      "userColor": "w",
+      "moves": [
+        {
+          "uci": "e2e4",
+          "by": "user",
+          "text": "1.e4 – Standard central control and fast development."
+        },
+        {
+          "uci": "e7e5",
+          "by": "bot",
+          "text": "...e5 – Black mirrors your idea and takes central space."
+        },
+        {
+          "uci": "g1f3",
+          "by": "user",
+          "text": "2.Nf3 – You hit the e5 pawn and prepare to castle."
+        },
+        {
+          "uci": "b8c6",
+          "by": "bot",
+          "text": "...Nc6 – Black defends e5 and eyes d4."
+        },
+        {
+          "uci": "b1c3",
+          "by": "user",
+          "text": "3.Nc3 – All four knights are out; you control d5 and support a later d4 break."
+        },
+        {
+          "uci": "g8f6",
+          "by": "bot",
+          "text": "...Nf6 – Black keeps up in development and attacks your e4 pawn."
+        },
+        {
+          "uci": "d2d4",
+          "by": "user",
+          "text": "4.d4 – The Scotch Four Knights: you hit the e5 pawn again and open the position while your pieces are ready."
+        },
+        {
+          "uci": "e5d4",
+          "by": "bot",
+          "text": "...exd4 – Black accepts the challenge and takes on d4."
+        },
+        {
+          "uci": "f3d4",
+          "by": "user",
+          "text": "5.Nxd4 – You recapture with the knight, centralizing it and keeping the initiative."
+        },
+        {
+          "uci": "f8b4",
+          "by": "bot",
+          "text": "...Bb4 – Black pins your knight and increases pressure on e4 and d4."
+        },
+        {
+          "uci": "c3c6",
+          "by": "user",
+          "text": "6.Nc3xc6 – You trade on c6 to damage Black’s queenside pawn structure."
+        },
+        {
+          "uci": "b7c6",
+          "by": "bot",
+          "text": "...bxc6 – Black accepts doubled pawns in exchange for the bishop pair and central presence."
+        },
+        {
+          "uci": "c1d3",
+          "by": "user",
+          "text": "7.Bd3 – You develop smoothly and aim at Black’s kingside, setting up quick castling."
+        },
+        {
+          "uci": "d7d5",
+          "by": "bot",
+          "text": "...d5 – Black strikes the center to free the position and use the extra pawn activity."
+        },
+        {
+          "uci": "e4d5",
+          "by": "user",
+          "text": "8.exd5 – You simplify the center and keep your structure clean."
+        },
+        {
+          "uci": "c6d5",
+          "by": "bot",
+          "text": "...cxd5 – Black recaptures and you reach a rich, open middlegame with typical Scotch Four Knights themes."
+        }
+      ]
+    }
+  },
+  {
+    "key": "fourknights_mistake_1",
+    "value": {
+      "label": "Four Knights – Common Mistake: 4.Bc4? allowing ...Nxe4",
+      "stage": "Common Mistake",
+      "userColor": "w",
+      "moves": [
+        {
+          "uci": "e2e4",
+          "by": "user",
+          "text": "1.e4 – Normal first move: space and development."
+        },
+        {
+          "uci": "e7e5",
+          "by": "bot",
+          "text": "...e5 – Black mirrors your central pawn."
+        },
+        {
+          "uci": "g1f3",
+          "by": "user",
+          "text": "2.Nf3 – You attack e5 and prepare to castle."
+        },
+        {
+          "uci": "b8c6",
+          "by": "bot",
+          "text": "...Nc6 – Black defends e5 and develops naturally."
+        },
+        {
+          "uci": "b1c3",
+          "by": "user",
+          "text": "3.Nc3 – The Four Knights structure; you’re fully developed with pieces."
+        },
+        {
+          "uci": "g8f6",
+          "by": "bot",
+          "text": "...Nf6 – Black copies you and hits your e4 pawn."
+        },
+        {
+          "uci": "f1c4",
+          "by": "user",
+          "text": "4.Bc4? – This looks natural, but now your e4 pawn is hanging and tactics are in the air."
+        },
+        {
+          "uci": "f6e4",
+          "by": "bot",
+          "text": "...Nxe4! – Black immediately punishes you by grabbing the e4 pawn with tempo."
+        },
+        {
+          "uci": "c3e4",
+          "by": "user",
+          "text": "5.Nxe4 – You feel forced to recapture, but now your knight is exposed."
+        },
+        {
+          "uci": "d7d5",
+          "by": "bot",
+          "text": "...d5! – Black strikes the bishop and center, gaining time and opening lines."
+        },
+        {
+          "uci": "c4d3",
+          "by": "user",
+          "text": "6.Bd3 – You retreat the bishop, but your pieces are now passive."
+        },
+        {
+          "uci": "d5e4",
+          "by": "bot",
+          "text": "...dxe4 – Black wins back the piece and keeps a strong center, leaving you worse from a simple tactical oversight."
+        }
+      ]
+    }
+  },
+  {
+    "key": "scandi_main_1",
+    "value": {
+      "label": "Scandinavian – Mainline: 2...Qxd5 & ...Qa5",
+      "stage": "Mainline",
+      "userColor": "b",
+      "moves": [
+        {
+          "uci": "e2e4",
+          "by": "bot",
+          "text": "1.e4 – White grabs central space and opens lines for the queen and bishop."
+        },
+        {
+          "uci": "d7d5",
+          "by": "user",
+          "text": "1...d5 – You immediately challenge the e4 pawn, announcing the Scandinavian Defense."
+        },
+        {
+          "uci": "e4d5",
+          "by": "bot",
+          "text": "2.exd5 – White accepts, hoping to keep the extra pawn and push you around."
+        },
+        {
+          "uci": "d8d5",
+          "by": "user",
+          "text": "2...Qxd5 – You recapture with the queen, centralizing it and keeping the position open for your pieces."
+        },
+        {
+          "uci": "b1c3",
+          "by": "bot",
+          "text": "3.Nc3 – White develops with tempo, hitting your queen and improving central control."
+        },
+        {
+          "uci": "d5a5",
+          "by": "user",
+          "text": "3...Qa5 – The main Scandinavian retreat: you keep an eye on the c3 knight, the e1–a5 diagonal, and the a2 pawn."
+        },
+        {
+          "uci": "d2d4",
+          "by": "bot",
+          "text": "4.d4 – White builds a pawn duo and tries to dominate the center."
+        },
+        {
+          "uci": "g8f6",
+          "by": "user",
+          "text": "4...Nf6 – You develop and attack e4, catching up in development."
+        },
+        {
+          "uci": "g1f3",
+          "by": "bot",
+          "text": "5.Nf3 – White protects the center and prepares to castle."
+        },
+        {
+          "uci": "c7c6",
+          "by": "user",
+          "text": "5...c6 – You reinforce key squares and prepare ...Bf5 or ...Bg4 with a solid structure."
+        },
+        {
+          "uci": "f1d3",
+          "by": "bot",
+          "text": "6.Bd3 – White points the bishop toward your kingside and supports e4 and c4 ideas."
+        },
+        {
+          "uci": "c8g4",
+          "by": "user",
+          "text": "6...Bg4 – You pin the knight on f3 and increase pressure on the d4 pawn and e2 square."
+        },
+        {
+          "uci": "c1d2",
+          "by": "bot",
+          "text": "7.Bd2 – White unpins and covers the a5–e1 diagonal, preparing to castle."
+        },
+        {
+          "uci": "e7e6",
+          "by": "user",
+          "text": "7...e6 – You complete your central pawn structure and prepare to castle short, entering a very playable Scandinavian middlegame."
+        }
+      ]
+    }
+  },
+  {
+    "key": "scandi_main_2",
+    "value": {
+      "label": "Scandinavian – Mainline: 3...Qd6 Solid Line",
+      "stage": "Mainline",
+      "userColor": "b",
+      "moves": [
+        {
+          "uci": "e2e4",
+          "by": "bot",
+          "text": "1.e4 – White again starts with strong central control."
+        },
+        {
+          "uci": "d7d5",
+          "by": "user",
+          "text": "1...d5 – You counter in Scandinavian style right away."
+        },
+        {
+          "uci": "e4d5",
+          "by": "bot",
+          "text": "2.exd5 – White accepts the pawn and challenges you to prove compensation."
+        },
+        {
+          "uci": "d8d5",
+          "by": "user",
+          "text": "2...Qxd5 – You recapture with the queen and keep things open."
+        },
+        {
+          "uci": "b1c3",
+          "by": "bot",
+          "text": "3.Nc3 – White develops with tempo on the queen."
+        },
+        {
+          "uci": "d5d6",
+          "by": "user",
+          "text": "3...Qd6 – A modern solid line: your queen supports central squares and can slide to g6 later."
+        },
+        {
+          "uci": "d2d4",
+          "by": "bot",
+          "text": "4.d4 – White sets up a wide pawn center and opens diagonals for the bishops."
+        },
+        {
+          "uci": "g8f6",
+          "by": "user",
+          "text": "4...Nf6 – You develop and attack e4, fighting for the central dark squares."
+        },
+        {
+          "uci": "g1f3",
+          "by": "bot",
+          "text": "5.Nf3 – White reinforces the center and prepares to castle."
+        },
+        {
+          "uci": "c7c6",
+          "by": "user",
+          "text": "5...c6 – You build a rock-solid structure, supporting d5 and preparing ...Bf5 or ...Bg4."
+        },
+        {
+          "uci": "f1e2",
+          "by": "bot",
+          "text": "6.Be2 – White completes minor-piece development and plans to castle."
+        },
+        {
+          "uci": "c8f5",
+          "by": "user",
+          "text": "6...Bf5 – You develop with tempo, eyeing the c2 square and supporting central breaks later."
+        },
+        {
+          "uci": "e1g1",
+          "by": "bot",
+          "text": "7.O-O – White brings the king to safety."
+        },
+        {
+          "uci": "e7e6",
+          "by": "user",
+          "text": "7...e6 – You finish your pawn chain and are ready for a healthy Scandinavian middlegame."
+        }
+      ]
+    }
+  },
+  {
+    "key": "scandi_mistake_1",
+    "value": {
+      "label": "Scandinavian – Common Mistake: Early ...Qe5+?!",
+      "stage": "Common Mistake",
+      "userColor": "b",
+      "moves": [
+        {
+          "uci": "e2e4",
+          "by": "bot",
+          "text": "1.e4 – White takes the center as usual."
+        },
+        {
+          "uci": "d7d5",
+          "by": "user",
+          "text": "1...d5 – You choose the Scandinavian again."
+        },
+        {
+          "uci": "e4d5",
+          "by": "bot",
+          "text": "2.exd5 – White accepts the pawn."
+        },
+        {
+          "uci": "d8d5",
+          "by": "user",
+          "text": "2...Qxd5 – You recapture with the queen."
+        },
+        {
+          "uci": "b1c3",
+          "by": "bot",
+          "text": "3.Nc3 – White develops with tempo, hitting your queen."
+        },
+        {
+          "uci": "d5e5",
+          "by": "user",
+          "text": "3...Qe5+?! – A very common but clumsy check: you lose more time with the queen instead of calmly retreating to a5 or d6."
+        },
+        {
+          "uci": "f1e2",
+          "by": "bot",
+          "text": "4.Be2 – White blocks the check, develops a piece, and prepares to castle. The check gave White development for free."
+        },
+        {
+          "uci": "c7c6",
+          "by": "user",
+          "text": "4...c6 – You try to set up a normal structure, but your queen is already slightly misplaced."
+        },
+        {
+          "uci": "g1f3",
+          "by": "bot",
+          "text": "5.Nf3 – White continues development, hitting your queen again."
+        },
+        {
+          "uci": "e5c7",
+          "by": "user",
+          "text": "5...Qc7 – You retreat, but now the queen has moved three times while White built a lead in development."
+        },
+        {
+          "uci": "d2d4",
+          "by": "bot",
+          "text": "6.d4 – White gains even more space in the center. The lesson: avoid unnecessary early queen checks that just help your opponent develop."
+        }
+      ]
+    }
+  },
+  {
+    "key": "colle_main_1",
+    "value": {
+      "label": "Colle System – Mainline vs ...d5 & ...Nf6",
+      "stage": "Mainline",
+      "userColor": "w",
+      "moves": [
+        {
+          "uci": "d2d4",
+          "by": "user",
+          "text": "1.d4 – You start with a queen’s pawn, aiming for a solid, system-based setup."
+        },
+        {
+          "uci": "d7d5",
+          "by": "bot",
+          "text": "...d5 – Black mirrors your pawn and claims central space."
+        },
+        {
+          "uci": "g1f3",
+          "by": "user",
+          "text": "2.Nf3 – You develop simply, supporting d4 and keeping options open."
+        },
+        {
+          "uci": "g8f6",
+          "by": "bot",
+          "text": "...Nf6 – Black develops naturally, hitting your central dark squares."
+        },
+        {
+          "uci": "e2e3",
+          "by": "user",
+          "text": "3.e3 – The Colle signature: you support d4, open the diagonal for your light-squared bishop, and keep a rock-solid structure."
+        },
+        {
+          "uci": "e7e6",
+          "by": "bot",
+          "text": "...e6 – Black builds a symmetrical pawn chain and prepares to develop the c8 bishop."
+        },
+        {
+          "uci": "f1d3",
+          "by": "user",
+          "text": "4.Bd3 – You point your bishop straight at h7, setting up potential kingside attacks after a future e4 break."
+        },
+        {
+          "uci": "c7c5",
+          "by": "bot",
+          "text": "...c5 – Black challenges your center from the side and puts pressure on d4."
+        },
+        {
+          "uci": "c2c3",
+          "by": "user",
+          "text": "5.c3 – You reinforce d4 and complete the classic Colle triangle, limiting Black’s central counterplay."
+        },
+        {
+          "uci": "b8c6",
+          "by": "bot",
+          "text": "...Nc6 – Black develops and adds more pressure to d4."
+        },
+        {
+          "uci": "b1d2",
+          "by": "user",
+          "text": "6.Nbd2 – You finish basic development, supporting e4 and allowing pieces to swing toward the kingside."
+        },
+        {
+          "uci": "f8d6",
+          "by": "bot",
+          "text": "...Bd6 – Black develops the bishop, watching h2–b8 and preparing to castle."
+        },
+        {
+          "uci": "e1g1",
+          "by": "user",
+          "text": "7.O-O – You castle, connect your rooks, and are ready for typical ideas like Re1, e4, and Ne5–Qf3."
+        },
+        {
+          "uci": "e8g8",
+          "by": "bot",
+          "text": "...O-O – Black also castles; this is a textbook Colle middlegame."
+        }
+      ]
+    }
+  },
+  {
+    "key": "colle_main_2",
+    "value": {
+      "label": "Colle System – vs King’s Indian-style setup",
+      "stage": "Mainline",
+      "userColor": "w",
+      "moves": [
+        {
+          "uci": "d2d4",
+          "by": "user",
+          "text": "1.d4 – Same Colle starting move: queen’s pawn and a solid plan."
+        },
+        {
+          "uci": "g8f6",
+          "by": "bot",
+          "text": "...Nf6 – Black heads toward a King’s Indian / Modern-style structure."
+        },
+        {
+          "uci": "g1f3",
+          "by": "user",
+          "text": "2.Nf3 – You support d4 and keep things flexible."
+        },
+        {
+          "uci": "g7g6",
+          "by": "bot",
+          "text": "...g6 – Black prepares to fianchetto the bishop on g7."
+        },
+        {
+          "uci": "e2e3",
+          "by": "user",
+          "text": "3.e3 – The classic Colle move, locking in a solid center and opening the c1 bishop."
+        },
+        {
+          "uci": "f8g7",
+          "by": "bot",
+          "text": "...Bg7 – Black completes the fianchetto and puts pressure along the long diagonal."
+        },
+        {
+          "uci": "f1d3",
+          "by": "user",
+          "text": "4.Bd3 – You keep the familiar bishop on the h7 diagonal, ready for e4 and kingside play."
+        },
+        {
+          "uci": "d7d6",
+          "by": "bot",
+          "text": "...d6 – Black stabilizes the center and prepares ...e5 or ...c5 later."
+        },
+        {
+          "uci": "e1g1",
+          "by": "user",
+          "text": "5.O-O – You castle into safety and connect your rook to the center."
+        },
+        {
+          "uci": "e8g8",
+          "by": "bot",
+          "text": "...O-O – Black also castles; the position resembles a King’s Indian vs Colle hybrid."
+        },
+        {
+          "uci": "c2c3",
+          "by": "user",
+          "text": "6.c3 – You build the Colle triangle again, supporting d4 and preparing a later e4 break if the timing is right."
+        },
+        {
+          "uci": "b8d7",
+          "by": "bot",
+          "text": "...Nbd7 – Black develops and keeps a flexible pawn structure, waiting to see how you break in the center."
+        }
+      ]
+    }
+  },
+  {
+    "key": "colle_mistake_1",
+    "value": {
+      "label": "Colle System – Common Mistake: Premature e4",
+      "stage": "Common Mistake",
+      "userColor": "w",
+      "moves": [
+        {
+          "uci": "d2d4",
+          "by": "user",
+          "text": "1.d4 – Standard Colle start."
+        },
+        {
+          "uci": "d7d5",
+          "by": "bot",
+          "text": "...d5 – Black mirrors your central pawn."
+        },
+        {
+          "uci": "g1f3",
+          "by": "user",
+          "text": "2.Nf3 – You support d4 and prepare your usual setup."
+        },
+        {
+          "uci": "g8f6",
+          "by": "bot",
+          "text": "...Nf6 – Black develops and hits your central dark squares."
+        },
+        {
+          "uci": "e2e3",
+          "by": "user",
+          "text": "3.e3 – Solid Colle move, guarding d4 and opening the c1 bishop."
+        },
+        {
+          "uci": "e7e6",
+          "by": "bot",
+          "text": "...e6 – Black copies your idea and reinforces d5."
+        },
+        {
+          "uci": "f1d3",
+          "by": "user",
+          "text": "4.Bd3 – You aim the bishop at h7, keeping standard Colle attacking ideas in mind."
+        },
+        {
+          "uci": "c7c5",
+          "by": "bot",
+          "text": "...c5 – Black immediately challenges your d4 pawn from the flank."
+        },
+        {
+          "uci": "c2c3",
+          "by": "user",
+          "text": "5.c3 – You support d4 and build the familiar Colle triangle."
+        },
+        {
+          "uci": "b8c6",
+          "by": "bot",
+          "text": "...Nc6 – Black adds even more pressure to d4."
+        },
+        {
+          "uci": "b1d2",
+          "by": "user",
+          "text": "6.Nbd2 – Natural development, but now you must be careful about when to push e4."
+        },
+        {
+          "uci": "f8d6",
+          "by": "bot",
+          "text": "...Bd6 – Black develops and eyes your kingside."
+        },
+        {
+          "uci": "e3e4",
+          "by": "user",
+          "text": "7.e4? – A very common Colle mistake: pushing e4 too early when Black is fully ready to strike back."
+        },
+        {
+          "uci": "c5d4",
+          "by": "bot",
+          "text": "7...cxd4! – Black opens the center at the exact moment your king and center are vulnerable."
+        },
+        {
+          "uci": "c3d4",
+          "by": "user",
+          "text": "8.cxd4 – You recapture, but your d4 pawn is no longer solid."
+        },
+        {
+          "uci": "f6e4",
+          "by": "bot",
+          "text": "8...Nxe4 – Black wins a pawn and hits your bishop on d3. Lesson: don’t rush e4 in the Colle until your pieces and pawn breaks are fully coordinated."
+        }
+      ]
+    }
+  },
+  {
+    "key": "slav_main_1",
+    "value": {
+      "label": "Slav Defense – Mainline: 4.Nc3 dxc4 5.a4 Bf5",
+      "stage": "Mainline",
+      "userColor": "b",
+      "moves": [
+        {
+          "uci": "d2d4",
+          "by": "bot",
+          "text": "1.d4 – White grabs central space and keeps options open for a queenside push."
+        },
+        {
+          "uci": "d7d5",
+          "by": "user",
+          "text": "1...d5 – You meet the center directly and prepare a solid Slav structure."
+        },
+        {
+          "uci": "c2c4",
+          "by": "bot",
+          "text": "2.c4 – The Queen’s Gambit; White hits the d5 pawn and asks you to decide the structure."
+        },
+        {
+          "uci": "c7c6",
+          "by": "user",
+          "text": "2...c6 – You enter the Slav Defense: very solid, guarding d5 with a pawn instead of a piece."
+        },
+        {
+          "uci": "g1f3",
+          "by": "bot",
+          "text": "3.Nf3 – White develops and supports d4, keeping options open."
+        },
+        {
+          "uci": "g8f6",
+          "by": "user",
+          "text": "3...Nf6 – You develop naturally, control e4, and keep flexibility."
+        },
+        {
+          "uci": "b1c3",
+          "by": "bot",
+          "text": "4.Nc3 – White adds more pressure to d5 and prepares a space advantage."
+        },
+        {
+          "uci": "d5c4",
+          "by": "user",
+          "text": "4...dxc4 – A mainline Slav idea: you capture on c4 and invite White to prove compensation."
+        },
+        {
+          "uci": "e2e3",
+          "by": "bot",
+          "text": "5.e3 – White calmly prepares to recapture on c4 with the bishop, keeping the structure healthy."
+        },
+        {
+          "uci": "c8f5",
+          "by": "user",
+          "text": "5...Bf5 – Key Slav move: you develop the light-squared bishop outside the pawn chain before ...e6."
+        },
+        {
+          "uci": "f1c4",
+          "by": "bot",
+          "text": "6.Bxc4 – White regains the pawn and finishes development on the kingside quickly."
+        },
+        {
+          "uci": "e7e6",
+          "by": "user",
+          "text": "6...e6 – You lock in the d5 square, prepare ...Nbd7 and ...Bd6, and keep a healthy structure."
+        },
+        {
+          "uci": "e1g1",
+          "by": "bot",
+          "text": "7.O-O – White castles and connects rooks, aiming for central and queenside play."
+        },
+        {
+          "uci": "b8d7",
+          "by": "user",
+          "text": "7...Nbd7 – You finish minor-piece development and prepare ...Bd6, ...Bb4, or ...Qc7 depending on White’s setup."
+        }
+      ]
+    }
+  },
+  {
+    "key": "slav_main_2",
+    "value": {
+      "label": "Slav / Semi-Slav – ...e6 & solid triangle",
+      "stage": "Mainline",
+      "userColor": "b",
+      "moves": [
+        {
+          "uci": "d2d4",
+          "by": "bot",
+          "text": "1.d4 – White again starts with a queen’s pawn."
+        },
+        {
+          "uci": "d7d5",
+          "by": "user",
+          "text": "1...d5 – You claim equal space in the center."
+        },
+        {
+          "uci": "c2c4",
+          "by": "bot",
+          "text": "2.c4 – White challenges your d5 pawn right away."
+        },
+        {
+          "uci": "c7c6",
+          "by": "user",
+          "text": "2...c6 – Slav move; you support d5 and prepare a rock-solid pawn chain."
+        },
+        {
+          "uci": "g1f3",
+          "by": "bot",
+          "text": "3.Nf3 – White develops, preparing to castle and potentially play Nc3."
+        },
+        {
+          "uci": "e7e6",
+          "by": "user",
+          "text": "3...e6 – You build the Slav / Semi-Slav triangle (pawns on c6, d5, e6) and keep a very sturdy center."
+        },
+        {
+          "uci": "b1c3",
+          "by": "bot",
+          "text": "4.Nc3 – White increases pressure on d5 and eyes e4."
+        },
+        {
+          "uci": "g8f6",
+          "by": "user",
+          "text": "4...Nf6 – You develop and attack e4, ready to castle short."
+        },
+        {
+          "uci": "e2e3",
+          "by": "bot",
+          "text": "5.e3 – White shores up d4, opens the dark-squared bishop, and heads into a flexible setup."
+        },
+        {
+          "uci": "b8d7",
+          "by": "user",
+          "text": "5...Nbd7 – You support c5 or e5 breaks and complete minor-piece development."
+        },
+        {
+          "uci": "f1d3",
+          "by": "bot",
+          "text": "6.Bd3 – White centralizes the bishop, aiming at your kingside and e4."
+        },
+        {
+          "uci": "f8d6",
+          "by": "user",
+          "text": "6...Bd6 – You mirror White’s idea, pointing your bishop at h2 and supporting future kingside play."
+        },
+        {
+          "uci": "e1g1",
+          "by": "bot",
+          "text": "7.O-O – White castles and is ready for central play with e4 or cxd5."
+        },
+        {
+          "uci": "e8g8",
+          "by": "user",
+          "text": "7...O-O – You castle as well, entering a very standard Semi-Slav-type middlegame."
+        }
+      ]
+    }
+  },
+  {
+    "key": "slav_mistake_1",
+    "value": {
+      "label": "Slav Defense – Greedy ...b5 pawn grab",
+      "stage": "Common mistake",
+      "userColor": "b",
+      "moves": [
+        {
+          "uci": "d2d4",
+          "by": "bot",
+          "text": "1.d4 – White begins with the standard queen’s pawn."
+        },
+        {
+          "uci": "d7d5",
+          "by": "user",
+          "text": "1...d5 – You reply symmetrically and control e4."
+        },
+        {
+          "uci": "c2c4",
+          "by": "bot",
+          "text": "2.c4 – White offers the typical Queen’s Gambit pawn."
+        },
+        {
+          "uci": "c7c6",
+          "by": "user",
+          "text": "2...c6 – You choose the Slav Defense, supporting d5."
+        },
+        {
+          "uci": "g1f3",
+          "by": "bot",
+          "text": "3.Nf3 – White develops and protects d4."
+        },
+        {
+          "uci": "d5c4",
+          "by": "user",
+          "text": "3...dxc4 – You grab the pawn, but now you must be precise not to overextend trying to keep it."
+        },
+        {
+          "uci": "a2a4",
+          "by": "bot",
+          "text": "4.a4 – White attacks your c4 pawn’s support and hints at a4–a5 in some lines."
+        },
+        {
+          "uci": "b7b5",
+          "by": "user",
+          "text": "4...b5?! – Greedy: you try to cling to the extra pawn and push your queenside pawns too far, creating targets."
+        },
+        {
+          "uci": "b1c3",
+          "by": "bot",
+          "text": "5.Nc3 – White develops with tempo, pressuring b5 and d5, and building a lead in development as a trade-off for the pawn."
+        },
+        {
+          "uci": "b5b4",
+          "by": "user",
+          "text": "5...b4 – You chase the knight but stretch the queenside even more; your position becomes loose and tactically vulnerable."
+        },
+        {
+          "uci": "c3e4",
+          "by": "bot",
+          "text": "6.Ne4 – White hops into a strong central outpost, hitting c5, d6, and f6, and your queenside is full of holes."
+        }
+      ]
+    }
+  },
+  {
+    "key": "slav_practice_1",
+    "value": {
+      "label": "Slav Defense – Practice: Solid triangle vs quiet setup",
+      "stage": "Practice",
+      "userColor": "b",
+      "moves": [
+        {
+          "uci": "d2d4",
+          "by": "bot",
+          "text": "1.d4 – White claims central space in a flexible way."
+        },
+        {
+          "uci": "d7d5",
+          "by": "user",
+          "text": "1...d5 – You mirror and contest the center."
+        },
+        {
+          "uci": "c2c4",
+          "by": "bot",
+          "text": "2.c4 – White hits d5 and looks for a space edge."
+        },
+        {
+          "uci": "c7c6",
+          "by": "user",
+          "text": "2...c6 – You enter the Slav, backing up d5."
+        },
+        {
+          "uci": "e2e3",
+          "by": "bot",
+          "text": "3.e3 – A quiet setup: White supports d4 and opens the dark-squared bishop."
+        },
+        {
+          "uci": "g8f6",
+          "by": "user",
+          "text": "3...Nf6 – You develop and pressure e4 and d5."
+        },
+        {
+          "uci": "g1f3",
+          "by": "bot",
+          "text": "4.Nf3 – White develops and prepares to castle."
+        },
+        {
+          "uci": "e7e6",
+          "by": "user",
+          "text": "4...e6 – You complete the triangle and prepare to develop the light-squared bishop."
+        },
+        {
+          "uci": "b1d2",
+          "by": "bot",
+          "text": "5.Nbd2 – White keeps a flexible structure and supports c4 and e4 breaks."
+        },
+        {
+          "uci": "f8d6",
+          "by": "user",
+          "text": "5...Bd6 – You develop toward the kingside and get ready to castle short."
+        },
+        {
+          "uci": "f1d3",
+          "by": "bot",
+          "text": "6.Bd3 – White mirrors, aiming pieces at your kingside."
+        },
+        {
+          "uci": "e8g8",
+          "by": "user",
+          "text": "6...O-O – You castle and reach a very standard Slav middlegame. This is your starting practice position vs the bot."
+        }
+      ]
+    }
+  },
+  {
+    "key": "dutch_main_1",
+    "value": {
+      "label": "Dutch Defense – Leningrad structure",
+      "stage": "Mainline",
+      "userColor": "b",
+      "moves": [
+        {
+          "uci": "d2d4",
+          "by": "bot",
+          "text": "1.d4 – White starts with central space and queenside flexibility."
+        },
+        {
+          "uci": "f7f5",
+          "by": "user",
+          "text": "1...f5 – The Dutch Defense: you grab kingside space and aim for an attack against White’s king."
+        },
+        {
+          "uci": "g2g3",
+          "by": "bot",
+          "text": "2.g3 – White heads for a fianchetto setup to control the long diagonal and stop your kingside play."
+        },
+        {
+          "uci": "g8f6",
+          "by": "user",
+          "text": "2...Nf6 – You develop and fight for e4 and g4 squares."
+        },
+        {
+          "uci": "f1g2",
+          "by": "bot",
+          "text": "3.Bg2 – White completes the fianchetto, eyeing your queenside and central dark squares."
+        },
+        {
+          "uci": "g7g6",
+          "by": "user",
+          "text": "3...g6 – You set up the Leningrad Dutch: f5 + g6 + Bg7 for a kingside storm and dark-square control."
+        },
+        {
+          "uci": "g1f3",
+          "by": "bot",
+          "text": "4.Nf3 – White develops and fights for e5 and g5 squares."
+        },
+        {
+          "uci": "f8g7",
+          "by": "user",
+          "text": "4...Bg7 – Your bishop joins the long diagonal, supporting ...e5 and pressure on d4."
+        },
+        {
+          "uci": "e1g1",
+          "by": "bot",
+          "text": "5.O-O – White castles and keeps a stable position, ready for c4 or Nc3."
+        },
+        {
+          "uci": "e8g8",
+          "by": "user",
+          "text": "5...O-O – You also castle; the stage is set for a kingside attack vs White’s queenside/central counterplay."
+        },
+        {
+          "uci": "c2c4",
+          "by": "bot",
+          "text": "6.c4 – White hits your d5 and b5 squares, and challenges your central influence."
+        },
+        {
+          "uci": "d7d6",
+          "by": "user",
+          "text": "6...d6 – You support e5 and keep a compact, flexible Leningrad structure."
+        }
+      ]
+    }
+  },
+  {
+    "key": "dutch_main_2",
+    "value": {
+      "label": "Dutch Defense – Stonewall structure",
+      "stage": "Mainline",
+      "userColor": "b",
+      "moves": [
+        {
+          "uci": "d2d4",
+          "by": "bot",
+          "text": "1.d4 – White starts with the queen’s pawn again."
+        },
+        {
+          "uci": "f7f5",
+          "by": "user",
+          "text": "1...f5 – Dutch Defense: you immediately claim kingside space and aim at e4."
+        },
+        {
+          "uci": "c2c4",
+          "by": "bot",
+          "text": "2.c4 – White hits your d5 square and prepares queenside expansion."
+        },
+        {
+          "uci": "e7e6",
+          "by": "user",
+          "text": "2...e6 – You prepare a Stonewall structure with pawns on f5–e6–d5–c6 or c7."
+        },
+        {
+          "uci": "g1f3",
+          "by": "bot",
+          "text": "3.Nf3 – White develops and fights for e5."
+        },
+        {
+          "uci": "d7d5",
+          "by": "user",
+          "text": "3...d5 – You build the core of the Stonewall: strong dark-square control and a solid pawn wall."
+        },
+        {
+          "uci": "g2g3",
+          "by": "bot",
+          "text": "4.g3 – White fianchettos to challenge your dark squares and put pressure on the long diagonal."
+        },
+        {
+          "uci": "g8f6",
+          "by": "user",
+          "text": "4...Nf6 – You develop a knight and reinforce d5 and e4."
+        },
+        {
+          "uci": "f1g2",
+          "by": "bot",
+          "text": "5.Bg2 – White pressures your center and plans to undermine the Stonewall from the dark squares."
+        },
+        {
+          "uci": "f8d6",
+          "by": "user",
+          "text": "5...Bd6 – Classic Stonewall placement: bishop eyes h2 and supports a kingside attack."
+        },
+        {
+          "uci": "e1g1",
+          "by": "bot",
+          "text": "6.O-O – White castles into safety."
+        },
+        {
+          "uci": "e8g8",
+          "by": "user",
+          "text": "6...O-O – You also castle and are ready for ideas like Ne4, Qf6, and g5 in a typical Stonewall attack."
+        }
+      ]
+    }
+  },
+  {
+    "key": "dutch_mistake_1",
+    "value": {
+      "label": "Dutch Defense – Over-aggressive ...g5 push",
+      "stage": "Common mistake",
+      "userColor": "b",
+      "moves": [
+        {
+          "uci": "d2d4",
+          "by": "bot",
+          "text": "1.d4 – White goes for a solid queen’s pawn setup."
+        },
+        {
+          "uci": "f7f5",
+          "by": "user",
+          "text": "1...f5 – Dutch Defense: you aim at e4 and kingside space."
+        },
+        {
+          "uci": "g2g3",
+          "by": "bot",
+          "text": "2.g3 – White heads for a fianchetto and long diagonal pressure."
+        },
+        {
+          "uci": "g8f6",
+          "by": "user",
+          "text": "2...Nf6 – You develop and keep an eye on e4."
+        },
+        {
+          "uci": "f1g2",
+          "by": "bot",
+          "text": "3.Bg2 – White completes the fianchetto and hits your queenside and center."
+        },
+        {
+          "uci": "g7g5",
+          "by": "user",
+          "text": "3...g5?! – Overextension: you push the g-pawn too early, weakening dark squares around your king before you’re fully developed."
+        },
+        {
+          "uci": "g1f3",
+          "by": "bot",
+          "text": "4.Nf3 – White develops and targets the newly weakened h4–f5–g5 complex."
+        },
+        {
+          "uci": "h7h6",
+          "by": "user",
+          "text": "4...h6 – You try to support the pawn wall, but your king’s shelter is becoming very airy and tactically exposed."
+        }
+      ]
+    }
+  },
+  {
+    "key": "dutch_practice_1",
+    "value": {
+      "label": "Dutch Defense – Practice: Stonewall vs fianchetto",
+      "stage": "Practice",
+      "userColor": "b",
+      "moves": [
+        {
+          "uci": "d2d4",
+          "by": "bot",
+          "text": "1.d4 – White takes space and keeps a flexible structure."
+        },
+        {
+          "uci": "f7f5",
+          "by": "user",
+          "text": "1...f5 – You choose the Dutch Defense again."
+        },
+        {
+          "uci": "g2g3",
+          "by": "bot",
+          "text": "2.g3 – White prepares a kingside fianchetto to fight your dark-square control."
+        },
+        {
+          "uci": "g8f6",
+          "by": "user",
+          "text": "2...Nf6 – You develop and fight for e4 and g4."
+        },
+        {
+          "uci": "f1g2",
+          "by": "bot",
+          "text": "3.Bg2 – White finishes the fianchetto and looks across the board at your queenside."
+        },
+        {
+          "uci": "e7e6",
+          "by": "user",
+          "text": "3...e6 – You prepare the Stonewall pawn chain and keep a compact center."
+        },
+        {
+          "uci": "g1f3",
+          "by": "bot",
+          "text": "4.Nf3 – White develops and prepares to castle."
+        },
+        {
+          "uci": "d7d5",
+          "by": "user",
+          "text": "4...d5 – The Stonewall is almost complete; you clamp down on the dark squares."
+        },
+        {
+          "uci": "e1g1",
+          "by": "bot",
+          "text": "5.O-O – White castles kingside."
+        },
+        {
+          "uci": "f8d6",
+          "by": "user",
+          "text": "5...Bd6 – You point your bishop at h2 and set up classic Stonewall attack patterns. This is your practice starting point vs the bot."
+        }
+      ]
+    }
+  },
+  {
+    "key": "benoni_main_1",
+    "value": {
+      "label": "Modern Benoni – Mainline with e4 & Bd3",
+      "stage": "Mainline",
+      "userColor": "b",
+      "moves": [
+        {
+          "uci": "d2d4",
+          "by": "bot",
+          "text": "1.d4 – White claims central space and prepares c4."
+        },
+        {
+          "uci": "g8f6",
+          "by": "user",
+          "text": "1...Nf6 – You develop flexibly, not committing your central pawns yet."
+        },
+        {
+          "uci": "c2c4",
+          "by": "bot",
+          "text": "2.c4 – White grabs queenside space and supports d5."
+        },
+        {
+          "uci": "c7c5",
+          "by": "user",
+          "text": "2...c5 – You attack the center from the flank, inviting d5 and a Benoni structure."
+        },
+        {
+          "uci": "d4d5",
+          "by": "bot",
+          "text": "3.d5 – White pushes and gains space, fixing the pawn structure."
+        },
+        {
+          "uci": "e7e6",
+          "by": "user",
+          "text": "3...e6 – You hit the d5 pawn and prepare to open lines with ...exd5."
+        },
+        {
+          "uci": "b1c3",
+          "by": "bot",
+          "text": "4.Nc3 – White develops and protects d5 again."
+        },
+        {
+          "uci": "e6d5",
+          "by": "user",
+          "text": "4...exd5 – You capture and create the characteristic Benoni pawn chain."
+        },
+        {
+          "uci": "c4d5",
+          "by": "bot",
+          "text": "5.cxd5 – White recaptures and keeps strong central space, but now you get dynamic piece play."
+        },
+        {
+          "uci": "d7d6",
+          "by": "user",
+          "text": "5...d6 – You build the Benoni structure: pawns on d6 and e6 vs White’s c4/d5/e4 potential."
+        },
+        {
+          "uci": "e2e4",
+          "by": "bot",
+          "text": "6.e4 – White builds a big pawn center aiming to squeeze you, but also gives you clear targets."
+        },
+        {
+          "uci": "g7g6",
+          "by": "user",
+          "text": "6...g6 – You fianchetto the bishop and go for dark-square control and queenside counterplay."
+        },
+        {
+          "uci": "g1f3",
+          "by": "bot",
+          "text": "7.Nf3 – White develops and supports the center."
+        },
+        {
+          "uci": "f8g7",
+          "by": "user",
+          "text": "7...Bg7 – The bishop hits the long diagonal and supports ...Re8 and ...b5 in many lines."
+        },
+        {
+          "uci": "f1d3",
+          "by": "bot",
+          "text": "8.Bd3 – White centralizes another piece, preparing h3, O-O, and maybe Re1 to support e5 ideas."
+        },
+        {
+          "uci": "e8g8",
+          "by": "user",
+          "text": "8...O-O – You castle short and are ready for Benoni-style queenside counterplay vs White’s central/kingside space."
+        }
+      ]
+    }
+  },
+  {
+    "key": "benoni_main_2",
+    "value": {
+      "label": "Modern Benoni – Fianchetto variation",
+      "stage": "Mainline",
+      "userColor": "b",
+      "moves": [
+        {
+          "uci": "d2d4",
+          "by": "bot",
+          "text": "1.d4 – White again takes central space."
+        },
+        {
+          "uci": "g8f6",
+          "by": "user",
+          "text": "1...Nf6 – You develop and keep options flexible."
+        },
+        {
+          "uci": "c2c4",
+          "by": "bot",
+          "text": "2.c4 – White grabs queenside space and supports d5."
+        },
+        {
+          "uci": "c7c5",
+          "by": "user",
+          "text": "2...c5 – You go for the Benoni structure again."
+        },
+        {
+          "uci": "d4d5",
+          "by": "bot",
+          "text": "3.d5 – White gains space."
+        },
+        {
+          "uci": "e7e6",
+          "by": "user",
+          "text": "3...e6 – You hit the pawn chain and prepare to clarify in the center."
+        },
+        {
+          "uci": "g2g3",
+          "by": "bot",
+          "text": "4.g3 – Instead of e4, White fianchettos, aiming to control the dark squares and restrict your activity."
+        },
+        {
+          "uci": "e6d5",
+          "by": "user",
+          "text": "4...exd5 – You open the e-file and reach a Benoni pawn structure again."
+        },
+        {
+          "uci": "c4d5",
+          "by": "bot",
+          "text": "5.cxd5 – White recaptures and maintains space."
+        },
+        {
+          "uci": "d7d6",
+          "by": "user",
+          "text": "5...d6 – You reinforce the pawn chain and set up the classic Benoni formation."
+        },
+        {
+          "uci": "f1g2",
+          "by": "bot",
+          "text": "6.Bg2 – White’s dark-squared bishop watches the long diagonal and helps control e4 and c6."
+        },
+        {
+          "uci": "g7g6",
+          "by": "user",
+          "text": "6...g6 – You mirror with your own fianchetto idea, preparing ...Bg7 and kingside castling."
+        },
+        {
+          "uci": "g1f3",
+          "by": "bot",
+          "text": "7.Nf3 – White develops and prepares to castle."
+        },
+        {
+          "uci": "f8g7",
+          "by": "user",
+          "text": "7...Bg7 – Your bishop joins the long diagonal, eyeing b2 and supporting queenside counterplay."
+        },
+        {
+          "uci": "e1g1",
+          "by": "bot",
+          "text": "8.O-O – White castles and stabilizes the king."
+        },
+        {
+          "uci": "e8g8",
+          "by": "user",
+          "text": "8...O-O – You also castle; you’ll play for ...Re8, ...Na6, and queenside pawn breaks in a typical Benoni fashion."
+        }
+      ]
+    }
+  },
+  {
+    "key": "benoni_mistake_1",
+    "value": {
+      "label": "Benoni – Unsafe early ...b5 push",
+      "stage": "Common mistake",
+      "userColor": "b",
+      "moves": [
+        {
+          "uci": "d2d4",
+          "by": "bot",
+          "text": "1.d4 – White plays a flexible queen’s pawn opening."
+        },
+        {
+          "uci": "g8f6",
+          "by": "user",
+          "text": "1...Nf6 – You develop and keep central options open."
+        },
+        {
+          "uci": "c2c4",
+          "by": "bot",
+          "text": "2.c4 – White takes more space on the queenside and eyes d5."
+        },
+        {
+          "uci": "c7c5",
+          "by": "user",
+          "text": "2...c5 – You hit the center from the flank, heading for Benoni-type structures."
+        },
+        {
+          "uci": "d4d5",
+          "by": "bot",
+          "text": "3.d5 – White takes space and fixes the pawn structure."
+        },
+        {
+          "uci": "b7b5",
+          "by": "user",
+          "text": "3...b5?! – A too-early pawn break; you haven’t prepared it and you neglect development for a speculative pawn grab."
+        },
+        {
+          "uci": "c4b5",
+          "by": "bot",
+          "text": "4.cxb5 – White simply takes, opening the a- and b-files and keeping a lead in development."
+        },
+        {
+          "uci": "a7a6",
+          "by": "user",
+          "text": "4...a6 – You try to get the pawn back, but you’re still behind in development and your queenside is loose."
+        }
+      ]
+    }
+  },
+  {
+    "key": "benoni_practice_1",
+    "value": {
+      "label": "Modern Benoni – Practice: standard pawn chain",
+      "stage": "Practice",
+      "userColor": "b",
+      "moves": [
+        {
+          "uci": "d2d4",
+          "by": "bot",
+          "text": "1.d4 – White goes for a queen’s pawn opening again."
+        },
+        {
+          "uci": "g8f6",
+          "by": "user",
+          "text": "1...Nf6 – You develop and wait to see which central structure White chooses."
+        },
+        {
+          "uci": "c2c4",
+          "by": "bot",
+          "text": "2.c4 – White grabs queenside space."
+        },
+        {
+          "uci": "c7c5",
+          "by": "user",
+          "text": "2...c5 – You signal Benoni intentions, challenging the d4 pawn from the side."
+        },
+        {
+          "uci": "d4d5",
+          "by": "bot",
+          "text": "3.d5 – White locks the center and gains space."
+        },
+        {
+          "uci": "e7e6",
+          "by": "user",
+          "text": "3...e6 – You attack the base of the pawn chain, preparing to trade on d5."
+        },
+        {
+          "uci": "g1f3",
+          "by": "bot",
+          "text": "4.Nf3 – White develops and defends d4/d5."
+        },
+        {
+          "uci": "e6d5",
+          "by": "user",
+          "text": "4...exd5 – You clarify the center and create the Benoni pawn structure."
+        },
+        {
+          "uci": "c4d5",
+          "by": "bot",
+          "text": "5.cxd5 – White recaptures and keeps a powerful central pawn on d5."
+        },
+        {
+          "uci": "d7d6",
+          "by": "user",
+          "text": "5...d6 – You lock in the Benoni chain and prepare fianchetto + queenside counterplay."
+        },
+        {
+          "uci": "b1c3",
+          "by": "bot",
+          "text": "6.Nc3 – White brings out another piece, increasing central pressure."
+        },
+        {
+          "uci": "g7g6",
+          "by": "user",
+          "text": "6...g6 – You prepare ...Bg7 and castling, ready for a dynamic middlegame. Use this position as your starting point vs the bot."
+        }
+      ]
+    }
+  },
+  {
+    "key": "vienna_main_1",
+    "value": {
+      "label": "Vienna Game – Mainline: Vienna Gambit vs ...Nf6",
+      "stage": "Mainline",
+      "userColor": "w",
+      "moves": [
+        {
+          "uci": "e2e4",
+          "by": "user",
+          "text": "1.e4 – You claim central space and open lines for the queen and bishop."
+        },
+        {
+          "uci": "e7e5",
+          "by": "bot",
+          "text": "...e5 – Black mirrors your pawn and fights for the center."
+        },
+        {
+          "uci": "b1c3",
+          "by": "user",
+          "text": "2.Nc3 – The Vienna: you develop a knight without committing Nf3 yet, keeping f-pawn options open."
+        },
+        {
+          "uci": "g8f6",
+          "by": "bot",
+          "text": "...Nf6 – Black develops naturally and attacks your e4 pawn."
+        },
+        {
+          "uci": "f2f4",
+          "by": "user",
+          "text": "3.f4 – The Vienna Gambit: you hit e5 and aim for fast kingside pressure and open lines."
+        },
+        {
+          "uci": "d7d5",
+          "by": "bot",
+          "text": "...d5 – A strong central counter; Black hits your e4 pawn and challenges your center immediately."
+        },
+        {
+          "uci": "f4e5",
+          "by": "user",
+          "text": "4.fxe5 – You grab the pawn and open the f-file, but you must keep up in development."
+        },
+        {
+          "uci": "f6e4",
+          "by": "bot",
+          "text": "...Nxe4 – Black recaptures in the center, gaining an active knight on e4."
+        },
+        {
+          "uci": "g1f3",
+          "by": "user",
+          "text": "5.Nf3 – You hit the knight on e4 and accelerate development toward castling."
+        },
+        {
+          "uci": "c8g4",
+          "by": "bot",
+          "text": "...Bg4 – Black pins your knight and adds pressure to e5 and d4."
+        },
+        {
+          "uci": "d2d3",
+          "by": "user",
+          "text": "6.d3 – You kick the knight on e4 and solidify your center; once the knight moves, you’ll recapture on e4 with a piece."
+        },
+        {
+          "uci": "e4c3",
+          "by": "bot",
+          "text": "...Nxc3 – Black simplifies, trading on c3 to damage your queenside structure."
+        },
+        {
+          "uci": "b2c3",
+          "by": "user",
+          "text": "7.bxc3 – You recapture toward the center; your b-pawn joins the central majority and you still keep attacking chances on the kingside."
+        }
+      ]
+    }
+  },
+  {
+    "key": "vienna_main_2",
+    "value": {
+      "label": "Vienna Game – Mainline: Quiet Bc4 setup",
+      "stage": "Mainline",
+      "userColor": "w",
+      "moves": [
+        {
+          "uci": "e2e4",
+          "by": "user",
+          "text": "1.e4 – Central control and piece activity."
+        },
+        {
+          "uci": "e7e5",
+          "by": "bot",
+          "text": "...e5 – Black mirrors your central pawn."
+        },
+        {
+          "uci": "b1c3",
+          "by": "user",
+          "text": "2.Nc3 – The Vienna move, keeping Nf3 in reserve."
+        },
+        {
+          "uci": "b8c6",
+          "by": "bot",
+          "text": "...Nc6 – Black develops and supports d4 and e5."
+        },
+        {
+          "uci": "f1c4",
+          "by": "user",
+          "text": "3.Bc4 – You aim the bishop at f7, echoing Italian-style pressure but from a Vienna move order."
+        },
+        {
+          "uci": "g8f6",
+          "by": "bot",
+          "text": "...Nf6 – Black attacks your e4 pawn and finishes kingside development."
+        },
+        {
+          "uci": "d2d3",
+          "by": "user",
+          "text": "4.d3 – You calmly support e4 and keep a flexible pawn structure for a slow build-up."
+        },
+        {
+          "uci": "f8c5",
+          "by": "bot",
+          "text": "...Bc5 – Black develops symmetrically, eyeing your f2 square."
+        },
+        {
+          "uci": "g1f3",
+          "by": "user",
+          "text": "5.Nf3 – You reinforce e5 and prepare to castle; now all your minor pieces are pointing at the center and kingside."
+        },
+        {
+          "uci": "d7d6",
+          "by": "bot",
+          "text": "...d6 – Black supports e5 and keeps a compact, classical structure."
+        },
+        {
+          "uci": "c1g5",
+          "by": "user",
+          "text": "6.Bg5 – You pin the f6 knight and intensify pressure on the e5 pawn, reaching a solid but aggressive Vienna middlegame."
+        }
+      ]
+    }
+  },
+  {
+    "key": "vienna_mistake_1",
+    "value": {
+      "label": "Vienna Game – Common Mistake: Loose 3.Bc4?! allowing ...Nxe4",
+      "stage": "Common mistake",
+      "userColor": "w",
+      "moves": [
+        {
+          "uci": "e2e4",
+          "by": "user",
+          "text": "1.e4 – Standard central play."
+        },
+        {
+          "uci": "e7e5",
+          "by": "bot",
+          "text": "...e5 – Black mirrors your pawn."
+        },
+        {
+          "uci": "b1c3",
+          "by": "user",
+          "text": "2.Nc3 – You head into Vienna territory, delaying Nf3."
+        },
+        {
+          "uci": "g8f6",
+          "by": "bot",
+          "text": "...Nf6 – Black attacks e4 and develops naturally."
+        },
+        {
+          "uci": "f1c4",
+          "by": "user",
+          "text": "3.Bc4? – This looks like a normal developing move, but it leaves your e4 pawn tactically loose."
+        },
+        {
+          "uci": "f6e4",
+          "by": "bot",
+          "text": "...Nxe4! – Black immediately wins a pawn; your knight on c3 can’t recapture without losing material or falling into tactics."
+        },
+        {
+          "uci": "c3e4",
+          "by": "user",
+          "text": "4.Nxe4 – If you try to recapture, your knight is now exposed and your development is lagging."
+        },
+        {
+          "uci": "d7d5",
+          "by": "bot",
+          "text": "...d5! – Black hits your bishop and center, gaining time and a strong initiative for the pawn."
+        }
+      ]
+    }
+  },
+  {
+    "key": "kingsg_main_1",
+    "value": {
+      "label": "King's Gambit – Mainline: 2.f4 exf4 3.Nf3 g5",
+      "stage": "Mainline",
+      "userColor": "w",
+      "moves": [
+        {
+          "uci": "e2e4",
+          "by": "user",
+          "text": "1.e4 – You grab central space and open the diagonal for your king’s bishop."
+        },
+        {
+          "uci": "e7e5",
+          "by": "bot",
+          "text": "...e5 – Black mirrors your pawn and contests d4 and f4."
+        },
+        {
+          "uci": "f2f4",
+          "by": "user",
+          "text": "2.f4 – The King’s Gambit: you sacrifice a pawn to open the f-file and drag Black into a sharp fight."
+        },
+        {
+          "uci": "e5f4",
+          "by": "bot",
+          "text": "...exf4 – Black accepts the gambit and grabs the pawn, but their king becomes a long-term target."
+        },
+        {
+          "uci": "g1f3",
+          "by": "user",
+          "text": "3.Nf3 – You attack the f4 pawn and keep your king ready to castle quickly."
+        },
+        {
+          "uci": "g7g5",
+          "by": "bot",
+          "text": "...g5 – Black hangs on to the pawn and starts a pawn storm, but this seriously loosens their kingside."
+        },
+        {
+          "uci": "h2h4",
+          "by": "user",
+          "text": "4.h4 – You immediately strike at the g5 pawn, trying to open lines toward Black’s king."
+        },
+        {
+          "uci": "g5g4",
+          "by": "bot",
+          "text": "...g4 – Black kicks your knight away but pushes their pawns too far forward."
+        },
+        {
+          "uci": "f3e5",
+          "by": "user",
+          "text": "5.Ne5 – You jump into the center, eyeing f7 and g4, and threaten Qxg4 in many lines."
+        },
+        {
+          "uci": "d8e7",
+          "by": "bot",
+          "text": "...Qe7 – Black defends g5/g4 and prepares to castle queenside, but the king will still be a target."
+        },
+        {
+          "uci": "d1g4",
+          "by": "user",
+          "text": "6.Qxg4 – You regain the pawn on g4, open the g-file, and keep Black’s king stuck in the center for now."
+        }
+      ]
+    }
+  },
+  {
+    "key": "kingsg_main_2",
+    "value": {
+      "label": "King's Gambit – Solid line vs ...Bc5 & ...Qh4+",
+      "stage": "Mainline",
+      "userColor": "w",
+      "moves": [
+        {
+          "uci": "e2e4",
+          "by": "user",
+          "text": "1.e4 – You take the center as usual."
+        },
+        {
+          "uci": "e7e5",
+          "by": "bot",
+          "text": "...e5 – Black mirrors your pawn."
+        },
+        {
+          "uci": "f2f4",
+          "by": "user",
+          "text": "2.f4 – Again, you offer the King’s Gambit pawn for rapid development and initiative."
+        },
+        {
+          "uci": "e5f4",
+          "by": "bot",
+          "text": "...exf4 – Black accepts the pawn."
+        },
+        {
+          "uci": "f1c4",
+          "by": "user",
+          "text": "3.Bc4 – You bring the bishop to the a2–g8 diagonal, pointing at f7 and preparing quick castling."
+        },
+        {
+          "uci": "d8h4",
+          "by": "bot",
+          "text": "...Qh4+ – A common check aiming at your king and h2 pawn."
+        },
+        {
+          "uci": "e1f1",
+          "by": "user",
+          "text": "4.Kf1 – You step off the e-file; it looks odd, but the king is surprisingly safe here and your rook stays on h1 to defend."
+        },
+        {
+          "uci": "b8c6",
+          "by": "bot",
+          "text": "...Nc6 – Black develops and eyes d4 and b4."
+        },
+        {
+          "uci": "g1f3",
+          "by": "user",
+          "text": "5.Nf3 – You hit the queen on h4 and accelerate development, showing that Black’s queen sortie gave you tempi."
+        },
+        {
+          "uci": "h4h6",
+          "by": "bot",
+          "text": "...Qh6 – Black retreats but remains slightly awkwardly placed."
+        },
+        {
+          "uci": "d2d4",
+          "by": "user",
+          "text": "6.d4 – You build a big center and open more lines; if Black isn’t careful, your bishops and pawns will roll down the board."
+        }
+      ]
+    }
+  },
+  {
+    "key": "kingsg_mistake_1",
+    "value": {
+      "label": "King's Gambit – Common Mistake: early Qh5+ and no development",
+      "stage": "Common mistake",
+      "userColor": "w",
+      "moves": [
+        {
+          "uci": "e2e4",
+          "by": "user",
+          "text": "1.e4 – Standard central move."
+        },
+        {
+          "uci": "e7e5",
+          "by": "bot",
+          "text": "...e5 – Black mirrors your pawn."
+        },
+        {
+          "uci": "f2f4",
+          "by": "user",
+          "text": "2.f4 – You enter the King’s Gambit again."
+        },
+        {
+          "uci": "e5f4",
+          "by": "bot",
+          "text": "...exf4 – Black accepts the pawn."
+        },
+        {
+          "uci": "d1h5",
+          "by": "user",
+          "text": "3.Qh5+? – A very tempting move at lower levels, but your queen comes out too early and you fall behind in development."
+        },
+        {
+          "uci": "g7g6",
+          "by": "bot",
+          "text": "...g6 – Black calmly blocks the check and hits your queen with tempo."
+        },
+        {
+          "uci": "h5e5",
+          "by": "user",
+          "text": "4.Qe5+ – You try to keep checking instead of developing, but every queen move is another lost tempo."
+        },
+        {
+          "uci": "d8e7",
+          "by": "bot",
+          "text": "...Qe7 – Black blocks, trades queens if allowed, and will be far ahead in development."
+        }
+      ]
+    }
+  },
+  {
+    "key": "antisic_gprix_main_1",
+    "value": {
+      "label": "Anti-Sicilian – Grand Prix Attack (2.Nc3 & f4)",
+      "stage": "Mainline",
+      "userColor": "w",
+      "moves": [
+        {
+          "uci": "e2e4",
+          "by": "user",
+          "text": "1.e4 – You start with central space and open lines."
+        },
+        {
+          "uci": "c7c5",
+          "by": "bot",
+          "text": "...c5 – Black chooses the Sicilian, aiming for an unbalanced fight."
+        },
+        {
+          "uci": "b1c3",
+          "by": "user",
+          "text": "2.Nc3 – Anti-Sicilian move: you keep d4 flexible and prepare a kingside attack with f4."
+        },
+        {
+          "uci": "b8c6",
+          "by": "bot",
+          "text": "...Nc6 – Black develops and pressures d4 and e5."
+        },
+        {
+          "uci": "f2f4",
+          "by": "user",
+          "text": "3.f4 – The Grand Prix Attack: you focus on kingside space and control of e5 instead of open-Sicilian theory."
+        },
+        {
+          "uci": "g7g6",
+          "by": "bot",
+          "text": "...g6 – Black heads for a fianchetto, keeping the king safe and challenging your dark-square control."
+        },
+        {
+          "uci": "g1f3",
+          "by": "user",
+          "text": "4.Nf3 – You develop and support e5, ready to castle quickly and launch a kingside initiative."
+        },
+        {
+          "uci": "f8g7",
+          "by": "bot",
+          "text": "...Bg7 – Black completes the fianchetto and eyes the long diagonal."
+        },
+        {
+          "uci": "f1c4",
+          "by": "user",
+          "text": "5.Bc4 – You aim at f7 and d5 and line up pieces toward Black’s king."
+        },
+        {
+          "uci": "e7e6",
+          "by": "bot",
+          "text": "...e6 – Black shores up d5 and prepares to develop the queen’s bishop."
+        },
+        {
+          "uci": "d2d3",
+          "by": "user",
+          "text": "6.d3 – You support e4 and keep a solid center; now your plan is Qe1–Qh4, f5, and kingside pressure."
+        }
+      ]
+    }
+  },
+  {
+    "key": "antisic_closed_main_1",
+    "value": {
+      "label": "Anti-Sicilian – Closed Sicilian setup (Nc3, g3, Bg2)",
+      "stage": "Mainline",
+      "userColor": "w",
+      "moves": [
+        {
+          "uci": "e2e4",
+          "by": "user",
+          "text": "1.e4 – Central control as usual."
+        },
+        {
+          "uci": "c7c5",
+          "by": "bot",
+          "text": "...c5 – Black plays the Sicilian again."
+        },
+        {
+          "uci": "b1c3",
+          "by": "user",
+          "text": "2.Nc3 – You keep the position closed and flexible, aiming for a kingside build-up."
+        },
+        {
+          "uci": "d7d6",
+          "by": "bot",
+          "text": "...d6 – Black supports the c5 pawn and prepares ...Nf6 and ...g6 in many lines."
+        },
+        {
+          "uci": "g2g3",
+          "by": "user",
+          "text": "3.g3 – You head into a Closed Sicilian structure with a kingside fianchetto."
+        },
+        {
+          "uci": "g8f6",
+          "by": "bot",
+          "text": "...Nf6 – Black develops and attacks your e4 pawn."
+        },
+        {
+          "uci": "f1g2",
+          "by": "user",
+          "text": "4.Bg2 – Your bishop joins the long diagonal, supporting d5 and f5 breaks later."
+        },
+        {
+          "uci": "b8c6",
+          "by": "bot",
+          "text": "...Nc6 – Black develops and adds pressure to d4 and e5."
+        },
+        {
+          "uci": "d2d3",
+          "by": "user",
+          "text": "5.d3 – You support e4 and keep a slow, solid build-up in the center."
+        },
+        {
+          "uci": "g7g6",
+          "by": "bot",
+          "text": "...g6 – Black prepares their own fianchetto, mirroring your dark-square control."
+        },
+        {
+          "uci": "g1e2",
+          "by": "user",
+          "text": "6.Nge2 – You develop the knight without blocking the c-pawn, keeping f4 and d5 in mind for future breaks."
+        }
+      ]
+    }
+  },
+  {
+    "key": "antisic_gprix_mistake_1",
+    "value": {
+      "label": "Anti-Sicilian – Common Mistake: early d4 transposing badly",
+      "stage": "Common mistake",
+      "userColor": "w",
+      "moves": [
+        {
+          "uci": "e2e4",
+          "by": "user",
+          "text": "1.e4 – Central control."
+        },
+        {
+          "uci": "c7c5",
+          "by": "bot",
+          "text": "...c5 – Sicilian Defense."
+        },
+        {
+          "uci": "b1c3",
+          "by": "user",
+          "text": "2.Nc3 – You signal an Anti-Sicilian setup."
+        },
+        {
+          "uci": "b8c6",
+          "by": "bot",
+          "text": "...Nc6 – Black develops and hits d4/e5."
+        },
+        {
+          "uci": "d2d4",
+          "by": "user",
+          "text": "3.d4? – This rushes into an open Sicilian structure without preparation, throwing away the point of the Anti-Sicilian move order."
+        },
+        {
+          "uci": "c5d4",
+          "by": "bot",
+          "text": "...cxd4 – Black captures and is ready to meet Qxd4 or Nf3 with normal open Sicilian theory."
+        },
+        {
+          "uci": "c3b5",
+          "by": "user",
+          "text": "4.Nb5?! – A typical 'hope' move; the knight looks active but doesn’t fit a coherent plan and can easily be chased away."
+        },
+        {
+          "uci": "e7e5",
+          "by": "bot",
+          "text": "...e5 – Black hits your knight and gains more central space; your Anti-Sicilian has collapsed into an inferior open Sicilian."
+        }
+      ]
+    }
+  }
+]
