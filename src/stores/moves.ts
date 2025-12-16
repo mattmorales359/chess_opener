@@ -118,6 +118,7 @@ export const useMovesStore = defineStore("moves", () => {
     const movesCounter = ref(0)
     const history = ref(['rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1']);
     const activeOpening = ref(<Opening> {})
+
     function makeMove (move: any) {
         increment()
         history.value.push(move.after)
@@ -129,7 +130,7 @@ export const useMovesStore = defineStore("moves", () => {
     function updateOpening (opening: Opening) {
         movesCounter.value = 0;
         activeOpening.value = opening;
-        history.value = [];
+        history.value = ['rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1'];
     }
 
 

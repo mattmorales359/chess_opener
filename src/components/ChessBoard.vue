@@ -133,9 +133,13 @@
   }
 
   function selectOpening(opening:any) {
+    boardApi?.resetBoard();
     moves.updateOpening(opening.value);
     const { from, to } = getMoveFromUCI();
-    boardApi?.drawMove(from, to, 'red')
+    setTimeout(() => {
+      boardApi?.drawMove(from, to, 'red');
+    })
+
   }
 </script>
 
