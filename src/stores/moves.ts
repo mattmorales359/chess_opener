@@ -118,7 +118,7 @@ export const useMovesStore = defineStore("moves", () => {
     const movesCounter = ref(0)
     const history = ref(['rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1']);
     const activeOpening = ref(<Opening> {})
-
+    const boardApi = ref(() => {})
     function makeMove (move: any) {
         increment()
         history.value.push(move.after)
@@ -133,6 +133,9 @@ export const useMovesStore = defineStore("moves", () => {
         history.value = ['rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1'];
     }
 
+    function loadBoard (board: any) {
+        boardApi.value = board;
+    }
 
-    return { history,  makeMove, movesCounter, activeOpening, updateOpening};
+    return { history,  makeMove, movesCounter, activeOpening, updateOpening, boardApi, loadBoard};
 });

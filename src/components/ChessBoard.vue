@@ -139,33 +139,31 @@ import { onMounted, reactive, watch } from 'vue';
 </script>
 
 <template>
-  <div class="w-full">
-    <div class="grid grid-cols-4">
+  <div class="w-full border-2 rounded-2xl p-5">
+    <TheChessboard
+        :board-config="boardConfig"
+        @board-created="(api) => (boardApi = api)"
+        @move="handleMove"
+        reactive-config
+    />
+    <div class="grid grid-cols-4 pt-4">
       <button
-          class="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+          class="rounded-md  px-3.5 py-2.5 text-sm font-semibold  text-white shadow-xs cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
           @click="boardApi?.toggleOrientation()">
         Toggle orientation
       </button>
       <button
           @click="boardApi?.resetBoard()"
-          class="mx-3 rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+          class="mx-3 rounded-md  px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
       >Reset</button>
       <button
           @click="boardApi?.undoLastMove()"
-          class="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+          class="rounded-md  px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
       >Undo</button>
       <button
           @click="boardApi?.toggleMoves()"
-          class="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+          class="rounded-md  px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
       >Threats</button>
-    </div>
-    <div class="content-center">
-      <TheChessboard
-          :board-config="boardConfig"
-          @board-created="(api) => (boardApi = api)"
-          @move="handleMove"
-          reactive-config
-      />
     </div>
   </div>
 </template>
@@ -173,9 +171,8 @@ import { onMounted, reactive, watch } from 'vue';
 <style scoped>
 @media (orientation: landscape) {
   .main-wrap {
-    width: 500px !important;
     margin-inline: auto;
-    max-width: 700px;
+    max-width: 80%;
   }
 }
 </style>

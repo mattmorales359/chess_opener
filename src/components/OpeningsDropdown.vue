@@ -1,11 +1,9 @@
 <script setup>
 import Dropdown from '@/Components/Dropdown.vue'
 import { useMovesStore } from '@/stores/moves.js'
+import * as openingsJson from '@/stores/openings.json'
 
-const props = defineProps({
-  openings: Object
-})
-
+const openings = openingsJson.default;
 const moves = useMovesStore();
 const display = () => {
   return moves.activeOpening.label;
@@ -17,7 +15,7 @@ const selectItem = (opening) => {
 
 </script>
 <template>
-  <div class="w-48">
+  <div class="w-100">
     <Dropdown align="right" width="48">
       <template #trigger>
         <span class="inline-flex rounded-md">
@@ -38,7 +36,7 @@ const selectItem = (opening) => {
         <a
             href="#"
             class="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 transition duration-150 ease-in-out"
-            v-for="opening in props.openings"
+            v-for="opening in openings"
             @click="selectItem(opening)"
         >
           {{opening.value.label}}
