@@ -1,7 +1,14 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <main>
+    <div class="about bg-gray-900">
+      <div class="relative isolate px-6 lg:px-8">
+        <div class="w-full mx-auto pt-32 sm:pt-48 lg:pt-10">
+          <h1>This is an about page</h1>
+        </div>
+      </div>
+    </div>
+  </main>
+
 </template>
 
 <style>
@@ -13,3 +20,5 @@
   }
 }
 </style>
+<script setup lang="ts">
+</script>
