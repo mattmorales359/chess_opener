@@ -1,5 +1,5 @@
 <script setup lang="ts">
-  import { onMounted, reactive } from 'vue';
+import { onMounted, reactive, watch } from 'vue';
   import {
     TheChessboard,
     type BoardConfig,
@@ -7,11 +7,8 @@
     type MoveEvent,
   } from 'vue3-chessboard';
   import 'vue3-chessboard/style.css';
-  import OpeningsDropdown from '@/components/OpeningsDropdown.vue';
-  import * as openingJSON from '@/stores/openings.json'
   import { useMovesStore } from '@/stores/moves'
 
-  const openingsArr = openingJSON.default
   let boardApi: BoardApi | undefined;
   const boardConfig: BoardConfig = reactive({
     fen: 'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1', // the position to start from as a string
@@ -101,11 +98,11 @@
     },
   })
 
-  const moves = useMovesStore();
-
   onMounted(() => {
     //console.log(boardApi?.getBoardPosition());
   });
+
+  const moves = useMovesStore();
 
   function getMoveFromUCI () {
     const uci = moves.activeOpening.moves[moves.movesCounter].uci
@@ -132,51 +129,43 @@
     }
   }
 
-  function selectOpening(opening:any) {
+  watch(() => moves.activeOpening, (opening) => {
     boardApi?.resetBoard();
-    moves.updateOpening(opening.value);
     const { from, to } = getMoveFromUCI();
     setTimeout(() => {
       boardApi?.drawMove(from, to, 'red');
     })
-
-  }
+  })
 </script>
 
 <template>
-  <div class="grid grid-cols-2 w-screen">
-    <div class="w-full p-20 content-center">
-      <div class="grid grid-cols-4">
-        <button
-            class="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
-            @click="boardApi?.toggleOrientation()">
-          Toggle orientation
-        </button>
-        <button
-            @click="boardApi?.resetBoard()"
-            class="mx-3 rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
-        >Reset</button>
-        <button
-            @click="boardApi?.undoLastMove()"
-            class="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
-        >Undo</button>
-        <button
-            @click="boardApi?.toggleMoves()"
-            class="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
-        >Threats</button>
-      </div>
-      <div class="content-center">
-        <TheChessboard
-            :board-config="boardConfig"
-            @board-created="(api) => (boardApi = api)"
-            @move="handleMove"
-            reactive-config
-        />
-      </div>
+  <div class="w-full">
+    <div class="grid grid-cols-4">
+      <button
+          class="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+          @click="boardApi?.toggleOrientation()">
+        Toggle orientation
+      </button>
+      <button
+          @click="boardApi?.resetBoard()"
+          class="mx-3 rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+      >Reset</button>
+      <button
+          @click="boardApi?.undoLastMove()"
+          class="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+      >Undo</button>
+      <button
+          @click="boardApi?.toggleMoves()"
+          class="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+      >Threats</button>
     </div>
-    <div class="w-full p-20">
-      <OpeningsDropdown :openings=openingsArr @select-opening="selectOpening"/>
-      <p class="pt-20" v-if="moves.activeOpening.moves">{{moves.activeOpening?.moves[moves.movesCounter]?.text || ""}}</p>
+    <div class="content-center">
+      <TheChessboard
+          :board-config="boardConfig"
+          @board-created="(api) => (boardApi = api)"
+          @move="handleMove"
+          reactive-config
+      />
     </div>
   </div>
 </template>

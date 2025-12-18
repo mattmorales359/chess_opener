@@ -7,13 +7,12 @@ const props = defineProps({
 })
 
 const moves = useMovesStore();
-const emit = defineEmits(['selectOpening']);
 const display = () => {
   return moves.activeOpening.label;
 }
 
 const selectItem = (opening) => {
-  emit('selectOpening', opening)
+  moves.updateOpening(opening.value);
 }
 
 </script>
