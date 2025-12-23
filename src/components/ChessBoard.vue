@@ -129,7 +129,7 @@ import { onMounted, reactive, watch } from 'vue';
     }
   }
 
-  watch(() => moves.activeOpening, (opening) => {
+  watch(() => moves.activeOpening, () => {
     boardApi?.resetBoard();
     const { from, to } = getMoveFromUCI();
     setTimeout(() => {
@@ -139,7 +139,7 @@ import { onMounted, reactive, watch } from 'vue';
 </script>
 
 <template>
-  <div class="w-full border-2 rounded-2xl p-5">
+  <div class="w-full border-2 rounded-2xl p-5 pt-10">
     <TheChessboard
         :board-config="boardConfig"
         @board-created="(api) => (boardApi = api)"
@@ -162,7 +162,7 @@ import { onMounted, reactive, watch } from 'vue';
       >Undo</button>
       <button
           @click="boardApi?.toggleMoves()"
-          class="rounded-md  px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+          class="rounded-md  px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:border-gray-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
       >Threats</button>
     </div>
   </div>

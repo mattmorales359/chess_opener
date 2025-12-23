@@ -10,15 +10,12 @@ import OpeningSelector from '@/components/OpeningSelector.vue';
 
 <template>
   <main>
-    <div class="bg-gray-900">
-      <div class="relative isolate px-6 lg:px-8">
-        <div class="w-full mx-auto pt-32 sm:pt-48 lg:pt-10">
-          <div class="w-full pt-20">
-            <div class="w-full mb-4">
+    <div class="">
+      <div class="relative isolate px-5 lg:px-30">
+        <div class="mx-auto sm:pt-48 lg:pt-10 content-center">
+          <div class="">
+            <div class="md:grid md:grid-cols-2 mt-4 md:gap-8">
               <OpeningSelector />
-            </div>
-            <div class="h-2"></div>
-            <div class="grid grid-cols-2 mt-4">
               <ChessBoard />
               <Coach />
             </div>
