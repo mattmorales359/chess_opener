@@ -5,7 +5,7 @@ import { useMovesStore } from '@/stores/moves.js'
 const openingFamilies = {
   qgd: {
     label: "Queen's Gambit Declined (White)",
-    lines: ["qg_main_1", "qg_main_2", "qg_mistake_1", "qg_practice_1"]
+    lines: ["qgd_main_1", "qgd_main_2", "qgd_mistake_1", "qgd_practice_1"]
   },
 
   sic: {
@@ -120,7 +120,8 @@ const display = () => {
 
 }
 
-const selectItem = (family) => {
+const selectItem = (family, idx) => {
+  family.index = idx;
   moves.updateFamily(family);
 }
 
@@ -147,8 +148,8 @@ const selectItem = (family) => {
         <a
             href="#"
             class="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 transition duration-150 ease-in-out"
-            v-for="opening in openingFamilies"
-            @click="selectItem(opening)"
+            v-for="(opening, key) in openingFamilies"
+            @click="selectItem(opening, key)"
         >
           {{opening.label}}
         </a>

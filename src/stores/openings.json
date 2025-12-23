@@ -1,6 +1,6 @@
 [
   {
-    "key": "qg_main_1",
+    "key": "qgd_main_1",
     "value": {
       "label": "QGD – Mainline 1: Orthodox 4.Bg5 Be7",
       "stage": "Mainline",
@@ -95,7 +95,7 @@
     }
   },
   {
-    "key": "qg_main_2",
+    "key": "qgd_main_2",
     "value": {
       "label": "QGD – Mainline 2: Orthodox with ...Nbd7 & typical ...c5",
       "stage": "Mainline",
@@ -190,7 +190,7 @@
     }
   },
   {
-    "key": "qg_mistake_1",
+    "key": "qgd_mistake_1",
     "value": {
       "label": "QGD – Common Mistake: Greedy ...dxc4 & ...b5",
       "stage": "Common mistake",
@@ -260,7 +260,7 @@
     }
   },
   {
-    "key": "qg_practice_1",
+    "key": "qgd_practice_1",
     "value": {
       "label": "QGD – Practice: Fianchetto vs QGD",
       "stage": "Practice",

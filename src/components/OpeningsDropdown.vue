@@ -13,6 +13,12 @@ const selectItem = (opening) => {
   moves.updateOpening(opening.value);
 }
 
+const filterOpenings = (openings) => {
+  return openings.filter((item) => {
+    return item.key.includes(moves.activeFamily.index)
+  })
+}
+
 </script>
 <template>
   <div class="w-100">
@@ -20,7 +26,7 @@ const selectItem = (opening) => {
       <template #trigger>
         <span class="inline-flex rounded-md">
           <button type="button" class="inline-flex items-center px-3 py-2 border border-transparent text-sm leading-4 font-medium rounded-md text-gray-500 bg-white hover:text-gray-700 focus:outline-none focus:bg-gray-50 active:bg-gray-50 transition ease-in-out duration-150">
-              {{ display() || "Select Opening"}}
+              {{ display() || "-- --"}}
 
               <svg class="ms-2 -me-0.5 h-4 w-4 right-0" xmlns="http://www.w3.org/2000/svg"
                    fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -36,7 +42,7 @@ const selectItem = (opening) => {
         <a
             href="#"
             class="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 transition duration-150 ease-in-out"
-            v-for="opening in openings"
+            v-for="opening in filterOpenings(openings)"
             @click="selectItem(opening)"
         >
           {{opening.value.label}}
