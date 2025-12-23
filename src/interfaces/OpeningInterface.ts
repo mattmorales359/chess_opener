@@ -4,4 +4,5 @@ export interface Opening {
     userColor: string
     moves: any
     uci: string
+    key: string
 }

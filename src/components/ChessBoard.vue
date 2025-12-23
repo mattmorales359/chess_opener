@@ -130,11 +130,13 @@ import { onMounted, reactive, watch } from 'vue';
   }
 
   watch(() => moves.activeOpening, () => {
-    boardApi?.resetBoard();
-    const { from, to } = getMoveFromUCI();
-    setTimeout(() => {
-      boardApi?.drawMove(from, to, 'red');
-    })
+    if(moves.activeOpening.key) {
+      boardApi?.resetBoard ();
+      const { from, to } = getMoveFromUCI ();
+      setTimeout ( () => {
+        boardApi?.drawMove ( from, to, 'red' );
+      } )
+    }
   })
 </script>
 

@@ -9,7 +9,8 @@ const display = () => {
   return moves.activeOpening.label;
 }
 
-const selectItem = (opening) => {
+const selectItem = (opening, key) => {
+  opening.value.key = opening.key;
   moves.updateOpening(opening.value);
 }
 
@@ -42,7 +43,7 @@ const filterOpenings = (openings) => {
         <a
             href="#"
             class="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 transition duration-150 ease-in-out"
-            v-for="opening in filterOpenings(openings)"
+            v-for="(opening) in filterOpenings(openings)"
             @click="selectItem(opening)"
         >
           {{opening.value.label}}
