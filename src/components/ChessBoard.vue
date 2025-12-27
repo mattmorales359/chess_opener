@@ -138,6 +138,13 @@ onMounted(() => {
     }
   }
 
+  function undoMove() {
+    moves.movesCounter--;
+    boardApi?.undoLastMove();
+    const {from, to} = getMoveFromUCI();
+    boardApi?.drawMove(from,to,'red')
+  }
+
 
   //this automates setting board up when line changes
   watch(() => moves.activeOpening.key, () => {
@@ -192,7 +199,7 @@ onMounted(() => {
           class="mx-3 rounded-md  px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
       >Reset</button>
       <button
-          @click="boardApi?.undoLastMove()"
+          @click="undoMove()"
           class="rounded-md  px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
       >Undo</button>
       <button
