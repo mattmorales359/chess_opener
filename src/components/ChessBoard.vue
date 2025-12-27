@@ -116,6 +116,7 @@ onMounted(() => {
 
   function handleMove(move: MoveEvent) {
     if(moves.movesCounter >= (moves.activeOpening.moves.length - 1)) {
+      moves.movesCounter++
       return
     }
     const {from, to} = getMoveFromUCI();
@@ -140,7 +141,10 @@ onMounted(() => {
 
   //this automates setting board up when line changes
   watch(() => moves.activeOpening.key, () => {
-      if(moves.activeOpening.key === undefined) return;
+      if(moves.activeOpening.key === undefined) {
+        boardApi?.resetBoard()
+        return;
+      }
       boardApi?.resetBoard ();
       boardConfig.orientation = moves.activeOpening.userColor
       const { from, to } = getMoveFromUCI ();
