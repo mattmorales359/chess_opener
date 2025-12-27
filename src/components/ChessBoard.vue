@@ -114,6 +114,11 @@ onMounted(() => {
     }
   }
 
+  function drawCurrent() {
+    const {from, to} = getMoveFromUCI();
+    boardApi?.drawMove(from,to,'red')
+  }
+
   function handleMove(move: MoveEvent) {
     if(moves.movesCounter >= (moves.activeOpening.moves.length - 1)) {
       moves.movesCounter++
@@ -122,11 +127,11 @@ onMounted(() => {
     const {from, to} = getMoveFromUCI();
     if(from === move.from && to === move.to) {
       moves.makeMove(move);
-      const {from, to} = getMoveFromUCI();
-      boardApi?.drawMove(from, to, 'red')
+      drawCurrent()
 
       if(boardApi?.getTurnColor() !== moves.activeOpening.userColor) {
         setTimeout(() => {
+          const { from, to } = getMoveFromUCI();
           boardApi?.move({from, to});
         }, 2000)
       }
@@ -141,8 +146,22 @@ onMounted(() => {
   function undoMove() {
     moves.movesCounter--;
     boardApi?.undoLastMove();
-    const {from, to} = getMoveFromUCI();
-    boardApi?.drawMove(from,to,'red')
+    const {from: firstFrom, to:firstTo} = getMoveFromUCI();
+    boardApi?.drawMove(firstFrom,firstTo,'red')
+    setTimeout(() => {
+      moves.movesCounter--;
+      boardApi?.undoLastMove();
+      const {from, to} = getMoveFromUCI();
+      boardApi?.drawMove(from,to,'red')
+    }, 500)
+  }
+
+  function reset() {
+    moves.movesCounter = 0;
+    boardApi?.resetBoard()
+    setTimeout(() => {
+      drawCurrent()
+    })
   }
 
 
@@ -195,7 +214,7 @@ onMounted(() => {
         Toggle orientation
       </button>
       <button
-          @click="boardApi?.resetBoard()"
+          @click="reset()"
           class="mx-3 rounded-md  px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
       >Reset</button>
       <button
