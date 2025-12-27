@@ -158,7 +158,7 @@ onMounted(() => {
   //this automates selecting first mainline when family changes
   watch(() => moves.activeFamily, () => {
     if(moves.activeFamily.label !== undefined) {
-      var activeOpenings = openings.filter((item) => {
+      const activeOpenings = openings.filter((item:any) => {
         return item.key.includes(moves.activeFamily.index)
       })
       if(activeOpenings.length > 0){

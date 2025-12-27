@@ -5,7 +5,7 @@ import type { Opening } from '@/interfaces/OpeningInterface.ts';
 export const useMovesStore = defineStore("moves", () => {
     const movesCounter = ref(0)
     const history = ref(['rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1']);
-    const activeOpening = ref({})
+    const activeOpening = ref(<Opening>{})
     const activeFamily = ref({})
 
     const boardApi = ref(() => {})
@@ -26,7 +26,7 @@ export const useMovesStore = defineStore("moves", () => {
     function updateFamily (family: any) {
         movesCounter.value = 0;
         activeFamily.value = family;
-        activeOpening.value = {};
+        activeOpening.value = <Opening> {};
     }
 
     function loadBoard (board: any) {
