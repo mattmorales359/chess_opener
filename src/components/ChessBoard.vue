@@ -9,6 +9,7 @@ import { onMounted, reactive, watch } from 'vue';
   import 'vue3-chessboard/style.css';
   import { useMovesStore } from '@/stores/moves'
   import * as openingsJson from '@/stores/openings.json'
+  import {Engine} from '@/helper/Engine.ts';
 
   const openings = openingsJson.default;
   let boardApi: BoardApi | undefined;
@@ -99,12 +100,19 @@ import { onMounted, reactive, watch } from 'vue';
       },
     },
   })
+  let engine: Engine | undefined;
 
-onMounted(() => {
+  onMounted(() => {
     //console.log(boardApi?.getBoardPosition());
   });
 
-  const moves = useMovesStore();
+  function handleBoardCreated(api: BoardApi) {
+    boardApi = api;
+    engine = new Engine(api);
+  }
+
+
+const moves = useMovesStore();
 
   function getMoveFromUCI () {
     const uci = moves.activeOpening.moves[moves.movesCounter].uci
@@ -123,6 +131,20 @@ onMounted(() => {
     if(moves.activeOpening.label === undefined) return;
     if(moves.movesCounter >= (moves.activeOpening.moves.length - 1)) {
       moves.movesCounter++
+
+      const history = boardApi?.getHistory(true);
+
+      const moveHistory = history?.map((move) => {
+        if (typeof move === 'object') {
+          return move.lan;
+        } else {
+          return move;
+        }
+      });
+
+      if (moves) {
+        engine?.sendPosition(moveHistory.join(' '));
+      }
       return
     }
     const {from, to} = getMoveFromUCI();
@@ -206,7 +228,7 @@ onMounted(() => {
   <div class="w-full border-2 rounded-2xl p-5 pt-10">
     <TheChessboard
         :board-config="boardConfig"
-        @board-created="(api) => (boardApi = api)"
+        @board-created="handleBoardCreated"
         @move="handleMove"
         reactive-config
     />
