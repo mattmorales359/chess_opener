@@ -17,7 +17,7 @@ import { onMounted, reactive, watch } from 'vue';
     orientation: 'white', // the orientation of the board
     turnColor: 'white', // the color which starts the game
     coordinates: true, // enable or disable board coordinates
-    autoCastle: false, // simplify castling move
+    autoCastle: true, // simplify castling move
     viewOnly: false, // allow or disallow moves on the board
     disableContextMenu: false, // enable/ disable the context menu
     addPieceZIndex: false,
@@ -123,6 +123,12 @@ onMounted(() => {
       moves.makeMove(move);
       const {from, to} = getMoveFromUCI();
       boardApi?.drawMove(from, to, 'red')
+
+      if(boardApi?.getTurnColor() !== moves.activeOpening.userColor) {
+        setTimeout(() => {
+          boardApi?.move({from, to});
+        }, 2000)
+      }
     } else {
       setTimeout(() => {
         boardApi?.undoLastMove();
@@ -134,21 +140,23 @@ onMounted(() => {
 
   //this automates setting board up when line changes
   watch(() => moves.activeOpening.key, () => {
-    console.log(moves.activeOpening.key)
       if(moves.activeOpening.key === undefined) return;
-
       boardApi?.resetBoard ();
+      boardConfig.orientation = moves.activeOpening.userColor
       const { from, to } = getMoveFromUCI ();
       setTimeout ( () => {
-        console.log('drawing')
         boardApi?.drawMove ( from, to, 'red' );
-      } )
+        setTimeout(() => {
+          if(moves.activeOpening.userColor === 'black') {
+            boardApi?.move({from, to});
+          }
+        }, 2000)
+      })
   })
 
 
   //this automates selecting first mainline when family changes
   watch(() => moves.activeFamily, () => {
-    console.log('watching fam')
     if(moves.activeFamily.label !== undefined) {
       var activeOpenings = openings.filter((item) => {
         return item.key.includes(moves.activeFamily.index)

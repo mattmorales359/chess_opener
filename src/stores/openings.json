@@ -339,7 +339,7 @@
     "value": {
       "label": "Sicilian – Mainline 1: Najdorf-style development",
       "stage": "Mainline",
-      "userColor": "b",
+      "userColor": "black",
       "moves": [
         {
           "uci": "e2e4",
@@ -429,7 +429,7 @@
     "value": {
       "label": "Sicilian – Common Mistake: Premature ...e5?! and the Nb5 jump",
       "stage": "Common mistake",
-      "userColor": "b",
+      "userColor": "black",
       "moves": [
         {
           "uci": "e2e4",
@@ -494,7 +494,7 @@
     "value": {
       "label": "Sicilian – Practice: Simple Scheveningen wall",
       "stage": "Practice",
-      "userColor": "b",
+      "userColor": "black",
       "moves": [
         {
           "uci": "e2e4",
@@ -574,7 +574,7 @@
     "value": {
       "label": "King's Indian – Mainline 1: Classical setup",
       "stage": "Mainline",
-      "userColor": "b",
+      "userColor": "black",
       "moves": [
         {
           "uci": "d2d4",
@@ -809,7 +809,7 @@
     "value": {
       "label": "Stafford Gambit – Aggressive attack line",
       "stage": "Gambit / Trap",
-      "userColor": "b",
+      "userColor": "black",
       "moves": [
         {
           "uci": "e2e4",
@@ -879,7 +879,7 @@
     "value": {
       "label": "Stafford Gambit – If White plays solidly",
       "stage": "Gambit / Solid response",
-      "userColor": "b",
+      "userColor": "black",
       "moves": [
         {
           "uci": "e2e4",
@@ -989,7 +989,7 @@
     "value": {
       "label": "French Defense – Advance mainline",
       "stage": "Mainline 1",
-      "userColor": "b",
+      "userColor": "black",
       "moves": [
         {
           "uci": "e2e4",
@@ -1069,7 +1069,7 @@
     "value": {
       "label": "French Defense – Tarrasch-style structure",
       "stage": "Mainline 2",
-      "userColor": "b",
+      "userColor": "black",
       "moves": [
         {
           "uci": "e2e4",
@@ -1149,7 +1149,7 @@
     "value": {
       "label": "French Exchange – too symmetrical",
       "stage": "Common mistake 1 (White)",
-      "userColor": "b",
+      "userColor": "black",
       "moves": [
         {
           "uci": "e2e4",
@@ -1214,7 +1214,7 @@
     "value": {
       "label": "Caro-Kann – Classical mainline",
       "stage": "Mainline 1",
-      "userColor": "b",
+      "userColor": "black",
       "moves": [
         {
           "uci": "e2e4",
@@ -1284,7 +1284,7 @@
     "value": {
       "label": "Caro-Kann – Advance variation",
       "stage": "Mainline 2",
-      "userColor": "b",
+      "userColor": "black",
       "moves": [
         {
           "uci": "e2e4",
@@ -1344,7 +1344,7 @@
     "value": {
       "label": "Caro-Kann – h-pawn overextension",
       "stage": "Common mistake 1 (White push)",
-      "userColor": "b",
+      "userColor": "black",
       "moves": [
         {
           "uci": "e2e4",
@@ -1424,7 +1424,7 @@
     "value": {
       "label": "QGA – Mainline with e3 & Bxc4",
       "stage": "Mainline 1",
-      "userColor": "b",
+      "userColor": "black",
       "moves": [
         {
           "uci": "d2d4",
@@ -1504,7 +1504,7 @@
     "value": {
       "label": "QGA – Central pawn roller (e4 idea)",
       "stage": "Mainline 2",
-      "userColor": "b",
+      "userColor": "black",
       "moves": [
         {
           "uci": "d2d4",
@@ -1564,7 +1564,7 @@
     "value": {
       "label": "QGA – White overextends the center",
       "stage": "Common mistake 1 (White center)",
-      "userColor": "b",
+      "userColor": "black",
       "moves": [
         {
           "uci": "d2d4",
@@ -1804,7 +1804,7 @@
     "value": {
       "label": "Sicilian – Richter-Rauzer style",
       "stage": "Mainline 2",
-      "userColor": "b",
+      "userColor": "black",
       "moves": [
         {
           "uci": "e2e4",
@@ -1884,7 +1884,7 @@
     "value": {
       "label": "Sicilian – Najdorf-style structure",
       "stage": "Mainline 3",
-      "userColor": "b",
+      "userColor": "black",
       "moves": [
         {
           "uci": "e2e4",
@@ -1964,7 +1964,7 @@
     "value": {
       "label": "Sicilian – Unstable central pawn thrust",
       "stage": "Common mistake 1 (Black)",
-      "userColor": "b",
+      "userColor": "black",
       "moves": [
         {
           "uci": "e2e4",
@@ -2519,7 +2519,7 @@
     "value": {
       "label": "Scandinavian – Mainline: 2...Qxd5 & ...Qa5",
       "stage": "Mainline",
-      "userColor": "b",
+      "userColor": "black",
       "moves": [
         {
           "uci": "e2e4",
@@ -2599,7 +2599,7 @@
     "value": {
       "label": "Scandinavian – Mainline: 3...Qd6 Solid Line",
       "stage": "Mainline",
-      "userColor": "b",
+      "userColor": "black",
       "moves": [
         {
           "uci": "e2e4",
@@ -2679,7 +2679,7 @@
     "value": {
       "label": "Scandinavian – Common Mistake: Early ...Qe5+?!",
       "stage": "Common Mistake",
-      "userColor": "b",
+      "userColor": "black",
       "moves": [
         {
           "uci": "e2e4",
@@ -2984,7 +2984,7 @@
     "value": {
       "label": "Slav Defense – Mainline: 4.Nc3 dxc4 5.a4 Bf5",
       "stage": "Mainline",
-      "userColor": "b",
+      "userColor": "black",
       "moves": [
         {
           "uci": "d2d4",
@@ -3064,7 +3064,7 @@
     "value": {
       "label": "Slav / Semi-Slav – ...e6 & solid triangle",
       "stage": "Mainline",
-      "userColor": "b",
+      "userColor": "black",
       "moves": [
         {
           "uci": "d2d4",
@@ -3144,7 +3144,7 @@
     "value": {
       "label": "Slav Defense – Greedy ...b5 pawn grab",
       "stage": "Common mistake",
-      "userColor": "b",
+      "userColor": "black",
       "moves": [
         {
           "uci": "d2d4",
@@ -3209,7 +3209,7 @@
     "value": {
       "label": "Slav Defense – Practice: Solid triangle vs quiet setup",
       "stage": "Practice",
-      "userColor": "b",
+      "userColor": "black",
       "moves": [
         {
           "uci": "d2d4",
@@ -3279,7 +3279,7 @@
     "value": {
       "label": "Dutch Defense – Leningrad structure",
       "stage": "Mainline",
-      "userColor": "b",
+      "userColor": "black",
       "moves": [
         {
           "uci": "d2d4",
@@ -3349,7 +3349,7 @@
     "value": {
       "label": "Dutch Defense – Stonewall structure",
       "stage": "Mainline",
-      "userColor": "b",
+      "userColor": "black",
       "moves": [
         {
           "uci": "d2d4",
@@ -3419,7 +3419,7 @@
     "value": {
       "label": "Dutch Defense – Over-aggressive ...g5 push",
       "stage": "Common mistake",
-      "userColor": "b",
+      "userColor": "black",
       "moves": [
         {
           "uci": "d2d4",
@@ -3469,7 +3469,7 @@
     "value": {
       "label": "Dutch Defense – Practice: Stonewall vs fianchetto",
       "stage": "Practice",
-      "userColor": "b",
+      "userColor": "black",
       "moves": [
         {
           "uci": "d2d4",
@@ -3529,7 +3529,7 @@
     "value": {
       "label": "Modern Benoni – Mainline with e4 & Bd3",
       "stage": "Mainline",
-      "userColor": "b",
+      "userColor": "black",
       "moves": [
         {
           "uci": "d2d4",
@@ -3619,7 +3619,7 @@
     "value": {
       "label": "Modern Benoni – Fianchetto variation",
       "stage": "Mainline",
-      "userColor": "b",
+      "userColor": "black",
       "moves": [
         {
           "uci": "d2d4",
@@ -3709,7 +3709,7 @@
     "value": {
       "label": "Benoni – Unsafe early ...b5 push",
       "stage": "Common mistake",
-      "userColor": "b",
+      "userColor": "black",
       "moves": [
         {
           "uci": "d2d4",
@@ -3759,7 +3759,7 @@
     "value": {
       "label": "Modern Benoni – Practice: standard pawn chain",
       "stage": "Practice",
-      "userColor": "b",
+      "userColor": "black",
       "moves": [
         {
           "uci": "d2d4",

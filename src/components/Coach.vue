@@ -10,7 +10,14 @@ const moves = useMovesStore();
       <div class="col-span-1">
       </div>
       <div class="col-span-3 pt-4">
-        <p class="p-4 bg-white text-gray-500 rounded-2xl" v-if="moves.activeOpening?.moves">{{moves.activeOpening?.moves[moves.movesCounter]?.text || ""}}</p>
+        <div class="grid grid-flow-row grid-rows-3">
+          <div class="row-span-1">
+            <p class="p-4 mb-10 bg-white text-gray-500 rounded-2xl" v-if="moves.activeOpening?.moves && moves.activeOpening?.moves[moves.movesCounter-1]">{{moves.activeOpening?.moves[moves.movesCounter-1]?.text || ""}}</p>
+          </div>
+          <div class="row-span-1 row-start-3">
+            <p class="p-4 bg-white text-gray-500 rounded-2xl" v-if="moves.activeOpening?.moves">{{moves.activeOpening?.moves[moves.movesCounter]?.text || ""}}</p>
+          </div>
+        </div>
       </div>
     </div>
 
