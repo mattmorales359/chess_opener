@@ -120,6 +120,7 @@ onMounted(() => {
   }
 
   function handleMove(move: MoveEvent) {
+    if(moves.activeOpening.label === undefined) return;
     if(moves.movesCounter >= (moves.activeOpening.moves.length - 1)) {
       moves.movesCounter++
       return
@@ -148,12 +149,15 @@ onMounted(() => {
     boardApi?.undoLastMove();
     const {from: firstFrom, to:firstTo} = getMoveFromUCI();
     boardApi?.drawMove(firstFrom,firstTo,'red')
-    setTimeout(() => {
-      moves.movesCounter--;
-      boardApi?.undoLastMove();
-      const {from, to} = getMoveFromUCI();
-      boardApi?.drawMove(from,to,'red')
-    }, 500)
+
+    if(moves?.activeOpening?.moves?.length && (moves.movesCounter < moves.activeOpening.moves.length - 1)) {
+      setTimeout(() => {
+        moves.movesCounter--;
+        boardApi?.undoLastMove();
+        const {from, to} = getMoveFromUCI();
+        boardApi?.drawMove(from,to,'red')
+      }, 500)
+    }
   }
 
   function reset() {
