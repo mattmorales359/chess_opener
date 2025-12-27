@@ -4,16 +4,16 @@
     "value": {
       "label": "QGD – Mainline 1: Orthodox 4.Bg5 Be7",
       "stage": "Mainline",
-      "userColor": "w",
+      "userColor": "white",
       "moves": [
         {
           "uci": "d2d4",
-          "by": "user",
+          "color": "user",
           "text": "1.d4 – You grab central space and free your dark-squared bishop, aiming for a solid space advantage."
         },
         {
           "uci": "d7d5",
-          "by": "bot",
+          "by": "opponent",
           "text": "...d5 – Black mirrors your pawn to contest the center directly and avoid giving you a free space edge."
         },
         {
@@ -23,7 +23,7 @@
         },
         {
           "uci": "e7e6",
-          "by": "bot",
+          "by": "opponent",
           "text": "...e6 – Black reinforces d5 and keeps a compact pawn chain, preparing to develop the dark-squared bishop."
         },
         {
@@ -33,7 +33,7 @@
         },
         {
           "uci": "g8f6",
-          "by": "bot",
+          "by": "opponent",
           "text": "...Nf6 – Black develops while attacking your d4 pawn and supporting key central dark squares."
         },
         {
@@ -43,7 +43,7 @@
         },
         {
           "uci": "f8e7",
-          "by": "bot",
+          "by": "opponent",
           "text": "...Be7 – Black breaks the pin and prepares to castle, choosing a solid Orthodox setup."
         },
         {
@@ -53,7 +53,7 @@
         },
         {
           "uci": "e8g8",
-          "by": "bot",
+          "by": "opponent",
           "text": "...O-O – Black castles to safety and connects the rooks in a standard QGD position."
         },
         {
@@ -63,7 +63,7 @@
         },
         {
           "uci": "h7h6",
-          "by": "bot",
+          "by": "opponent",
           "text": "...h6 – Black questions your bishop and prevents Bg5 ideas in the future, while giving the king some luft."
         },
         {
@@ -73,7 +73,7 @@
         },
         {
           "uci": "b7b6",
-          "by": "bot",
+          "by": "opponent",
           "text": "...b6 – Black prepares ...Bb7, putting the bishop on a long diagonal against your center."
         },
         {
@@ -83,7 +83,7 @@
         },
         {
           "uci": "c8b7",
-          "by": "bot",
+          "by": "opponent",
           "text": "...Bb7 – Black finishes queenside development and lines up on the e4 and d5 squares."
         },
         {
@@ -99,7 +99,7 @@
     "value": {
       "label": "QGD – Mainline 2: Orthodox with ...Nbd7 & typical ...c5",
       "stage": "Mainline",
-      "userColor": "w",
+      "userColor": "white",
       "moves": [
         {
           "uci": "d2d4",
@@ -108,7 +108,7 @@
         },
         {
           "uci": "d7d5",
-          "by": "bot",
+          "by": "opponent",
           "text": "...d5 – Black contests your grip on the center immediately."
         },
         {
@@ -118,7 +118,7 @@
         },
         {
           "uci": "e7e6",
-          "by": "bot",
+          "by": "opponent",
           "text": "...e6 – Black supports d5 and keeps the pawn chain solid against your c4 pawn."
         },
         {
@@ -128,7 +128,7 @@
         },
         {
           "uci": "g8f6",
-          "by": "bot",
+          "by": "opponent",
           "text": "...Nf6 – Black develops and adds another defender to d5 while pressuring e4."
         },
         {
@@ -138,7 +138,7 @@
         },
         {
           "uci": "b8d7",
-          "by": "bot",
+          "by": "opponent",
           "text": "...Nbd7 – Black overprotects f6 and prepares thematic breaks like ...c5 or ...e5."
         },
         {
@@ -148,7 +148,7 @@
         },
         {
           "uci": "f8e7",
-          "by": "bot",
+          "by": "opponent",
           "text": "...Be7 – Black unpins the knight and prepares to castle safely."
         },
         {
@@ -158,7 +158,7 @@
         },
         {
           "uci": "e8g8",
-          "by": "bot",
+          "by": "opponent",
           "text": "...O-O – Black castles and aims for long-term pressure on your center."
         },
         {
@@ -168,7 +168,7 @@
         },
         {
           "uci": "c7c5",
-          "by": "bot",
+          "by": "opponent",
           "text": "...c5 – Black strikes the center, trying to trade off the d5 pawn and free the position."
         },
         {
@@ -178,7 +178,7 @@
         },
         {
           "uci": "e6d5",
-          "by": "bot",
+          "by": "opponent",
           "text": "...exd5 – Black recaptures and accepts an isolated or hanging pawn structure to gain activity."
         },
         {
@@ -194,7 +194,7 @@
     "value": {
       "label": "QGD – Common Mistake: Greedy ...dxc4 & ...b5",
       "stage": "Common mistake",
-      "userColor": "w",
+      "userColor": "white",
       "moves": [
         {
           "uci": "d2d4",
@@ -203,7 +203,7 @@
         },
         {
           "uci": "d7d5",
-          "by": "bot",
+          "by": "opponent",
           "text": "...d5 – Black contests the center in classical style."
         },
         {
@@ -213,7 +213,7 @@
         },
         {
           "uci": "d5c4",
-          "by": "bot",
+          "by": "opponent",
           "text": "...dxc4 – Black grabs the pawn, giving up central tension and risking development lag."
         },
         {
@@ -223,7 +223,7 @@
         },
         {
           "uci": "b7b5",
-          "by": "bot",
+          "by": "opponent",
           "text": "...b5 – Black overextends, trying too hard to hang on to the extra pawn and weakening the queenside squares."
         },
         {
@@ -233,7 +233,7 @@
         },
         {
           "uci": "c7c6",
-          "by": "bot",
+          "by": "opponent",
           "text": "...c6 – Black adds more support to the queenside but falls further behind in development and central control."
         },
         {
@@ -243,7 +243,7 @@
         },
         {
           "uci": "b5b4",
-          "by": "bot",
+          "by": "opponent",
           "text": "...b4 – Black chases your knight but stretches even further, loosening control over the center."
         },
         {
@@ -253,7 +253,7 @@
         },
         {
           "uci": "c8b7",
-          "by": "bot",
+          "by": "opponent",
           "text": "...Bb7 – Black tries to develop but your growing lead in activity and weak squares on the queenside give you a long-term edge."
         }
       ]
@@ -264,7 +264,7 @@
     "value": {
       "label": "QGD – Practice: Fianchetto vs QGD",
       "stage": "Practice",
-      "userColor": "w",
+      "userColor": "white",
       "moves": [
         {
           "uci": "d2d4",
@@ -273,7 +273,7 @@
         },
         {
           "uci": "d7d5",
-          "by": "bot",
+          "by": "opponent",
           "text": "...d5 – Black claims equal central space and keeps things symmetrical."
         },
         {
@@ -283,7 +283,7 @@
         },
         {
           "uci": "e7e6",
-          "by": "bot",
+          "by": "opponent",
           "text": "...e6 – Black supports d5 and maintains a solid pawn chain, staying in classical QGD territory."
         },
         {
@@ -293,7 +293,7 @@
         },
         {
           "uci": "g8f6",
-          "by": "bot",
+          "by": "opponent",
           "text": "...Nf6 – Black develops a knight, attacking your d4 pawn and eyeing e4."
         },
         {
@@ -303,7 +303,7 @@
         },
         {
           "uci": "f8e7",
-          "by": "bot",
+          "by": "opponent",
           "text": "...Be7 – Black prepares to castle while keeping the light-squared bishop flexible."
         },
         {
@@ -313,7 +313,7 @@
         },
         {
           "uci": "e8g8",
-          "by": "bot",
+          "by": "opponent",
           "text": "...O-O – Black castles, keeping a compact structure."
         },
         {
@@ -323,7 +323,7 @@
         },
         {
           "uci": "c7c6",
-          "by": "bot",
+          "by": "opponent",
           "text": "...c6 – Black strengthens d5 and prepares possible ...dxc4 or ...b5 expansion."
         },
         {
@@ -343,7 +343,7 @@
       "moves": [
         {
           "uci": "e2e4",
-          "by": "bot",
+          "by": "opponent",
           "text": "1.e4 – White grabs central space and frees the queen and bishop, aiming for fast development."
         },
         {
@@ -353,7 +353,7 @@
         },
         {
           "uci": "g1f3",
-          "by": "bot",
+          "by": "opponent",
           "text": "2.Nf3 – White develops a piece, eyes d4, and prepares to castle kingside."
         },
         {
@@ -363,7 +363,7 @@
         },
         {
           "uci": "d2d4",
-          "by": "bot",
+          "by": "opponent",
           "text": "3.d4 – White opens the center and looks to build a strong pawn duo with e4 and d4."
         },
         {
@@ -373,7 +373,7 @@
         },
         {
           "uci": "f3d4",
-          "by": "bot",
+          "by": "opponent",
           "text": "4.Nxd4 – White recaptures with a piece, centralizing the knight and keeping tempo."
         },
         {
@@ -383,7 +383,7 @@
         },
         {
           "uci": "b1c3",
-          "by": "bot",
+          "by": "opponent",
           "text": "5.Nc3 – White reinforces the d5 square and supports the e4 pawn, controlling key central squares."
         },
         {
@@ -393,7 +393,7 @@
         },
         {
           "uci": "f1e2",
-          "by": "bot",
+          "by": "opponent",
           "text": "6.Be2 – White develops quietly, preparing to castle and avoiding overly sharp lines."
         },
         {
@@ -403,7 +403,7 @@
         },
         {
           "uci": "d4b3",
-          "by": "bot",
+          "by": "opponent",
           "text": "7.Nb3 – White retreats the knight to a safe square, keeping an eye on c5 and d4."
         },
         {
@@ -413,7 +413,7 @@
         },
         {
           "uci": "e1g1",
-          "by": "bot",
+          "by": "opponent",
           "text": "8.O-O – White brings the king to safety and connects the rooks."
         },
         {
@@ -433,7 +433,7 @@
       "moves": [
         {
           "uci": "e2e4",
-          "by": "bot",
+          "by": "opponent",
           "text": "1.e4 – White claims the center and frees pieces."
         },
         {
@@ -443,7 +443,7 @@
         },
         {
           "uci": "g1f3",
-          "by": "bot",
+          "by": "opponent",
           "text": "2.Nf3 – White develops and protects e4."
         },
         {
@@ -453,7 +453,7 @@
         },
         {
           "uci": "d2d4",
-          "by": "bot",
+          "by": "opponent",
           "text": "3.d4 – White opens the position, trying to use the development lead."
         },
         {
@@ -463,7 +463,7 @@
         },
         {
           "uci": "f3d4",
-          "by": "bot",
+          "by": "opponent",
           "text": "4.Nxd4 – White recaptures and centralizes the knight."
         },
         {
@@ -473,7 +473,7 @@
         },
         {
           "uci": "d4b5",
-          "by": "bot",
+          "by": "opponent",
           "text": "5.Nb5 – White jumps into the hole you created, eyeing d6 and c7 with tactical ideas, and highlighting the weaknesses caused by ...e5."
         },
         {
@@ -483,7 +483,7 @@
         },
         {
           "uci": "b5c3",
-          "by": "bot",
+          "by": "opponent",
           "text": "6.Nc3 – White keeps the knight active while your structure is compromised; d5 is now a dream square for White."
         }
       ]
@@ -498,7 +498,7 @@
       "moves": [
         {
           "uci": "e2e4",
-          "by": "bot",
+          "by": "opponent",
           "text": "1.e4 – White takes central space and prepares quick kingside development."
         },
         {
@@ -508,7 +508,7 @@
         },
         {
           "uci": "g1f3",
-          "by": "bot",
+          "by": "opponent",
           "text": "2.Nf3 – White develops and eyes d4."
         },
         {
@@ -518,7 +518,7 @@
         },
         {
           "uci": "d2d4",
-          "by": "bot",
+          "by": "opponent",
           "text": "3.d4 – White opens the position to use piece activity."
         },
         {
@@ -528,7 +528,7 @@
         },
         {
           "uci": "f3d4",
-          "by": "bot",
+          "by": "opponent",
           "text": "4.Nxd4 – White centralizes the knight and keeps tempo."
         },
         {
@@ -538,7 +538,7 @@
         },
         {
           "uci": "b1c3",
-          "by": "bot",
+          "by": "opponent",
           "text": "5.Nc3 – White protects e4 and strengthens control of d5."
         },
         {
@@ -548,7 +548,7 @@
         },
         {
           "uci": "f1e2",
-          "by": "bot",
+          "by": "opponent",
           "text": "6.Be2 – White calmly develops, planning to castle and play for f4 or f3–g4 in some lines."
         },
         {
@@ -558,7 +558,7 @@
         },
         {
           "uci": "e1g1",
-          "by": "bot",
+          "by": "opponent",
           "text": "7.O-O – White brings the king to safety."
         },
         {
@@ -578,7 +578,7 @@
       "moves": [
         {
           "uci": "d2d4",
-          "by": "bot",
+          "by": "opponent",
           "text": "1.d4 – White claims space and prepares a queenside or central expansion."
         },
         {
@@ -588,7 +588,7 @@
         },
         {
           "uci": "c2c4",
-          "by": "bot",
+          "by": "opponent",
           "text": "2.c4 – White supports d5 and grabs queenside space."
         },
         {
@@ -598,7 +598,7 @@
         },
         {
           "uci": "g1f3",
-          "by": "bot",
+          "by": "opponent",
           "text": "3.Nf3 – White develops and supports d4 while eyeing e5."
         },
         {
@@ -608,7 +608,7 @@
         },
         {
           "uci": "b1c3",
-          "by": "bot",
+          "by": "opponent",
           "text": "4.Nc3 – White reinforces d5 and gains more central control."
         },
         {
@@ -618,7 +618,7 @@
         },
         {
           "uci": "e2e4",
-          "by": "bot",
+          "by": "opponent",
           "text": "5.e4 – White builds a big pawn center and threatens e5 in some lines."
         },
         {
@@ -628,7 +628,7 @@
         },
         {
           "uci": "f1e2",
-          "by": "bot",
+          "by": "opponent",
           "text": "6.Be2 – White develops quietly and prepares to castle, reinforcing the center."
         },
         {
@@ -638,7 +638,7 @@
         },
         {
           "uci": "e4e5",
-          "by": "bot",
+          "by": "opponent",
           "text": "7.dxe5 – White clarifies the center, hoping to use the open lines for the better placed pieces."
         },
         {
@@ -648,7 +648,7 @@
         },
         {
           "uci": "e1g1",
-          "by": "bot",
+          "by": "opponent",
           "text": "8.O-O – White castles and gets ready for queenside expansion, while your typical plan is kingside attacking play."
         },
         {
@@ -664,7 +664,7 @@
     "value": {
       "label": "London – Mainline: d4, Nf3, Bf4 setup",
       "stage": "Mainline",
-      "userColor": "w",
+      "userColor": "white",
       "moves": [
         {
           "uci": "d2d4",
@@ -673,7 +673,7 @@
         },
         {
           "uci": "d7d5",
-          "by": "bot",
+          "by": "opponent",
           "text": "...d5 – Black mirrors your pawn and contests the center."
         },
         {
@@ -683,7 +683,7 @@
         },
         {
           "uci": "g8f6",
-          "by": "bot",
+          "by": "opponent",
           "text": "...Nf6 – Black develops and also fights for e4 and d5 control."
         },
         {
@@ -693,7 +693,7 @@
         },
         {
           "uci": "c7c5",
-          "by": "bot",
+          "by": "opponent",
           "text": "...c5 – Black challenges your d4 pawn and tries to break the center."
         },
         {
@@ -703,7 +703,7 @@
         },
         {
           "uci": "b8c6",
-          "by": "bot",
+          "by": "opponent",
           "text": "...Nc6 – Black develops another piece to pressure d4 and influence e5."
         },
         {
@@ -713,7 +713,7 @@
         },
         {
           "uci": "e7e6",
-          "by": "bot",
+          "by": "opponent",
           "text": "...e6 – Black shores up d5 and opens lines for the light-squared bishop."
         },
         {
@@ -723,7 +723,7 @@
         },
         {
           "uci": "f8e7",
-          "by": "bot",
+          "by": "opponent",
           "text": "...Be7 – Black prepares to castle and finishes basic kingside development."
         },
         {
@@ -739,7 +739,7 @@
     "value": {
       "label": "Ruy Lopez – Mainline: 3.Bb5 a6 4.Ba4 Nf6 5.O-O",
       "stage": "Mainline",
-      "userColor": "w",
+      "userColor": "white",
       "moves": [
         {
           "uci": "e2e4",
@@ -748,7 +748,7 @@
         },
         {
           "uci": "e7e5",
-          "by": "bot",
+          "by": "opponent",
           "text": "...e5 – Black mirrors your pawn and takes equal central control."
         },
         {
@@ -758,7 +758,7 @@
         },
         {
           "uci": "b8c6",
-          "by": "bot",
+          "by": "opponent",
           "text": "...Nc6 – Black defends e5 and adds another piece to the center."
         },
         {
@@ -768,7 +768,7 @@
         },
         {
           "uci": "a7a6",
-          "by": "bot",
+          "by": "opponent",
           "text": "...a6 – Black immediately questions your bishop, preparing ...b5 and freeing the c6 knight."
         },
         {
@@ -778,7 +778,7 @@
         },
         {
           "uci": "g8f6",
-          "by": "bot",
+          "by": "opponent",
           "text": "...Nf6 – Black develops and attacks your e4 pawn, aiming for rapid piece activity."
         },
         {
@@ -788,7 +788,7 @@
         },
         {
           "uci": "f8e7",
-          "by": "bot",
+          "by": "opponent",
           "text": "...Be7 – Black unpins the knight and prepares to castle into a typical Ruy Lopez middlegame."
         },
         {
@@ -798,7 +798,7 @@
         },
         {
           "uci": "e8g8",
-          "by": "bot",
+          "by": "opponent",
           "text": "...O-O – Black castles and both sides have completed basic development in a classic Ruy Lopez structure."
         }
       ]
@@ -813,7 +813,7 @@
       "moves": [
         {
           "uci": "e2e4",
-          "by": "bot",
+          "by": "opponent",
           "text": "1.e4 – White grabs the center and opens lines for the king’s bishop and queen."
         },
         {
@@ -823,7 +823,7 @@
         },
         {
           "uci": "g1f3",
-          "by": "bot",
+          "by": "opponent",
           "text": "2.Nf3 – White attacks the e5 pawn and prepares to castle kingside."
         },
         {
@@ -833,7 +833,7 @@
         },
         {
           "uci": "f3e5",
-          "by": "bot",
+          "by": "opponent",
           "text": "3.Nxe5 – White gets greedy and grabs the pawn, stepping into the gambit."
         },
         {
@@ -843,7 +843,7 @@
         },
         {
           "uci": "e5c6",
-          "by": "bot",
+          "by": "opponent",
           "text": "4.Nxc6 – White accepts again, hoping the extra pawn and knight activity will be enough."
         },
         {
@@ -853,7 +853,7 @@
         },
         {
           "uci": "d2d3",
-          "by": "bot",
+          "by": "opponent",
           "text": "5.d3 – White tries to consolidate and finish development while being a bit ahead in material."
         },
         {
@@ -863,7 +863,7 @@
         },
         {
           "uci": "f1e2",
-          "by": "bot",
+          "by": "opponent",
           "text": "6.Be2 – White tries to castle and neutralize your attack by finishing development."
         },
         {
@@ -883,7 +883,7 @@
       "moves": [
         {
           "uci": "e2e4",
-          "by": "bot",
+          "by": "opponent",
           "text": "1.e4 – White takes space and opens lines."
         },
         {
@@ -893,7 +893,7 @@
         },
         {
           "uci": "g1f3",
-          "by": "bot",
+          "by": "opponent",
           "text": "2.Nf3 – White attacks the e5 pawn and prepares to castle."
         },
         {
@@ -903,7 +903,7 @@
         },
         {
           "uci": "d2d4",
-          "by": "bot",
+          "by": "opponent",
           "text": "3.d4 – Instead of grabbing the pawn, White breaks in the center in a more principled way."
         },
         {
@@ -913,7 +913,7 @@
         },
         {
           "uci": "d4e5",
-          "by": "bot",
+          "by": "opponent",
           "text": "4.dxe5 – White accepts the sacrificed pawn, hoping to use the space and central majority later."
         },
         {
@@ -923,7 +923,7 @@
         },
         {
           "uci": "f1d3",
-          "by": "bot",
+          "by": "opponent",
           "text": "5.Bd3 – White develops and protects e4 and f5 squares, trying to consolidate the extra pawn."
         },
         {
@@ -939,7 +939,7 @@
     "value": {
       "label": "Bähr Gambit – Aggressive center play",
       "stage": "Gambit / Trap",
-      "userColor": "w",
+      "userColor": "white",
       "moves": [
         {
           "uci": "e2e4",
@@ -948,7 +948,7 @@
         },
         {
           "uci": "e7e5",
-          "by": "bot",
+          "by": "opponent",
           "text": "...e5 – Black mirrors your plan."
         },
         {
@@ -958,7 +958,7 @@
         },
         {
           "uci": "e5d4",
-          "by": "bot",
+          "by": "opponent",
           "text": "...exd4 – Black accepts the pawn, hoping to hang on and weather the attack."
         },
         {
@@ -968,7 +968,7 @@
         },
         {
           "uci": "d4c3",
-          "by": "bot",
+          "by": "opponent",
           "text": "3...dxc3 – Black grabs another pawn, but falls behind in development and opens the position for your pieces."
         },
         {
@@ -978,7 +978,7 @@
         },
         {
           "uci": "b8c6",
-          "by": "bot",
+          "by": "opponent",
           "text": "4...Nc6 – Black develops, but your lead in activity and central control gives you plenty of attacking chances."
         }
       ]
@@ -993,7 +993,7 @@
       "moves": [
         {
           "uci": "e2e4",
-          "by": "bot",
+          "by": "opponent",
           "text": "1.e4 – White grabs central space and opens lines for the queen and bishop."
         },
         {
@@ -1003,7 +1003,7 @@
         },
         {
           "uci": "d2d4",
-          "by": "bot",
+          "by": "opponent",
           "text": "2.d4 – White fully occupies the center with pawns on e4 and d4."
         },
         {
@@ -1013,7 +1013,7 @@
         },
         {
           "uci": "e4e5",
-          "by": "bot",
+          "by": "opponent",
           "text": "3.e5 – White advances, gaining space but fixing the pawn structure; the d4-pawn becomes a long-term target."
         },
         {
@@ -1023,7 +1023,7 @@
         },
         {
           "uci": "c2c3",
-          "by": "bot",
+          "by": "opponent",
           "text": "4.c3 – White reinforces d4 and prepares a solid pawn chain with potential queenside expansion."
         },
         {
@@ -1033,7 +1033,7 @@
         },
         {
           "uci": "g1f3",
-          "by": "bot",
+          "by": "opponent",
           "text": "5.Nf3 – White develops and adds more support to d4 and e5."
         },
         {
@@ -1043,7 +1043,7 @@
         },
         {
           "uci": "f1e2",
-          "by": "bot",
+          "by": "opponent",
           "text": "6.Be2 – White calmly develops and gets ready to castle kingside."
         },
         {
@@ -1053,7 +1053,7 @@
         },
         {
           "uci": "c3d4",
-          "by": "bot",
+          "by": "opponent",
           "text": "7.cxd4 – White keeps a healthy pawn center for now, but the d4 pawn can still become a long-term target."
         },
         {
@@ -1073,7 +1073,7 @@
       "moves": [
         {
           "uci": "e2e4",
-          "by": "bot",
+          "by": "opponent",
           "text": "1.e4 – Again, White takes the big central square and opens diagonals."
         },
         {
@@ -1083,7 +1083,7 @@
         },
         {
           "uci": "d2d4",
-          "by": "bot",
+          "by": "opponent",
           "text": "2.d4 – White builds the classic big pawn center."
         },
         {
@@ -1093,7 +1093,7 @@
         },
         {
           "uci": "b1d2",
-          "by": "bot",
+          "by": "opponent",
           "text": "3.Nd2 – The Tarrasch idea: White keeps the knight flexible and avoids pin lines after Nc3."
         },
         {
@@ -1103,7 +1103,7 @@
         },
         {
           "uci": "e4d5",
-          "by": "bot",
+          "by": "opponent",
           "text": "4.exd5 – White clarifies the center, hoping your isolated pawn becomes a target."
         },
         {
@@ -1113,7 +1113,7 @@
         },
         {
           "uci": "g1f3",
-          "by": "bot",
+          "by": "opponent",
           "text": "5.Nf3 – White develops and increases pressure on d4 and e5 squares."
         },
         {
@@ -1123,7 +1123,7 @@
         },
         {
           "uci": "f1b5",
-          "by": "bot",
+          "by": "opponent",
           "text": "6.Bb5 – White pins the knight and tries to increase the pressure on your d5 pawn."
         },
         {
@@ -1133,7 +1133,7 @@
         },
         {
           "uci": "d4c5",
-          "by": "bot",
+          "by": "opponent",
           "text": "7.dxc5 – White grabs the pawn, but risks falling behind in development."
         },
         {
@@ -1153,7 +1153,7 @@
       "moves": [
         {
           "uci": "e2e4",
-          "by": "bot",
+          "by": "opponent",
           "text": "1.e4 – Normal central move."
         },
         {
@@ -1163,7 +1163,7 @@
         },
         {
           "uci": "d2d4",
-          "by": "bot",
+          "by": "opponent",
           "text": "2.d4 – White supports the e4 pawn and takes more space."
         },
         {
@@ -1173,7 +1173,7 @@
         },
         {
           "uci": "e4d5",
-          "by": "bot",
+          "by": "opponent",
           "text": "3.exd5 – White trades in the center, heading toward the Exchange French."
         },
         {
@@ -1183,7 +1183,7 @@
         },
         {
           "uci": "g1f3",
-          "by": "bot",
+          "by": "opponent",
           "text": "4.Nf3 – White develops a knight but hasn't kept any central tension."
         },
         {
@@ -1193,7 +1193,7 @@
         },
         {
           "uci": "f1d3",
-          "by": "bot",
+          "by": "opponent",
           "text": "5.Bd3 – White develops naturally, but the position is very equal and contains few winning chances."
         },
         {
@@ -1203,7 +1203,7 @@
         },
         {
           "uci": "e1g1",
-          "by": "bot",
+          "by": "opponent",
           "text": "6.O-O – White castles, but the game is now close to equal. This 'mistake' isn’t losing, but it gives up the dynamic tension we usually want from the opening."
         }
       ]
@@ -1218,7 +1218,7 @@
       "moves": [
         {
           "uci": "e2e4",
-          "by": "bot",
+          "by": "opponent",
           "text": "1.e4 – White grabs the center and opens lines for development."
         },
         {
@@ -1228,7 +1228,7 @@
         },
         {
           "uci": "d2d4",
-          "by": "bot",
+          "by": "opponent",
           "text": "2.d4 – White builds a big pawn center with e4 and d4."
         },
         {
@@ -1238,7 +1238,7 @@
         },
         {
           "uci": "b1c3",
-          "by": "bot",
+          "by": "opponent",
           "text": "3.Nc3 – White defends e4 and adds pressure on d5."
         },
         {
@@ -1248,7 +1248,7 @@
         },
         {
           "uci": "c3e4",
-          "by": "bot",
+          "by": "opponent",
           "text": "4.Nxe4 – White recaptures and keeps an active knight in the center."
         },
         {
@@ -1258,7 +1258,7 @@
         },
         {
           "uci": "e4g3",
-          "by": "bot",
+          "by": "opponent",
           "text": "5.Ng3 – White harasses your bishop and prepares kingside development."
         },
         {
@@ -1268,7 +1268,7 @@
         },
         {
           "uci": "g1f3",
-          "by": "bot",
+          "by": "opponent",
           "text": "6.Nf3 – White develops and prepares to castle."
         },
         {
@@ -1288,7 +1288,7 @@
       "moves": [
         {
           "uci": "e2e4",
-          "by": "bot",
+          "by": "opponent",
           "text": "1.e4 – Central control again from White."
         },
         {
@@ -1298,7 +1298,7 @@
         },
         {
           "uci": "d2d4",
-          "by": "bot",
+          "by": "opponent",
           "text": "2.d4 – White supports the e4 pawn and dominates space."
         },
         {
@@ -1308,7 +1308,7 @@
         },
         {
           "uci": "e4e5",
-          "by": "bot",
+          "by": "opponent",
           "text": "3.e5 – White takes space and pushes you back, but also fixes the pawn structure."
         },
         {
@@ -1318,7 +1318,7 @@
         },
         {
           "uci": "g1f3",
-          "by": "bot",
+          "by": "opponent",
           "text": "4.Nf3 – White develops and eyes the g5 square and future kingside play."
         },
         {
@@ -1328,7 +1328,7 @@
         },
         {
           "uci": "f1e2",
-          "by": "bot",
+          "by": "opponent",
           "text": "5.Be2 – White prepares to castle and keep a flexible setup."
         },
         {
@@ -1348,7 +1348,7 @@
       "moves": [
         {
           "uci": "e2e4",
-          "by": "bot",
+          "by": "opponent",
           "text": "1.e4 – Normal central play."
         },
         {
@@ -1358,7 +1358,7 @@
         },
         {
           "uci": "d2d4",
-          "by": "bot",
+          "by": "opponent",
           "text": "2.d4 – White takes more central space."
         },
         {
@@ -1368,7 +1368,7 @@
         },
         {
           "uci": "b1c3",
-          "by": "bot",
+          "by": "opponent",
           "text": "3.Nc3 – White supports e4 and pressures d5."
         },
         {
@@ -1378,7 +1378,7 @@
         },
         {
           "uci": "c3e4",
-          "by": "bot",
+          "by": "opponent",
           "text": "4.Nxe4 – White recaptures, keeping a knight in the middle."
         },
         {
@@ -1388,7 +1388,7 @@
         },
         {
           "uci": "e4g3",
-          "by": "bot",
+          "by": "opponent",
           "text": "5.Ng3 – White chases your bishop, but pushes the knight away from the center."
         },
         {
@@ -1398,7 +1398,7 @@
         },
         {
           "uci": "h2h4",
-          "by": "bot",
+          "by": "opponent",
           "text": "6.h4 – A common lower-level idea: White tries to trap your bishop without finishing development."
         },
         {
@@ -1408,7 +1408,7 @@
         },
         {
           "uci": "h4h5",
-          "by": "bot",
+          "by": "opponent",
           "text": "7.h5 – White doubles down, but this opens the kingside and neglects piece development."
         },
         {
@@ -1428,7 +1428,7 @@
       "moves": [
         {
           "uci": "d2d4",
-          "by": "bot",
+          "by": "opponent",
           "text": "1.d4 – White grabs central space with a queen’s pawn."
         },
         {
@@ -1438,7 +1438,7 @@
         },
         {
           "uci": "c2c4",
-          "by": "bot",
+          "by": "opponent",
           "text": "2.c4 – The Queen’s Gambit, asking if you’ll accept the c-pawn."
         },
         {
@@ -1448,7 +1448,7 @@
         },
         {
           "uci": "g1f3",
-          "by": "bot",
+          "by": "opponent",
           "text": "3.Nf3 – White develops and prepares to regain the pawn on c4."
         },
         {
@@ -1458,7 +1458,7 @@
         },
         {
           "uci": "e2e3",
-          "by": "bot",
+          "by": "opponent",
           "text": "4.e3 – White prepares to recapture on c4 with the bishop and complete development quickly."
         },
         {
@@ -1468,7 +1468,7 @@
         },
         {
           "uci": "f1c4",
-          "by": "bot",
+          "by": "opponent",
           "text": "5.Bxc4 – White regains the pawn with a developing move, putting pressure on your queenside."
         },
         {
@@ -1478,7 +1478,7 @@
         },
         {
           "uci": "e1g1",
-          "by": "bot",
+          "by": "opponent",
           "text": "6.O-O – White castles into safety, ready for a central middlegame fight."
         },
         {
@@ -1488,7 +1488,7 @@
         },
         {
           "uci": "d1e2",
-          "by": "bot",
+          "by": "opponent",
           "text": "7.Qe2 – White supports the center and prepares moves like dxc5 and Rd1."
         },
         {
@@ -1508,7 +1508,7 @@
       "moves": [
         {
           "uci": "d2d4",
-          "by": "bot",
+          "by": "opponent",
           "text": "1.d4 – White opens with the queen’s pawn again."
         },
         {
@@ -1518,7 +1518,7 @@
         },
         {
           "uci": "c2c4",
-          "by": "bot",
+          "by": "opponent",
           "text": "2.c4 – White offers the queen’s gambit pawn."
         },
         {
@@ -1528,7 +1528,7 @@
         },
         {
           "uci": "e2e4",
-          "by": "bot",
+          "by": "opponent",
           "text": "3.e4 – White hits the center hard, hoping to overwhelm you quickly."
         },
         {
@@ -1538,7 +1538,7 @@
         },
         {
           "uci": "g1f3",
-          "by": "bot",
+          "by": "opponent",
           "text": "4.Nf3 – White develops and adds pressure to e5 and d4."
         },
         {
@@ -1548,7 +1548,7 @@
         },
         {
           "uci": "f1c4",
-          "by": "bot",
+          "by": "opponent",
           "text": "5.Bxc4 – White regains the pawn and completes harmonious development."
         },
         {
@@ -1568,7 +1568,7 @@
       "moves": [
         {
           "uci": "d2d4",
-          "by": "bot",
+          "by": "opponent",
           "text": "1.d4 – Standard queen’s pawn opening."
         },
         {
@@ -1578,7 +1578,7 @@
         },
         {
           "uci": "c2c4",
-          "by": "bot",
+          "by": "opponent",
           "text": "2.c4 – The gambit pawn offers you a choice."
         },
         {
@@ -1588,7 +1588,7 @@
         },
         {
           "uci": "e2e3",
-          "by": "bot",
+          "by": "opponent",
           "text": "3.e3 – White prepares to recapture on c4 with the bishop."
         },
         {
@@ -1598,7 +1598,7 @@
         },
         {
           "uci": "f1c4",
-          "by": "bot",
+          "by": "opponent",
           "text": "4.Bxc4 – White recaptures, but has left dark squares slightly weakened."
         },
         {
@@ -1608,7 +1608,7 @@
         },
         {
           "uci": "e3d4",
-          "by": "bot",
+          "by": "opponent",
           "text": "5.exd4 – White keeps a big pawn center, but it’s also a big target."
         },
         {
@@ -1618,7 +1618,7 @@
         },
         {
           "uci": "g1f3",
-          "by": "bot",
+          "by": "opponent",
           "text": "6.Nf3 – White finally develops, but you’re already pressuring the center from multiple directions."
         },
         {
@@ -1634,7 +1634,7 @@
     "value": {
       "label": "Italian Game – Giuoco Piano structure",
       "stage": "Mainline 1",
-      "userColor": "w",
+      "userColor": "white",
       "moves": [
         {
           "uci": "e2e4",
@@ -1643,7 +1643,7 @@
         },
         {
           "uci": "e7e5",
-          "by": "bot",
+          "by": "opponent",
           "text": "1...e5 – Black mirrors your central control and opens lines for their own pieces."
         },
         {
@@ -1653,7 +1653,7 @@
         },
         {
           "uci": "b8c6",
-          "by": "bot",
+          "by": "opponent",
           "text": "2...Nc6 – Black defends e5 and develops toward the center."
         },
         {
@@ -1663,7 +1663,7 @@
         },
         {
           "uci": "f8c5",
-          "by": "bot",
+          "by": "opponent",
           "text": "3...Bc5 – Black enters the Giuoco Piano, pointing their own bishop at your f2 pawn."
         },
         {
@@ -1673,7 +1673,7 @@
         },
         {
           "uci": "g8f6",
-          "by": "bot",
+          "by": "opponent",
           "text": "4...Nf6 – Black develops another piece and targets your e4 pawn."
         },
         {
@@ -1683,7 +1683,7 @@
         },
         {
           "uci": "e5d4",
-          "by": "bot",
+          "by": "opponent",
           "text": "5...exd4 – Black accepts the challenge and opens the e-file."
         },
         {
@@ -1693,7 +1693,7 @@
         },
         {
           "uci": "c5b4",
-          "by": "bot",
+          "by": "opponent",
           "text": "6...Bb4+ – Black checks you and pins the knight on c3 in many lines, a common Italian theme."
         },
         {
@@ -1703,7 +1703,7 @@
         },
         {
           "uci": "d7d5",
-          "by": "bot",
+          "by": "opponent",
           "text": "7...d5 – Black counterstrikes in the center, leading to a rich, classical Italian middlegame."
         }
       ]
@@ -1714,7 +1714,7 @@
     "value": {
       "label": "Fried Liver Attack – main tactical route",
       "stage": "Mainline 2 (tactical)",
-      "userColor": "w",
+      "userColor": "white",
       "moves": [
         {
           "uci": "e2e4",
@@ -1723,7 +1723,7 @@
         },
         {
           "uci": "e7e5",
-          "by": "bot",
+          "by": "opponent",
           "text": "1...e5 – Black mirrors your central pawn and plays classically."
         },
         {
@@ -1733,7 +1733,7 @@
         },
         {
           "uci": "b8c6",
-          "by": "bot",
+          "by": "opponent",
           "text": "2...Nc6 – Black defends e5 and develops a piece toward the center."
         },
         {
@@ -1743,7 +1743,7 @@
         },
         {
           "uci": "g8f6",
-          "by": "bot",
+          "by": "opponent",
           "text": "3...Nf6 – Black develops naturally, but now f7 becomes tactically vulnerable."
         },
         {
@@ -1753,7 +1753,7 @@
         },
         {
           "uci": "d7d5",
-          "by": "bot",
+          "by": "opponent",
           "text": "4...d5 – Best practical reply; Black hits your c4 bishop and fights back in the center."
         },
         {
@@ -1763,7 +1763,7 @@
         },
         {
           "uci": "f6d5",
-          "by": "bot",
+          "by": "opponent",
           "text": "5...Nxd5 – A key mistake for Black: this walks straight into the Fried Liver tactics."
         },
         {
@@ -1773,7 +1773,7 @@
         },
         {
           "uci": "e8f7",
-          "by": "bot",
+          "by": "opponent",
           "text": "6...Kxf7 – Black is forced to accept, exposing the king badly."
         },
         {
@@ -1783,7 +1783,7 @@
         },
         {
           "uci": "f7e6",
-          "by": "bot",
+          "by": "opponent",
           "text": "7...Ke6 – Black has to walk farther into the center, losing castling rights and safety."
         },
         {
@@ -1793,7 +1793,7 @@
         },
         {
           "uci": "c6e7",
-          "by": "bot",
+          "by": "opponent",
           "text": "8...Ne7 – Black tries to bring more defenders, but the king is still exposed and you have a massive lead in activity. From here, practice converting the attack vs the bot."
         }
       ]
@@ -1808,7 +1808,7 @@
       "moves": [
         {
           "uci": "e2e4",
-          "by": "bot",
+          "by": "opponent",
           "text": "1.e4 – White aims for an open, tactical game."
         },
         {
@@ -1818,7 +1818,7 @@
         },
         {
           "uci": "g1f3",
-          "by": "bot",
+          "by": "opponent",
           "text": "2.Nf3 – White develops and prepares d4."
         },
         {
@@ -1828,7 +1828,7 @@
         },
         {
           "uci": "d2d4",
-          "by": "bot",
+          "by": "opponent",
           "text": "3.d4 – White opens the center and challenges your c-pawn."
         },
         {
@@ -1838,7 +1838,7 @@
         },
         {
           "uci": "f3d4",
-          "by": "bot",
+          "by": "opponent",
           "text": "4.Nxd4 – White recaptures with a piece and occupies the center."
         },
         {
@@ -1848,7 +1848,7 @@
         },
         {
           "uci": "b1c3",
-          "by": "bot",
+          "by": "opponent",
           "text": "5.Nc3 – White supports e4 and reinforces the d5 square."
         },
         {
@@ -1858,7 +1858,7 @@
         },
         {
           "uci": "c1g5",
-          "by": "bot",
+          "by": "opponent",
           "text": "6.Bg5 – White pins your knight and aims to increase pressure on d5 and f6."
         },
         {
@@ -1868,7 +1868,7 @@
         },
         {
           "uci": "d1d2",
-          "by": "bot",
+          "by": "opponent",
           "text": "7.Qd2 – White connects rooks and prepares queenside castling to launch a kingside pawn storm."
         },
         {
@@ -1888,7 +1888,7 @@
       "moves": [
         {
           "uci": "e2e4",
-          "by": "bot",
+          "by": "opponent",
           "text": "1.e4 – White again aims for an open Sicilian."
         },
         {
@@ -1898,7 +1898,7 @@
         },
         {
           "uci": "g1f3",
-          "by": "bot",
+          "by": "opponent",
           "text": "2.Nf3 – White develops and eyes d4."
         },
         {
@@ -1908,7 +1908,7 @@
         },
         {
           "uci": "d2d4",
-          "by": "bot",
+          "by": "opponent",
           "text": "3.d4 – White opens the center as in many main Sicilian lines."
         },
         {
@@ -1918,7 +1918,7 @@
         },
         {
           "uci": "f3d4",
-          "by": "bot",
+          "by": "opponent",
           "text": "4.Nxd4 – White recaptures and keeps an active knight in the middle."
         },
         {
@@ -1928,7 +1928,7 @@
         },
         {
           "uci": "b1c3",
-          "by": "bot",
+          "by": "opponent",
           "text": "5.Nc3 – White supports the center and prepares to expand on the kingside or queenside."
         },
         {
@@ -1938,7 +1938,7 @@
         },
         {
           "uci": "f1e2",
-          "by": "bot",
+          "by": "opponent",
           "text": "6.Be2 – White develops quietly, aiming for flexible piece placement."
         },
         {
@@ -1948,7 +1948,7 @@
         },
         {
           "uci": "d4b3",
-          "by": "bot",
+          "by": "opponent",
           "text": "7.Nb3 – White retreats but keeps an eye on c5 and d4 squares."
         },
         {
@@ -1968,7 +1968,7 @@
       "moves": [
         {
           "uci": "e2e4",
-          "by": "bot",
+          "by": "opponent",
           "text": "1.e4 – White goes for an open game."
         },
         {
@@ -1978,7 +1978,7 @@
         },
         {
           "uci": "g1f3",
-          "by": "bot",
+          "by": "opponent",
           "text": "2.Nf3 – White develops and eyes d4."
         },
         {
@@ -1988,7 +1988,7 @@
         },
         {
           "uci": "d2d4",
-          "by": "bot",
+          "by": "opponent",
           "text": "3.d4 – White opens the center, challenging your c-pawn."
         },
         {
@@ -1998,7 +1998,7 @@
         },
         {
           "uci": "f3d4",
-          "by": "bot",
+          "by": "opponent",
           "text": "4.Nxd4 – White recaptures with a knight and holds the central square."
         },
         {
@@ -2008,7 +2008,7 @@
         },
         {
           "uci": "b1c3",
-          "by": "bot",
+          "by": "opponent",
           "text": "5.Nc3 – White supports e4 and reinforces control over d5."
         },
         {
@@ -2018,7 +2018,7 @@
         },
         {
           "uci": "d4b5",
-          "by": "bot",
+          "by": "opponent",
           "text": "6.Nb5 – White jumps into b5, pressuring c7 and d6, exploiting the weakened dark squares."
         },
         {
@@ -2028,7 +2028,7 @@
         },
         {
           "uci": "c1g5",
-          "by": "bot",
+          "by": "opponent",
           "text": "7.Bg5 – White pins your knight and piles up pressure on d5 and f6."
         },
         {
@@ -2044,7 +2044,7 @@
     "value": {
       "label": "Scotch Game – Mainline: 4...Nf6",
       "stage": "Mainline 1",
-      "userColor": "w",
+      "userColor": "white",
       "moves": [
         {
           "uci": "e2e4",
@@ -2053,7 +2053,7 @@
         },
         {
           "uci": "e7e5",
-          "by": "bot",
+          "by": "opponent",
           "text": "1...e5 – Black mirrors your central pawn and claims equal space."
         },
         {
@@ -2063,7 +2063,7 @@
         },
         {
           "uci": "b8c6",
-          "by": "bot",
+          "by": "opponent",
           "text": "2...Nc6 – Black defends e5 and develops a piece toward the center."
         },
         {
@@ -2073,7 +2073,7 @@
         },
         {
           "uci": "e5d4",
-          "by": "bot",
+          "by": "opponent",
           "text": "3...exd4 – Black accepts, opening the e-file and giving you targets on the d-file."
         },
         {
@@ -2083,7 +2083,7 @@
         },
         {
           "uci": "g8f6",
-          "by": "bot",
+          "by": "opponent",
           "text": "4...Nf6 – A main reply; Black develops and hits your e4 square and central dark squares."
         },
         {
@@ -2093,7 +2093,7 @@
         },
         {
           "uci": "f8b4",
-          "by": "bot",
+          "by": "opponent",
           "text": "5...Bb4 – Black pins your c3 knight and increases pressure on your center."
         },
         {
@@ -2103,7 +2103,7 @@
         },
         {
           "uci": "e8g8",
-          "by": "bot",
+          "by": "opponent",
           "text": "6...O-O – Black castles and brings the king to safety, eyeing pressure on the e-file later."
         },
         {
@@ -2113,7 +2113,7 @@
         },
         {
           "uci": "d7d6",
-          "by": "bot",
+          "by": "opponent",
           "text": "7...d6 – Black stabilizes the center and prepares Re8 or Bxc3, heading into a rich Scotch middlegame."
         }
       ]
@@ -2124,7 +2124,7 @@
     "value": {
       "label": "Scotch Game – Mainline: 4...Bc5 system",
       "stage": "Mainline 2",
-      "userColor": "w",
+      "userColor": "white",
       "moves": [
         {
           "uci": "e2e4",
@@ -2133,7 +2133,7 @@
         },
         {
           "uci": "e7e5",
-          "by": "bot",
+          "by": "opponent",
           "text": "1...e5 – Black meets you in the center symmetrically."
         },
         {
@@ -2143,7 +2143,7 @@
         },
         {
           "uci": "b8c6",
-          "by": "bot",
+          "by": "opponent",
           "text": "2...Nc6 – Black defends e5 and develops naturally."
         },
         {
@@ -2153,7 +2153,7 @@
         },
         {
           "uci": "e5d4",
-          "by": "bot",
+          "by": "opponent",
           "text": "3...exd4 – Black accepts and opens lines."
         },
         {
@@ -2163,7 +2163,7 @@
         },
         {
           "uci": "f8c5",
-          "by": "bot",
+          "by": "opponent",
           "text": "4...Bc5 – Black develops actively, eyeing your d4 knight and pressuring f2."
         },
         {
@@ -2173,7 +2173,7 @@
         },
         {
           "uci": "g8f6",
-          "by": "bot",
+          "by": "opponent",
           "text": "5...Nf6 – Black develops another knight, targeting e4 and d5."
         },
         {
@@ -2183,7 +2183,7 @@
         },
         {
           "uci": "d7d6",
-          "by": "bot",
+          "by": "opponent",
           "text": "6...d6 – Black consolidates the center and opens a diagonal for the light-squared bishop."
         },
         {
@@ -2193,7 +2193,7 @@
         },
         {
           "uci": "e8g8",
-          "by": "bot",
+          "by": "opponent",
           "text": "7...O-O – Black castles; both sides now have active pieces and an open center to fight over."
         }
       ]
@@ -2204,7 +2204,7 @@
     "value": {
       "label": "Scotch – Common mistake: early queen chase",
       "stage": "Common mistake (Black)",
-      "userColor": "w",
+      "userColor": "white",
       "moves": [
         {
           "uci": "e2e4",
@@ -2213,7 +2213,7 @@
         },
         {
           "uci": "e7e5",
-          "by": "bot",
+          "by": "opponent",
           "text": "1...e5 – Black mirrors and takes equal central space."
         },
         {
@@ -2223,7 +2223,7 @@
         },
         {
           "uci": "b8c6",
-          "by": "bot",
+          "by": "opponent",
           "text": "2...Nc6 – Black defends e5 naturally."
         },
         {
@@ -2233,7 +2233,7 @@
         },
         {
           "uci": "e5d4",
-          "by": "bot",
+          "by": "opponent",
           "text": "3...exd4 – Black accepts the pawn and opens lines."
         },
         {
@@ -2243,7 +2243,7 @@
         },
         {
           "uci": "d8h4",
-          "by": "bot",
+          "by": "opponent",
           "text": "4...Qh4+? – A very common lower-level idea: Black checks your king and attacks your e4 pawn, but brings the queen out too early."
         },
         {
@@ -2253,7 +2253,7 @@
         },
         {
           "uci": "h4d8",
-          "by": "bot",
+          "by": "opponent",
           "text": "5...Qd8 – Black has to retreat the queen, essentially wasting moves and falling behind in the race to develop."
         },
         {
@@ -2269,7 +2269,7 @@
     "value": {
       "label": "Four Knights – Mainline: Spanish Four Knights",
       "stage": "Mainline",
-      "userColor": "w",
+      "userColor": "white",
       "moves": [
         {
           "uci": "e2e4",
@@ -2278,7 +2278,7 @@
         },
         {
           "uci": "e7e5",
-          "by": "bot",
+          "by": "opponent",
           "text": "...e5 – Black mirrors your pawn and takes equal central space."
         },
         {
@@ -2288,7 +2288,7 @@
         },
         {
           "uci": "b8c6",
-          "by": "bot",
+          "by": "opponent",
           "text": "...Nc6 – Black defends e5 and develops toward the center."
         },
         {
@@ -2298,7 +2298,7 @@
         },
         {
           "uci": "g8f6",
-          "by": "bot",
+          "by": "opponent",
           "text": "...Nf6 – Black joins the Four Knights structure, hitting your e4 pawn and key dark squares."
         },
         {
@@ -2308,7 +2308,7 @@
         },
         {
           "uci": "f8b4",
-          "by": "bot",
+          "by": "opponent",
           "text": "...Bb4 – Black mirrors you, pinning your knight on c3 and increasing tension on the center."
         },
         {
@@ -2318,7 +2318,7 @@
         },
         {
           "uci": "e8g8",
-          "by": "bot",
+          "by": "opponent",
           "text": "...O-O – Black castles as well, stepping into a fully developed Four Knights middlegame."
         },
         {
@@ -2328,7 +2328,7 @@
         },
         {
           "uci": "d7d6",
-          "by": "bot",
+          "by": "opponent",
           "text": "...d6 – Black copies your idea, building a solid but slightly cramped pawn chain."
         },
         {
@@ -2338,7 +2338,7 @@
         },
         {
           "uci": "c8g4",
-          "by": "bot",
+          "by": "opponent",
           "text": "...Bg4 – Black hits your knight on f3 and fights back against your kingside pressure."
         },
         {
@@ -2348,7 +2348,7 @@
         },
         {
           "uci": "g4f3",
-          "by": "bot",
+          "by": "opponent",
           "text": "...Bxf3 – Black trades bishop for knight, doubling your pawns in many lines but giving you the bishop pair and open files to aim at later."
         }
       ]
@@ -2359,7 +2359,7 @@
     "value": {
       "label": "Four Knights – Mainline: Scotch Four Knights",
       "stage": "Mainline",
-      "userColor": "w",
+      "userColor": "white",
       "moves": [
         {
           "uci": "e2e4",
@@ -2368,7 +2368,7 @@
         },
         {
           "uci": "e7e5",
-          "by": "bot",
+          "by": "opponent",
           "text": "...e5 – Black mirrors your idea and takes central space."
         },
         {
@@ -2378,7 +2378,7 @@
         },
         {
           "uci": "b8c6",
-          "by": "bot",
+          "by": "opponent",
           "text": "...Nc6 – Black defends e5 and eyes d4."
         },
         {
@@ -2388,7 +2388,7 @@
         },
         {
           "uci": "g8f6",
-          "by": "bot",
+          "by": "opponent",
           "text": "...Nf6 – Black keeps up in development and attacks your e4 pawn."
         },
         {
@@ -2398,7 +2398,7 @@
         },
         {
           "uci": "e5d4",
-          "by": "bot",
+          "by": "opponent",
           "text": "...exd4 – Black accepts the challenge and takes on d4."
         },
         {
@@ -2408,7 +2408,7 @@
         },
         {
           "uci": "f8b4",
-          "by": "bot",
+          "by": "opponent",
           "text": "...Bb4 – Black pins your knight and increases pressure on e4 and d4."
         },
         {
@@ -2418,7 +2418,7 @@
         },
         {
           "uci": "b7c6",
-          "by": "bot",
+          "by": "opponent",
           "text": "...bxc6 – Black accepts doubled pawns in exchange for the bishop pair and central presence."
         },
         {
@@ -2428,7 +2428,7 @@
         },
         {
           "uci": "d7d5",
-          "by": "bot",
+          "by": "opponent",
           "text": "...d5 – Black strikes the center to free the position and use the extra pawn activity."
         },
         {
@@ -2438,7 +2438,7 @@
         },
         {
           "uci": "c6d5",
-          "by": "bot",
+          "by": "opponent",
           "text": "...cxd5 – Black recaptures and you reach a rich, open middlegame with typical Scotch Four Knights themes."
         }
       ]
@@ -2449,7 +2449,7 @@
     "value": {
       "label": "Four Knights – Common Mistake: 4.Bc4? allowing ...Nxe4",
       "stage": "Common Mistake",
-      "userColor": "w",
+      "userColor": "white",
       "moves": [
         {
           "uci": "e2e4",
@@ -2458,7 +2458,7 @@
         },
         {
           "uci": "e7e5",
-          "by": "bot",
+          "by": "opponent",
           "text": "...e5 – Black mirrors your central pawn."
         },
         {
@@ -2468,7 +2468,7 @@
         },
         {
           "uci": "b8c6",
-          "by": "bot",
+          "by": "opponent",
           "text": "...Nc6 – Black defends e5 and develops naturally."
         },
         {
@@ -2478,7 +2478,7 @@
         },
         {
           "uci": "g8f6",
-          "by": "bot",
+          "by": "opponent",
           "text": "...Nf6 – Black copies you and hits your e4 pawn."
         },
         {
@@ -2488,7 +2488,7 @@
         },
         {
           "uci": "f6e4",
-          "by": "bot",
+          "by": "opponent",
           "text": "...Nxe4! – Black immediately punishes you by grabbing the e4 pawn with tempo."
         },
         {
@@ -2498,7 +2498,7 @@
         },
         {
           "uci": "d7d5",
-          "by": "bot",
+          "by": "opponent",
           "text": "...d5! – Black strikes the bishop and center, gaining time and opening lines."
         },
         {
@@ -2508,7 +2508,7 @@
         },
         {
           "uci": "d5e4",
-          "by": "bot",
+          "by": "opponent",
           "text": "...dxe4 – Black wins back the piece and keeps a strong center, leaving you worse from a simple tactical oversight."
         }
       ]
@@ -2523,7 +2523,7 @@
       "moves": [
         {
           "uci": "e2e4",
-          "by": "bot",
+          "by": "opponent",
           "text": "1.e4 – White grabs central space and opens lines for the queen and bishop."
         },
         {
@@ -2533,7 +2533,7 @@
         },
         {
           "uci": "e4d5",
-          "by": "bot",
+          "by": "opponent",
           "text": "2.exd5 – White accepts, hoping to keep the extra pawn and push you around."
         },
         {
@@ -2543,7 +2543,7 @@
         },
         {
           "uci": "b1c3",
-          "by": "bot",
+          "by": "opponent",
           "text": "3.Nc3 – White develops with tempo, hitting your queen and improving central control."
         },
         {
@@ -2553,7 +2553,7 @@
         },
         {
           "uci": "d2d4",
-          "by": "bot",
+          "by": "opponent",
           "text": "4.d4 – White builds a pawn duo and tries to dominate the center."
         },
         {
@@ -2563,7 +2563,7 @@
         },
         {
           "uci": "g1f3",
-          "by": "bot",
+          "by": "opponent",
           "text": "5.Nf3 – White protects the center and prepares to castle."
         },
         {
@@ -2573,7 +2573,7 @@
         },
         {
           "uci": "f1d3",
-          "by": "bot",
+          "by": "opponent",
           "text": "6.Bd3 – White points the bishop toward your kingside and supports e4 and c4 ideas."
         },
         {
@@ -2583,7 +2583,7 @@
         },
         {
           "uci": "c1d2",
-          "by": "bot",
+          "by": "opponent",
           "text": "7.Bd2 – White unpins and covers the a5–e1 diagonal, preparing to castle."
         },
         {
@@ -2603,7 +2603,7 @@
       "moves": [
         {
           "uci": "e2e4",
-          "by": "bot",
+          "by": "opponent",
           "text": "1.e4 – White again starts with strong central control."
         },
         {
@@ -2613,7 +2613,7 @@
         },
         {
           "uci": "e4d5",
-          "by": "bot",
+          "by": "opponent",
           "text": "2.exd5 – White accepts the pawn and challenges you to prove compensation."
         },
         {
@@ -2623,7 +2623,7 @@
         },
         {
           "uci": "b1c3",
-          "by": "bot",
+          "by": "opponent",
           "text": "3.Nc3 – White develops with tempo on the queen."
         },
         {
@@ -2633,7 +2633,7 @@
         },
         {
           "uci": "d2d4",
-          "by": "bot",
+          "by": "opponent",
           "text": "4.d4 – White sets up a wide pawn center and opens diagonals for the bishops."
         },
         {
@@ -2643,7 +2643,7 @@
         },
         {
           "uci": "g1f3",
-          "by": "bot",
+          "by": "opponent",
           "text": "5.Nf3 – White reinforces the center and prepares to castle."
         },
         {
@@ -2653,7 +2653,7 @@
         },
         {
           "uci": "f1e2",
-          "by": "bot",
+          "by": "opponent",
           "text": "6.Be2 – White completes minor-piece development and plans to castle."
         },
         {
@@ -2663,7 +2663,7 @@
         },
         {
           "uci": "e1g1",
-          "by": "bot",
+          "by": "opponent",
           "text": "7.O-O – White brings the king to safety."
         },
         {
@@ -2683,7 +2683,7 @@
       "moves": [
         {
           "uci": "e2e4",
-          "by": "bot",
+          "by": "opponent",
           "text": "1.e4 – White takes the center as usual."
         },
         {
@@ -2693,7 +2693,7 @@
         },
         {
           "uci": "e4d5",
-          "by": "bot",
+          "by": "opponent",
           "text": "2.exd5 – White accepts the pawn."
         },
         {
@@ -2703,7 +2703,7 @@
         },
         {
           "uci": "b1c3",
-          "by": "bot",
+          "by": "opponent",
           "text": "3.Nc3 – White develops with tempo, hitting your queen."
         },
         {
@@ -2713,7 +2713,7 @@
         },
         {
           "uci": "f1e2",
-          "by": "bot",
+          "by": "opponent",
           "text": "4.Be2 – White blocks the check, develops a piece, and prepares to castle. The check gave White development for free."
         },
         {
@@ -2723,7 +2723,7 @@
         },
         {
           "uci": "g1f3",
-          "by": "bot",
+          "by": "opponent",
           "text": "5.Nf3 – White continues development, hitting your queen again."
         },
         {
@@ -2733,7 +2733,7 @@
         },
         {
           "uci": "d2d4",
-          "by": "bot",
+          "by": "opponent",
           "text": "6.d4 – White gains even more space in the center. The lesson: avoid unnecessary early queen checks that just help your opponent develop."
         }
       ]
@@ -2744,7 +2744,7 @@
     "value": {
       "label": "Colle System – Mainline vs ...d5 & ...Nf6",
       "stage": "Mainline",
-      "userColor": "w",
+      "userColor": "white",
       "moves": [
         {
           "uci": "d2d4",
@@ -2753,7 +2753,7 @@
         },
         {
           "uci": "d7d5",
-          "by": "bot",
+          "by": "opponent",
           "text": "...d5 – Black mirrors your pawn and claims central space."
         },
         {
@@ -2763,7 +2763,7 @@
         },
         {
           "uci": "g8f6",
-          "by": "bot",
+          "by": "opponent",
           "text": "...Nf6 – Black develops naturally, hitting your central dark squares."
         },
         {
@@ -2773,7 +2773,7 @@
         },
         {
           "uci": "e7e6",
-          "by": "bot",
+          "by": "opponent",
           "text": "...e6 – Black builds a symmetrical pawn chain and prepares to develop the c8 bishop."
         },
         {
@@ -2783,7 +2783,7 @@
         },
         {
           "uci": "c7c5",
-          "by": "bot",
+          "by": "opponent",
           "text": "...c5 – Black challenges your center from the side and puts pressure on d4."
         },
         {
@@ -2793,7 +2793,7 @@
         },
         {
           "uci": "b8c6",
-          "by": "bot",
+          "by": "opponent",
           "text": "...Nc6 – Black develops and adds more pressure to d4."
         },
         {
@@ -2803,7 +2803,7 @@
         },
         {
           "uci": "f8d6",
-          "by": "bot",
+          "by": "opponent",
           "text": "...Bd6 – Black develops the bishop, watching h2–b8 and preparing to castle."
         },
         {
@@ -2813,7 +2813,7 @@
         },
         {
           "uci": "e8g8",
-          "by": "bot",
+          "by": "opponent",
           "text": "...O-O – Black also castles; this is a textbook Colle middlegame."
         }
       ]
@@ -2824,7 +2824,7 @@
     "value": {
       "label": "Colle System – vs King’s Indian-style setup",
       "stage": "Mainline",
-      "userColor": "w",
+      "userColor": "white",
       "moves": [
         {
           "uci": "d2d4",
@@ -2833,7 +2833,7 @@
         },
         {
           "uci": "g8f6",
-          "by": "bot",
+          "by": "opponent",
           "text": "...Nf6 – Black heads toward a King’s Indian / Modern-style structure."
         },
         {
@@ -2843,7 +2843,7 @@
         },
         {
           "uci": "g7g6",
-          "by": "bot",
+          "by": "opponent",
           "text": "...g6 – Black prepares to fianchetto the bishop on g7."
         },
         {
@@ -2853,7 +2853,7 @@
         },
         {
           "uci": "f8g7",
-          "by": "bot",
+          "by": "opponent",
           "text": "...Bg7 – Black completes the fianchetto and puts pressure along the long diagonal."
         },
         {
@@ -2863,7 +2863,7 @@
         },
         {
           "uci": "d7d6",
-          "by": "bot",
+          "by": "opponent",
           "text": "...d6 – Black stabilizes the center and prepares ...e5 or ...c5 later."
         },
         {
@@ -2873,7 +2873,7 @@
         },
         {
           "uci": "e8g8",
-          "by": "bot",
+          "by": "opponent",
           "text": "...O-O – Black also castles; the position resembles a King’s Indian vs Colle hybrid."
         },
         {
@@ -2883,7 +2883,7 @@
         },
         {
           "uci": "b8d7",
-          "by": "bot",
+          "by": "opponent",
           "text": "...Nbd7 – Black develops and keeps a flexible pawn structure, waiting to see how you break in the center."
         }
       ]
@@ -2894,7 +2894,7 @@
     "value": {
       "label": "Colle System – Common Mistake: Premature e4",
       "stage": "Common Mistake",
-      "userColor": "w",
+      "userColor": "white",
       "moves": [
         {
           "uci": "d2d4",
@@ -2903,7 +2903,7 @@
         },
         {
           "uci": "d7d5",
-          "by": "bot",
+          "by": "opponent",
           "text": "...d5 – Black mirrors your central pawn."
         },
         {
@@ -2913,7 +2913,7 @@
         },
         {
           "uci": "g8f6",
-          "by": "bot",
+          "by": "opponent",
           "text": "...Nf6 – Black develops and hits your central dark squares."
         },
         {
@@ -2923,7 +2923,7 @@
         },
         {
           "uci": "e7e6",
-          "by": "bot",
+          "by": "opponent",
           "text": "...e6 – Black copies your idea and reinforces d5."
         },
         {
@@ -2933,7 +2933,7 @@
         },
         {
           "uci": "c7c5",
-          "by": "bot",
+          "by": "opponent",
           "text": "...c5 – Black immediately challenges your d4 pawn from the flank."
         },
         {
@@ -2943,7 +2943,7 @@
         },
         {
           "uci": "b8c6",
-          "by": "bot",
+          "by": "opponent",
           "text": "...Nc6 – Black adds even more pressure to d4."
         },
         {
@@ -2953,7 +2953,7 @@
         },
         {
           "uci": "f8d6",
-          "by": "bot",
+          "by": "opponent",
           "text": "...Bd6 – Black develops and eyes your kingside."
         },
         {
@@ -2963,7 +2963,7 @@
         },
         {
           "uci": "c5d4",
-          "by": "bot",
+          "by": "opponent",
           "text": "7...cxd4! – Black opens the center at the exact moment your king and center are vulnerable."
         },
         {
@@ -2973,7 +2973,7 @@
         },
         {
           "uci": "f6e4",
-          "by": "bot",
+          "by": "opponent",
           "text": "8...Nxe4 – Black wins a pawn and hits your bishop on d3. Lesson: don’t rush e4 in the Colle until your pieces and pawn breaks are fully coordinated."
         }
       ]
@@ -2988,7 +2988,7 @@
       "moves": [
         {
           "uci": "d2d4",
-          "by": "bot",
+          "by": "opponent",
           "text": "1.d4 – White grabs central space and keeps options open for a queenside push."
         },
         {
@@ -2998,7 +2998,7 @@
         },
         {
           "uci": "c2c4",
-          "by": "bot",
+          "by": "opponent",
           "text": "2.c4 – The Queen’s Gambit; White hits the d5 pawn and asks you to decide the structure."
         },
         {
@@ -3008,7 +3008,7 @@
         },
         {
           "uci": "g1f3",
-          "by": "bot",
+          "by": "opponent",
           "text": "3.Nf3 – White develops and supports d4, keeping options open."
         },
         {
@@ -3018,7 +3018,7 @@
         },
         {
           "uci": "b1c3",
-          "by": "bot",
+          "by": "opponent",
           "text": "4.Nc3 – White adds more pressure to d5 and prepares a space advantage."
         },
         {
@@ -3028,7 +3028,7 @@
         },
         {
           "uci": "e2e3",
-          "by": "bot",
+          "by": "opponent",
           "text": "5.e3 – White calmly prepares to recapture on c4 with the bishop, keeping the structure healthy."
         },
         {
@@ -3038,7 +3038,7 @@
         },
         {
           "uci": "f1c4",
-          "by": "bot",
+          "by": "opponent",
           "text": "6.Bxc4 – White regains the pawn and finishes development on the kingside quickly."
         },
         {
@@ -3048,7 +3048,7 @@
         },
         {
           "uci": "e1g1",
-          "by": "bot",
+          "by": "opponent",
           "text": "7.O-O – White castles and connects rooks, aiming for central and queenside play."
         },
         {
@@ -3068,7 +3068,7 @@
       "moves": [
         {
           "uci": "d2d4",
-          "by": "bot",
+          "by": "opponent",
           "text": "1.d4 – White again starts with a queen’s pawn."
         },
         {
@@ -3078,7 +3078,7 @@
         },
         {
           "uci": "c2c4",
-          "by": "bot",
+          "by": "opponent",
           "text": "2.c4 – White challenges your d5 pawn right away."
         },
         {
@@ -3088,7 +3088,7 @@
         },
         {
           "uci": "g1f3",
-          "by": "bot",
+          "by": "opponent",
           "text": "3.Nf3 – White develops, preparing to castle and potentially play Nc3."
         },
         {
@@ -3098,7 +3098,7 @@
         },
         {
           "uci": "b1c3",
-          "by": "bot",
+          "by": "opponent",
           "text": "4.Nc3 – White increases pressure on d5 and eyes e4."
         },
         {
@@ -3108,7 +3108,7 @@
         },
         {
           "uci": "e2e3",
-          "by": "bot",
+          "by": "opponent",
           "text": "5.e3 – White shores up d4, opens the dark-squared bishop, and heads into a flexible setup."
         },
         {
@@ -3118,7 +3118,7 @@
         },
         {
           "uci": "f1d3",
-          "by": "bot",
+          "by": "opponent",
           "text": "6.Bd3 – White centralizes the bishop, aiming at your kingside and e4."
         },
         {
@@ -3128,7 +3128,7 @@
         },
         {
           "uci": "e1g1",
-          "by": "bot",
+          "by": "opponent",
           "text": "7.O-O – White castles and is ready for central play with e4 or cxd5."
         },
         {
@@ -3148,7 +3148,7 @@
       "moves": [
         {
           "uci": "d2d4",
-          "by": "bot",
+          "by": "opponent",
           "text": "1.d4 – White begins with the standard queen’s pawn."
         },
         {
@@ -3158,7 +3158,7 @@
         },
         {
           "uci": "c2c4",
-          "by": "bot",
+          "by": "opponent",
           "text": "2.c4 – White offers the typical Queen’s Gambit pawn."
         },
         {
@@ -3168,7 +3168,7 @@
         },
         {
           "uci": "g1f3",
-          "by": "bot",
+          "by": "opponent",
           "text": "3.Nf3 – White develops and protects d4."
         },
         {
@@ -3178,7 +3178,7 @@
         },
         {
           "uci": "a2a4",
-          "by": "bot",
+          "by": "opponent",
           "text": "4.a4 – White attacks your c4 pawn’s support and hints at a4–a5 in some lines."
         },
         {
@@ -3188,7 +3188,7 @@
         },
         {
           "uci": "b1c3",
-          "by": "bot",
+          "by": "opponent",
           "text": "5.Nc3 – White develops with tempo, pressuring b5 and d5, and building a lead in development as a trade-off for the pawn."
         },
         {
@@ -3198,7 +3198,7 @@
         },
         {
           "uci": "c3e4",
-          "by": "bot",
+          "by": "opponent",
           "text": "6.Ne4 – White hops into a strong central outpost, hitting c5, d6, and f6, and your queenside is full of holes."
         }
       ]
@@ -3213,7 +3213,7 @@
       "moves": [
         {
           "uci": "d2d4",
-          "by": "bot",
+          "by": "opponent",
           "text": "1.d4 – White claims central space in a flexible way."
         },
         {
@@ -3223,7 +3223,7 @@
         },
         {
           "uci": "c2c4",
-          "by": "bot",
+          "by": "opponent",
           "text": "2.c4 – White hits d5 and looks for a space edge."
         },
         {
@@ -3233,7 +3233,7 @@
         },
         {
           "uci": "e2e3",
-          "by": "bot",
+          "by": "opponent",
           "text": "3.e3 – A quiet setup: White supports d4 and opens the dark-squared bishop."
         },
         {
@@ -3243,7 +3243,7 @@
         },
         {
           "uci": "g1f3",
-          "by": "bot",
+          "by": "opponent",
           "text": "4.Nf3 – White develops and prepares to castle."
         },
         {
@@ -3253,7 +3253,7 @@
         },
         {
           "uci": "b1d2",
-          "by": "bot",
+          "by": "opponent",
           "text": "5.Nbd2 – White keeps a flexible structure and supports c4 and e4 breaks."
         },
         {
@@ -3263,7 +3263,7 @@
         },
         {
           "uci": "f1d3",
-          "by": "bot",
+          "by": "opponent",
           "text": "6.Bd3 – White mirrors, aiming pieces at your kingside."
         },
         {
@@ -3283,7 +3283,7 @@
       "moves": [
         {
           "uci": "d2d4",
-          "by": "bot",
+          "by": "opponent",
           "text": "1.d4 – White starts with central space and queenside flexibility."
         },
         {
@@ -3293,7 +3293,7 @@
         },
         {
           "uci": "g2g3",
-          "by": "bot",
+          "by": "opponent",
           "text": "2.g3 – White heads for a fianchetto setup to control the long diagonal and stop your kingside play."
         },
         {
@@ -3303,7 +3303,7 @@
         },
         {
           "uci": "f1g2",
-          "by": "bot",
+          "by": "opponent",
           "text": "3.Bg2 – White completes the fianchetto, eyeing your queenside and central dark squares."
         },
         {
@@ -3313,7 +3313,7 @@
         },
         {
           "uci": "g1f3",
-          "by": "bot",
+          "by": "opponent",
           "text": "4.Nf3 – White develops and fights for e5 and g5 squares."
         },
         {
@@ -3323,7 +3323,7 @@
         },
         {
           "uci": "e1g1",
-          "by": "bot",
+          "by": "opponent",
           "text": "5.O-O – White castles and keeps a stable position, ready for c4 or Nc3."
         },
         {
@@ -3333,7 +3333,7 @@
         },
         {
           "uci": "c2c4",
-          "by": "bot",
+          "by": "opponent",
           "text": "6.c4 – White hits your d5 and b5 squares, and challenges your central influence."
         },
         {
@@ -3353,7 +3353,7 @@
       "moves": [
         {
           "uci": "d2d4",
-          "by": "bot",
+          "by": "opponent",
           "text": "1.d4 – White starts with the queen’s pawn again."
         },
         {
@@ -3363,7 +3363,7 @@
         },
         {
           "uci": "c2c4",
-          "by": "bot",
+          "by": "opponent",
           "text": "2.c4 – White hits your d5 square and prepares queenside expansion."
         },
         {
@@ -3373,7 +3373,7 @@
         },
         {
           "uci": "g1f3",
-          "by": "bot",
+          "by": "opponent",
           "text": "3.Nf3 – White develops and fights for e5."
         },
         {
@@ -3383,7 +3383,7 @@
         },
         {
           "uci": "g2g3",
-          "by": "bot",
+          "by": "opponent",
           "text": "4.g3 – White fianchettos to challenge your dark squares and put pressure on the long diagonal."
         },
         {
@@ -3393,7 +3393,7 @@
         },
         {
           "uci": "f1g2",
-          "by": "bot",
+          "by": "opponent",
           "text": "5.Bg2 – White pressures your center and plans to undermine the Stonewall from the dark squares."
         },
         {
@@ -3403,7 +3403,7 @@
         },
         {
           "uci": "e1g1",
-          "by": "bot",
+          "by": "opponent",
           "text": "6.O-O – White castles into safety."
         },
         {
@@ -3423,7 +3423,7 @@
       "moves": [
         {
           "uci": "d2d4",
-          "by": "bot",
+          "by": "opponent",
           "text": "1.d4 – White goes for a solid queen’s pawn setup."
         },
         {
@@ -3433,7 +3433,7 @@
         },
         {
           "uci": "g2g3",
-          "by": "bot",
+          "by": "opponent",
           "text": "2.g3 – White heads for a fianchetto and long diagonal pressure."
         },
         {
@@ -3443,7 +3443,7 @@
         },
         {
           "uci": "f1g2",
-          "by": "bot",
+          "by": "opponent",
           "text": "3.Bg2 – White completes the fianchetto and hits your queenside and center."
         },
         {
@@ -3453,7 +3453,7 @@
         },
         {
           "uci": "g1f3",
-          "by": "bot",
+          "by": "opponent",
           "text": "4.Nf3 – White develops and targets the newly weakened h4–f5–g5 complex."
         },
         {
@@ -3473,7 +3473,7 @@
       "moves": [
         {
           "uci": "d2d4",
-          "by": "bot",
+          "by": "opponent",
           "text": "1.d4 – White takes space and keeps a flexible structure."
         },
         {
@@ -3483,7 +3483,7 @@
         },
         {
           "uci": "g2g3",
-          "by": "bot",
+          "by": "opponent",
           "text": "2.g3 – White prepares a kingside fianchetto to fight your dark-square control."
         },
         {
@@ -3493,7 +3493,7 @@
         },
         {
           "uci": "f1g2",
-          "by": "bot",
+          "by": "opponent",
           "text": "3.Bg2 – White finishes the fianchetto and looks across the board at your queenside."
         },
         {
@@ -3503,7 +3503,7 @@
         },
         {
           "uci": "g1f3",
-          "by": "bot",
+          "by": "opponent",
           "text": "4.Nf3 – White develops and prepares to castle."
         },
         {
@@ -3513,7 +3513,7 @@
         },
         {
           "uci": "e1g1",
-          "by": "bot",
+          "by": "opponent",
           "text": "5.O-O – White castles kingside."
         },
         {
@@ -3533,7 +3533,7 @@
       "moves": [
         {
           "uci": "d2d4",
-          "by": "bot",
+          "by": "opponent",
           "text": "1.d4 – White claims central space and prepares c4."
         },
         {
@@ -3543,7 +3543,7 @@
         },
         {
           "uci": "c2c4",
-          "by": "bot",
+          "by": "opponent",
           "text": "2.c4 – White grabs queenside space and supports d5."
         },
         {
@@ -3553,7 +3553,7 @@
         },
         {
           "uci": "d4d5",
-          "by": "bot",
+          "by": "opponent",
           "text": "3.d5 – White pushes and gains space, fixing the pawn structure."
         },
         {
@@ -3563,7 +3563,7 @@
         },
         {
           "uci": "b1c3",
-          "by": "bot",
+          "by": "opponent",
           "text": "4.Nc3 – White develops and protects d5 again."
         },
         {
@@ -3573,7 +3573,7 @@
         },
         {
           "uci": "c4d5",
-          "by": "bot",
+          "by": "opponent",
           "text": "5.cxd5 – White recaptures and keeps strong central space, but now you get dynamic piece play."
         },
         {
@@ -3583,7 +3583,7 @@
         },
         {
           "uci": "e2e4",
-          "by": "bot",
+          "by": "opponent",
           "text": "6.e4 – White builds a big pawn center aiming to squeeze you, but also gives you clear targets."
         },
         {
@@ -3593,7 +3593,7 @@
         },
         {
           "uci": "g1f3",
-          "by": "bot",
+          "by": "opponent",
           "text": "7.Nf3 – White develops and supports the center."
         },
         {
@@ -3603,7 +3603,7 @@
         },
         {
           "uci": "f1d3",
-          "by": "bot",
+          "by": "opponent",
           "text": "8.Bd3 – White centralizes another piece, preparing h3, O-O, and maybe Re1 to support e5 ideas."
         },
         {
@@ -3623,7 +3623,7 @@
       "moves": [
         {
           "uci": "d2d4",
-          "by": "bot",
+          "by": "opponent",
           "text": "1.d4 – White again takes central space."
         },
         {
@@ -3633,7 +3633,7 @@
         },
         {
           "uci": "c2c4",
-          "by": "bot",
+          "by": "opponent",
           "text": "2.c4 – White grabs queenside space and supports d5."
         },
         {
@@ -3643,7 +3643,7 @@
         },
         {
           "uci": "d4d5",
-          "by": "bot",
+          "by": "opponent",
           "text": "3.d5 – White gains space."
         },
         {
@@ -3653,7 +3653,7 @@
         },
         {
           "uci": "g2g3",
-          "by": "bot",
+          "by": "opponent",
           "text": "4.g3 – Instead of e4, White fianchettos, aiming to control the dark squares and restrict your activity."
         },
         {
@@ -3663,7 +3663,7 @@
         },
         {
           "uci": "c4d5",
-          "by": "bot",
+          "by": "opponent",
           "text": "5.cxd5 – White recaptures and maintains space."
         },
         {
@@ -3673,7 +3673,7 @@
         },
         {
           "uci": "f1g2",
-          "by": "bot",
+          "by": "opponent",
           "text": "6.Bg2 – White’s dark-squared bishop watches the long diagonal and helps control e4 and c6."
         },
         {
@@ -3683,7 +3683,7 @@
         },
         {
           "uci": "g1f3",
-          "by": "bot",
+          "by": "opponent",
           "text": "7.Nf3 – White develops and prepares to castle."
         },
         {
@@ -3693,7 +3693,7 @@
         },
         {
           "uci": "e1g1",
-          "by": "bot",
+          "by": "opponent",
           "text": "8.O-O – White castles and stabilizes the king."
         },
         {
@@ -3713,7 +3713,7 @@
       "moves": [
         {
           "uci": "d2d4",
-          "by": "bot",
+          "by": "opponent",
           "text": "1.d4 – White plays a flexible queen’s pawn opening."
         },
         {
@@ -3723,7 +3723,7 @@
         },
         {
           "uci": "c2c4",
-          "by": "bot",
+          "by": "opponent",
           "text": "2.c4 – White takes more space on the queenside and eyes d5."
         },
         {
@@ -3733,7 +3733,7 @@
         },
         {
           "uci": "d4d5",
-          "by": "bot",
+          "by": "opponent",
           "text": "3.d5 – White takes space and fixes the pawn structure."
         },
         {
@@ -3743,7 +3743,7 @@
         },
         {
           "uci": "c4b5",
-          "by": "bot",
+          "by": "opponent",
           "text": "4.cxb5 – White simply takes, opening the a- and b-files and keeping a lead in development."
         },
         {
@@ -3763,7 +3763,7 @@
       "moves": [
         {
           "uci": "d2d4",
-          "by": "bot",
+          "by": "opponent",
           "text": "1.d4 – White goes for a queen’s pawn opening again."
         },
         {
@@ -3773,7 +3773,7 @@
         },
         {
           "uci": "c2c4",
-          "by": "bot",
+          "by": "opponent",
           "text": "2.c4 – White grabs queenside space."
         },
         {
@@ -3783,7 +3783,7 @@
         },
         {
           "uci": "d4d5",
-          "by": "bot",
+          "by": "opponent",
           "text": "3.d5 – White locks the center and gains space."
         },
         {
@@ -3793,7 +3793,7 @@
         },
         {
           "uci": "g1f3",
-          "by": "bot",
+          "by": "opponent",
           "text": "4.Nf3 – White develops and defends d4/d5."
         },
         {
@@ -3803,7 +3803,7 @@
         },
         {
           "uci": "c4d5",
-          "by": "bot",
+          "by": "opponent",
           "text": "5.cxd5 – White recaptures and keeps a powerful central pawn on d5."
         },
         {
@@ -3813,7 +3813,7 @@
         },
         {
           "uci": "b1c3",
-          "by": "bot",
+          "by": "opponent",
           "text": "6.Nc3 – White brings out another piece, increasing central pressure."
         },
         {
@@ -3829,7 +3829,7 @@
     "value": {
       "label": "Vienna Game – Mainline: Vienna Gambit vs ...Nf6",
       "stage": "Mainline",
-      "userColor": "w",
+      "userColor": "white",
       "moves": [
         {
           "uci": "e2e4",
@@ -3838,7 +3838,7 @@
         },
         {
           "uci": "e7e5",
-          "by": "bot",
+          "by": "opponent",
           "text": "...e5 – Black mirrors your pawn and fights for the center."
         },
         {
@@ -3848,7 +3848,7 @@
         },
         {
           "uci": "g8f6",
-          "by": "bot",
+          "by": "opponent",
           "text": "...Nf6 – Black develops naturally and attacks your e4 pawn."
         },
         {
@@ -3858,7 +3858,7 @@
         },
         {
           "uci": "d7d5",
-          "by": "bot",
+          "by": "opponent",
           "text": "...d5 – A strong central counter; Black hits your e4 pawn and challenges your center immediately."
         },
         {
@@ -3868,7 +3868,7 @@
         },
         {
           "uci": "f6e4",
-          "by": "bot",
+          "by": "opponent",
           "text": "...Nxe4 – Black recaptures in the center, gaining an active knight on e4."
         },
         {
@@ -3878,7 +3878,7 @@
         },
         {
           "uci": "c8g4",
-          "by": "bot",
+          "by": "opponent",
           "text": "...Bg4 – Black pins your knight and adds pressure to e5 and d4."
         },
         {
@@ -3888,7 +3888,7 @@
         },
         {
           "uci": "e4c3",
-          "by": "bot",
+          "by": "opponent",
           "text": "...Nxc3 – Black simplifies, trading on c3 to damage your queenside structure."
         },
         {
@@ -3904,7 +3904,7 @@
     "value": {
       "label": "Vienna Game – Mainline: Quiet Bc4 setup",
       "stage": "Mainline",
-      "userColor": "w",
+      "userColor": "white",
       "moves": [
         {
           "uci": "e2e4",
@@ -3913,7 +3913,7 @@
         },
         {
           "uci": "e7e5",
-          "by": "bot",
+          "by": "opponent",
           "text": "...e5 – Black mirrors your central pawn."
         },
         {
@@ -3923,7 +3923,7 @@
         },
         {
           "uci": "b8c6",
-          "by": "bot",
+          "by": "opponent",
           "text": "...Nc6 – Black develops and supports d4 and e5."
         },
         {
@@ -3933,7 +3933,7 @@
         },
         {
           "uci": "g8f6",
-          "by": "bot",
+          "by": "opponent",
           "text": "...Nf6 – Black attacks your e4 pawn and finishes kingside development."
         },
         {
@@ -3943,7 +3943,7 @@
         },
         {
           "uci": "f8c5",
-          "by": "bot",
+          "by": "opponent",
           "text": "...Bc5 – Black develops symmetrically, eyeing your f2 square."
         },
         {
@@ -3953,7 +3953,7 @@
         },
         {
           "uci": "d7d6",
-          "by": "bot",
+          "by": "opponent",
           "text": "...d6 – Black supports e5 and keeps a compact, classical structure."
         },
         {
@@ -3969,7 +3969,7 @@
     "value": {
       "label": "Vienna Game – Common Mistake: Loose 3.Bc4?! allowing ...Nxe4",
       "stage": "Common mistake",
-      "userColor": "w",
+      "userColor": "white",
       "moves": [
         {
           "uci": "e2e4",
@@ -3978,7 +3978,7 @@
         },
         {
           "uci": "e7e5",
-          "by": "bot",
+          "by": "opponent",
           "text": "...e5 – Black mirrors your pawn."
         },
         {
@@ -3988,7 +3988,7 @@
         },
         {
           "uci": "g8f6",
-          "by": "bot",
+          "by": "opponent",
           "text": "...Nf6 – Black attacks e4 and develops naturally."
         },
         {
@@ -3998,7 +3998,7 @@
         },
         {
           "uci": "f6e4",
-          "by": "bot",
+          "by": "opponent",
           "text": "...Nxe4! – Black immediately wins a pawn; your knight on c3 can’t recapture without losing material or falling into tactics."
         },
         {
@@ -4008,7 +4008,7 @@
         },
         {
           "uci": "d7d5",
-          "by": "bot",
+          "by": "opponent",
           "text": "...d5! – Black hits your bishop and center, gaining time and a strong initiative for the pawn."
         }
       ]
@@ -4019,7 +4019,7 @@
     "value": {
       "label": "King's Gambit – Mainline: 2.f4 exf4 3.Nf3 g5",
       "stage": "Mainline",
-      "userColor": "w",
+      "userColor": "white",
       "moves": [
         {
           "uci": "e2e4",
@@ -4028,7 +4028,7 @@
         },
         {
           "uci": "e7e5",
-          "by": "bot",
+          "by": "opponent",
           "text": "...e5 – Black mirrors your pawn and contests d4 and f4."
         },
         {
@@ -4038,7 +4038,7 @@
         },
         {
           "uci": "e5f4",
-          "by": "bot",
+          "by": "opponent",
           "text": "...exf4 – Black accepts the gambit and grabs the pawn, but their king becomes a long-term target."
         },
         {
@@ -4048,7 +4048,7 @@
         },
         {
           "uci": "g7g5",
-          "by": "bot",
+          "by": "opponent",
           "text": "...g5 – Black hangs on to the pawn and starts a pawn storm, but this seriously loosens their kingside."
         },
         {
@@ -4058,7 +4058,7 @@
         },
         {
           "uci": "g5g4",
-          "by": "bot",
+          "by": "opponent",
           "text": "...g4 – Black kicks your knight away but pushes their pawns too far forward."
         },
         {
@@ -4068,7 +4068,7 @@
         },
         {
           "uci": "d8e7",
-          "by": "bot",
+          "by": "opponent",
           "text": "...Qe7 – Black defends g5/g4 and prepares to castle queenside, but the king will still be a target."
         },
         {
@@ -4084,7 +4084,7 @@
     "value": {
       "label": "King's Gambit – Solid line vs ...Bc5 & ...Qh4+",
       "stage": "Mainline",
-      "userColor": "w",
+      "userColor": "white",
       "moves": [
         {
           "uci": "e2e4",
@@ -4093,7 +4093,7 @@
         },
         {
           "uci": "e7e5",
-          "by": "bot",
+          "by": "opponent",
           "text": "...e5 – Black mirrors your pawn."
         },
         {
@@ -4103,7 +4103,7 @@
         },
         {
           "uci": "e5f4",
-          "by": "bot",
+          "by": "opponent",
           "text": "...exf4 – Black accepts the pawn."
         },
         {
@@ -4113,7 +4113,7 @@
         },
         {
           "uci": "d8h4",
-          "by": "bot",
+          "by": "opponent",
           "text": "...Qh4+ – A common check aiming at your king and h2 pawn."
         },
         {
@@ -4123,7 +4123,7 @@
         },
         {
           "uci": "b8c6",
-          "by": "bot",
+          "by": "opponent",
           "text": "...Nc6 – Black develops and eyes d4 and b4."
         },
         {
@@ -4133,7 +4133,7 @@
         },
         {
           "uci": "h4h6",
-          "by": "bot",
+          "by": "opponent",
           "text": "...Qh6 – Black retreats but remains slightly awkwardly placed."
         },
         {
@@ -4149,7 +4149,7 @@
     "value": {
       "label": "King's Gambit – Common Mistake: early Qh5+ and no development",
       "stage": "Common mistake",
-      "userColor": "w",
+      "userColor": "white",
       "moves": [
         {
           "uci": "e2e4",
@@ -4158,7 +4158,7 @@
         },
         {
           "uci": "e7e5",
-          "by": "bot",
+          "by": "opponent",
           "text": "...e5 – Black mirrors your pawn."
         },
         {
@@ -4168,7 +4168,7 @@
         },
         {
           "uci": "e5f4",
-          "by": "bot",
+          "by": "opponent",
           "text": "...exf4 – Black accepts the pawn."
         },
         {
@@ -4178,7 +4178,7 @@
         },
         {
           "uci": "g7g6",
-          "by": "bot",
+          "by": "opponent",
           "text": "...g6 – Black calmly blocks the check and hits your queen with tempo."
         },
         {
@@ -4188,7 +4188,7 @@
         },
         {
           "uci": "d8e7",
-          "by": "bot",
+          "by": "opponent",
           "text": "...Qe7 – Black blocks, trades queens if allowed, and will be far ahead in development."
         }
       ]
@@ -4199,7 +4199,7 @@
     "value": {
       "label": "Anti-Sicilian – Grand Prix Attack (2.Nc3 & f4)",
       "stage": "Mainline",
-      "userColor": "w",
+      "userColor": "white",
       "moves": [
         {
           "uci": "e2e4",
@@ -4208,7 +4208,7 @@
         },
         {
           "uci": "c7c5",
-          "by": "bot",
+          "by": "opponent",
           "text": "...c5 – Black chooses the Sicilian, aiming for an unbalanced fight."
         },
         {
@@ -4218,7 +4218,7 @@
         },
         {
           "uci": "b8c6",
-          "by": "bot",
+          "by": "opponent",
           "text": "...Nc6 – Black develops and pressures d4 and e5."
         },
         {
@@ -4228,7 +4228,7 @@
         },
         {
           "uci": "g7g6",
-          "by": "bot",
+          "by": "opponent",
           "text": "...g6 – Black heads for a fianchetto, keeping the king safe and challenging your dark-square control."
         },
         {
@@ -4238,7 +4238,7 @@
         },
         {
           "uci": "f8g7",
-          "by": "bot",
+          "by": "opponent",
           "text": "...Bg7 – Black completes the fianchetto and eyes the long diagonal."
         },
         {
@@ -4248,7 +4248,7 @@
         },
         {
           "uci": "e7e6",
-          "by": "bot",
+          "by": "opponent",
           "text": "...e6 – Black shores up d5 and prepares to develop the queen’s bishop."
         },
         {
@@ -4264,7 +4264,7 @@
     "value": {
       "label": "Anti-Sicilian – Closed Sicilian setup (Nc3, g3, Bg2)",
       "stage": "Mainline",
-      "userColor": "w",
+      "userColor": "white",
       "moves": [
         {
           "uci": "e2e4",
@@ -4273,7 +4273,7 @@
         },
         {
           "uci": "c7c5",
-          "by": "bot",
+          "by": "opponent",
           "text": "...c5 – Black plays the Sicilian again."
         },
         {
@@ -4283,7 +4283,7 @@
         },
         {
           "uci": "d7d6",
-          "by": "bot",
+          "by": "opponent",
           "text": "...d6 – Black supports the c5 pawn and prepares ...Nf6 and ...g6 in many lines."
         },
         {
@@ -4293,7 +4293,7 @@
         },
         {
           "uci": "g8f6",
-          "by": "bot",
+          "by": "opponent",
           "text": "...Nf6 – Black develops and attacks your e4 pawn."
         },
         {
@@ -4303,7 +4303,7 @@
         },
         {
           "uci": "b8c6",
-          "by": "bot",
+          "by": "opponent",
           "text": "...Nc6 – Black develops and adds pressure to d4 and e5."
         },
         {
@@ -4313,7 +4313,7 @@
         },
         {
           "uci": "g7g6",
-          "by": "bot",
+          "by": "opponent",
           "text": "...g6 – Black prepares their own fianchetto, mirroring your dark-square control."
         },
         {
@@ -4329,7 +4329,7 @@
     "value": {
       "label": "Anti-Sicilian – Common Mistake: early d4 transposing badly",
       "stage": "Common mistake",
-      "userColor": "w",
+      "userColor": "white",
       "moves": [
         {
           "uci": "e2e4",
@@ -4338,7 +4338,7 @@
         },
         {
           "uci": "c7c5",
-          "by": "bot",
+          "by": "opponent",
           "text": "...c5 – Sicilian Defense."
         },
         {
@@ -4348,7 +4348,7 @@
         },
         {
           "uci": "b8c6",
-          "by": "bot",
+          "by": "opponent",
           "text": "...Nc6 – Black develops and hits d4/e5."
         },
         {
@@ -4358,7 +4358,7 @@
         },
         {
           "uci": "c5d4",
-          "by": "bot",
+          "by": "opponent",
           "text": "...cxd4 – Black captures and is ready to meet Qxd4 or Nf3 with normal open Sicilian theory."
         },
         {
@@ -4368,7 +4368,7 @@
         },
         {
           "uci": "e7e5",
-          "by": "bot",
+          "by": "opponent",
           "text": "...e5 – Black hits your knight and gains more central space; your Anti-Sicilian has collapsed into an inferior open Sicilian."
         }
       ]

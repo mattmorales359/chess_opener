@@ -14,7 +14,7 @@ const selectItem = (opening, key) => {
   moves.updateOpening(opening.value);
 }
 
-const filterOpenings = (openings) => {
+const filterOpenings = () => {
   return openings.filter((item) => {
     return item.key.includes(moves.activeFamily.index)
   })
@@ -22,8 +22,20 @@ const filterOpenings = (openings) => {
 
 </script>
 <template>
-  <div class="w-100">
-    <Dropdown align="right" width="48">
+  <div class="relative h-7 flex">
+    <p class="w-40">
+      <a
+        href="#"
+        class="text-white w-50 ">Previous Line</a>
+    </p>
+    <p class="w-40">
+      <a
+        href="#"
+        class="text-white w-50">Next Line</a>
+    </p>
+  </div>
+  <div>
+    <Dropdown align="left" width="48">
       <template #trigger>
         <span class="inline-flex rounded-md">
           <button type="button" class="inline-flex items-center px-3 py-2 border border-transparent text-sm leading-4 font-medium rounded-md text-gray-500 bg-white hover:text-gray-700 focus:outline-none focus:bg-gray-50 active:bg-gray-50 transition ease-in-out duration-150">
@@ -43,12 +55,11 @@ const filterOpenings = (openings) => {
         <a
             href="#"
             class="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 transition duration-150 ease-in-out"
-            v-for="(opening) in filterOpenings(openings)"
+            v-for="(opening) in filterOpenings()"
             @click="selectItem(opening)"
         >
           {{opening.value.label}}
         </a>
-
       </template>
     </Dropdown>
   </div>

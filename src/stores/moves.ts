@@ -24,10 +24,9 @@ export const useMovesStore = defineStore("moves", () => {
     }
 
     function updateFamily (family: any) {
-        console.log(family);
         movesCounter.value = 0;
-        activeOpening.value = {};
         activeFamily.value = family;
+        activeOpening.value = {};
     }
 
     function loadBoard (board: any) {

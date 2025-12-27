@@ -6,8 +6,9 @@
 </script>
 
 <template>
-  <div class="w-full border-2 rounded-2xl p-5 col-span-2 flex gap-4">
-    <p class="">Select Opening Family: <FamilyDropdown /></p><p v-if="moves.activeFamily.index">Select Mainline: <OpeningsDropdown /></p>
+  <div class="w-full border-2 rounded-2xl p-5 col-span-2 flex gap-4 grid grid-cols-4">
+    <div class="col-span-2 relative"><FamilyDropdown /></div>
+    <div class="col-span-2 relative"  v-if="moves.activeFamily.index"><OpeningsDropdown/></div>
   </div>
 </template>
 

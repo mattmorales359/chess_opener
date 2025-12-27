@@ -8,7 +8,9 @@ import { onMounted, reactive, watch } from 'vue';
   } from 'vue3-chessboard';
   import 'vue3-chessboard/style.css';
   import { useMovesStore } from '@/stores/moves'
+  import * as openingsJson from '@/stores/openings.json'
 
+  const openings = openingsJson.default;
   let boardApi: BoardApi | undefined;
   const boardConfig: BoardConfig = reactive({
     fen: 'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1', // the position to start from as a string
@@ -98,7 +100,7 @@ import { onMounted, reactive, watch } from 'vue';
     },
   })
 
-  onMounted(() => {
+onMounted(() => {
     //console.log(boardApi?.getBoardPosition());
   });
 
@@ -129,13 +131,32 @@ import { onMounted, reactive, watch } from 'vue';
     }
   }
 
-  watch(() => moves.activeOpening, () => {
-    if(moves.activeOpening.key) {
+
+  //this automates setting board up when line changes
+  watch(() => moves.activeOpening.key, () => {
+    console.log(moves.activeOpening.key)
+      if(moves.activeOpening.key === undefined) return;
+
       boardApi?.resetBoard ();
       const { from, to } = getMoveFromUCI ();
       setTimeout ( () => {
+        console.log('drawing')
         boardApi?.drawMove ( from, to, 'red' );
       } )
+  })
+
+
+  //this automates selecting first mainline when family changes
+  watch(() => moves.activeFamily, () => {
+    console.log('watching fam')
+    if(moves.activeFamily.label !== undefined) {
+      var activeOpenings = openings.filter((item) => {
+        return item.key.includes(moves.activeFamily.index)
+      })
+      if(activeOpenings.length > 0){
+        activeOpenings[0].value.key = activeOpenings[0].key
+        moves.updateOpening(activeOpenings[0].value)
+      }
     }
   })
 </script>

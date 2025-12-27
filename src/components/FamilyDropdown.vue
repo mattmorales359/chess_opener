@@ -115,7 +115,6 @@ const openingFamilies = {
 
 const moves = useMovesStore();
 const display = () => {
-  console.log(moves.activeFamily);
   return moves.activeFamily.label;
 
 }
@@ -127,8 +126,11 @@ const selectItem = (family, idx) => {
 
 </script>
 <template>
-  <div class="w-100">
-    <Dropdown align="right" width="48">
+  <div>
+    Select Opening Family:
+  </div>
+  <div>
+    <Dropdown align="left" width="">
       <template #trigger>
         <span class="inline-flex rounded-md">
           <button type="button" class="inline-flex items-center px-3 py-2 border border-transparent text-sm leading-4 font-medium rounded-md text-gray-500 bg-white hover:text-gray-700 focus:outline-none focus:bg-gray-50 active:bg-gray-50 transition ease-in-out duration-150 w-100">
