@@ -147,10 +147,9 @@ onMounted(() => {
   function undoMove() {
     moves.movesCounter--;
     boardApi?.undoLastMove();
-    const {from: firstFrom, to:firstTo} = getMoveFromUCI();
-    boardApi?.drawMove(firstFrom,firstTo,'red')
-
     if(moves?.activeOpening?.moves?.length && (moves.movesCounter < moves.activeOpening.moves.length - 1)) {
+      const {from: firstFrom, to:firstTo} = getMoveFromUCI();
+      boardApi?.drawMove(firstFrom,firstTo,'red')
       setTimeout(() => {
         moves.movesCounter--;
         boardApi?.undoLastMove();
