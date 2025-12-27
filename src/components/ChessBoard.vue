@@ -128,7 +128,23 @@ const moves = useMovesStore();
   }
 
   function handleMove(move: MoveEvent) {
-    if(moves.activeOpening.label === undefined) return;
+    if(moves.activeOpening.label === undefined) {
+      const history = boardApi?.getHistory(true);
+
+      const moveHistory = history?.map((move) => {
+        if (typeof move === 'object') {
+          return move.lan;
+        } else {
+          return move;
+        }
+      });
+
+      if (moves) {
+        engine?.sendPosition(moveHistory.join(' '));
+      }
+      return
+    }
+
     if(moves.movesCounter >= (moves.activeOpening.moves.length - 1)) {
       moves.movesCounter++
 
